@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{806E767E-6D0A-4CB4-9866-1900DA095B54}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmptyKeys.Strategy.AI</RootNamespace>
+    <AssemblyName>EmptyKeys.Strategy.AI</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\EmptyKeys.Strategy.AI.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\EmptyKeys.Strategy.AI.XML</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\SandboxPCL\EmptyKeys.Strategy.csproj">
+      <Project>{0277a346-da2e-45ac-9811-28f689738a70}</Project>
+      <Name>EmptyKeys.Strategy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\ActionsPlanet\FindPlanetUpgradeToBuild.cs" />
+    <Compile Include="Components\ActionsPlanet\PlanetBuildFactoryItem.cs" />
+    <Compile Include="Components\ActionsPlanet\PlanetBuyFactoryItem.cs" />
+    <Compile Include="Components\ActionsPlanet\PlanetMoveUnitFromOrbit.cs" />
+    <Compile Include="Components\ActionsPlanet\PlanetRepairUnitsOnOrbit.cs" />
+    <Compile Include="Components\ActionsPlanet\PlanetSetBehavior.cs" />
+    <Compile Include="Components\ActionsPlayer\FindBuilderInSystem.cs" />
+    <Compile Include="Components\ActionsPlayer\FindClosestEnemySystem.cs" />
+    <Compile Include="Components\ActionsPlayer\FindPlanetForBuild.cs" />
+    <Compile Include="Components\ActionsPlayer\FindPlanetForBuildColonyShip.cs" />
+    <Compile Include="Components\ActionsPlayer\FindPlanetWithMinValue.cs" />
+    <Compile Include="Components\ActionsPlayer\FindPlanetWithoutBehavior.cs" />
+    <Compile Include="Components\ActionsPlayer\FindSystemWithoutDefense.cs" />
+    <Compile Include="Components\ActionsPlayer\FindTradeUnitWithoutRoute.cs" />
+    <Compile Include="Components\ActionsPlayer\FindUnitWithoutBehavior.cs" />
+    <Compile Include="Components\ActionsPlayer\FindUnitWithUpgradePoint.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerDestroyUnit.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerGetAllPlayerRelations.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerNextPlayerRelations.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationCloseBorders.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationDeclareWar.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationOpenBorders.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerResearchTech.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerSetPlanetBehavior.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerSetTradeRoute.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerSetUnitBehavior.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerSetUnitsEnvTarget.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerUpdateRelationsValue.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerUpgradeUnit.cs" />
+    <Compile Include="Components\ActionsUnit\FindAsteroid.cs" />
+    <Compile Include="Components\ActionsUnit\FindClosestCarrier.cs" />
+    <Compile Include="Components\ActionsUnit\FindClosestFriendlySystem.cs" />
+    <Compile Include="Components\ActionsUnit\FindClosestTradeSystem.cs" />
+    <Compile Include="Components\ActionsUnit\FindClosestUnexploredSystem.cs" />
+    <Compile Include="Components\ActionsUnit\FindDefensivePosition.cs" />
+    <Compile Include="Components\ActionsUnit\FindEmptySpaceEnvTarget.cs" />
+    <Compile Include="Components\ActionsUnit\FindEnemyTargetInRange.cs" />
+    <Compile Include="Components\ActionsUnit\FindOwnedPlanet.cs" />
+    <Compile Include="Components\ActionsUnit\FindPathAwayFromTarget.cs" />
+    <Compile Include="Components\ActionsUnit\FindPathFormationPoint.cs" />
+    <Compile Include="Components\ActionsUnit\FindPathToEnvTarget.cs" />
+    <Compile Include="Components\ActionsUnit\FindPathToStrikeGroupLeader.cs" />
+    <Compile Include="Components\ActionsUnit\FindPathToTarget.cs" />
+    <Compile Include="Components\ActionsUnit\FindPlanetToColonize.cs" />
+    <Compile Include="Components\ActionsUnit\FindPlanetUnderSiege.cs" />
+    <Compile Include="Components\ActionsUnit\FindStrongestFriendlyUnit.cs" />
+    <Compile Include="Components\ActionsUnit\FindUnscannedPlanet.cs" />
+    <Compile Include="Components\ActionsUnit\FindWarpMagnet.cs" />
+    <Compile Include="Components\ActionsUnit\FindWeakestEnemyPlanet.cs" />
+    <Compile Include="Components\ActionsUnit\FindWeakestEnemyTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetPlanetSystemAsEnvTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetStarAsEnvTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetStrikeGroupLeaderAsEnvTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetStrikeGroupLeaderDockAsTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetStrikeGroupLeaderSystemAsEnvTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetTradeUnitTargetFromSystem.cs" />
+    <Compile Include="Components\ActionsUnit\SetUnitTargetInStrikeGroup.cs" />
+    <Compile Include="Components\ActionsUnit\SwapTradeRouteTarget.cs" />
+    <Compile Include="Components\ActionsUnit\UnitAlertAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitAttackAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitBeginSiegeAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitBuildAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitColonizeAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitDestroyAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitDoNothingAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitEnterDockAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitEnterOrbitAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitExploreAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitExtractAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitLeaveDockAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitLeaveOrbitAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitMiniWarpAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitMoveAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitMoveUnitsFromDock.cs" />
+    <Compile Include="Components\ActionsUnit\UnitRepairOnOrbitAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitResetBehavior.cs" />
+    <Compile Include="Components\ActionsUnit\UnitResetTarget.cs" />
+    <Compile Include="Components\ActionsUnit\UnitScanAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitSetBehavior.cs" />
+    <Compile Include="Components\ActionsUnit\UnitSleepAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitStopMoving.cs" />
+    <Compile Include="Components\ActionsUnit\UnitWakeUpAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitWarpJumpAction.cs" />
+    <Compile Include="Components\ActionsUnit\UnitWarpMagnetAction.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetAnyBuilderUnitInSystem.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetCanBuildColonyShip.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetHasConstructionSlot.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetHasEnoughDefense.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetHasSpaceOnOrbit.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetIsBuilding.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetIsUnderSiege.cs" />
+    <Compile Include="Components\ConditionsPlanet\PlanetIsUnitOnOrbit.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasAnyRelation.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasAnyUpgrade.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasDeclaredWarRelation.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasEnemy.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasEnergy.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasEnergyForUnitMaintenance.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasEnergyIncome.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasEnoughResources.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasFactoryItem.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasRelationBelowValue.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasUnitType.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsAnyUnitWithoutOrder.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsAtWar.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsAtWarRelation.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsBuildingFactoryItem.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsFriendlyRelation.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsHostileRelation.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsResearching.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsUnitType.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerNeedsTradeShip.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderIsAttacking.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupIsDockUnitMember.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderIsInDock.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderIsInGalaxy.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderIsInSameSystem.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderIsOnOrbit.cs" />
+    <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderMiniJumped.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanAttack.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanBuild.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanColonize.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanDoNothing.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanExplore.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanExtract.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanMiniJump.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanMove.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanOrbit.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanScan.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanSleep.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanStayAlert.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanWakeUp.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitCanWarp.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitHasEnvTarget.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitHasTarget.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitHasTask.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitHasTradeRoute.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsAtEmptySpace.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsColonizing.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsEnemyInfluenceHigher.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsEnvTargetSystem.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsHullAbove.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsHullBelow.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsInDock.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsInEnvTargetPosition.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsInEnvTargetRange.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsInEnvTargetSystem.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsInGalaxyEnvironment.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsInPlanetSystem.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsMoving.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsOnOrbit.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsPlanetOwned.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsSiegingPlanet.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsSystemBodyScanned.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsTargetDead.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsTargetInRange.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsTargetInSystem.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsTargetMe.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsTargetMoving.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitIsUnknownPlayerInSystem.cs" />
+    <Compile Include="Components\ConditionsUnit\UnitOwnerCanDoUnitAction.cs" />
+    <Compile Include="Components\Considerations\BoolConsideration.cs" />
+    <Compile Include="Components\Considerations\ColonizationRatioValue.cs" />
+    <Compile Include="Components\Considerations\Constant.cs" />
+    <Compile Include="Components\Considerations\DecayCurve.cs" />
+    <Compile Include="Components\Considerations\ExplorationRatioValue.cs" />
+    <Compile Include="Components\Considerations\LogCurve.cs" />
+    <Compile Include="Components\Considerations\PlanetUpgradesValue.cs" />
+    <Compile Include="Components\Considerations\PlanetValue.cs" />
+    <Compile Include="Components\Considerations\PlayerValue.cs" />
+    <Compile Include="Components\Considerations\ProductionAverageValue.cs" />
+    <Compile Include="Components\Considerations\UnitValue.cs" />
+    <Compile Include="Components\Decisions\PlanetDecisionLeaf.cs" />
+    <Compile Include="Components\Decisions\ResearchGoalLeaf.cs" />
+    <Compile Include="Components\Decisions\UnitBehaviorLeaf.cs" />
+    <Compile Include="Components\Decisions\UnitDecisionLeaf.cs" />
+    <Compile Include="Components\Decisions\UnitUpgradeLeaf.cs" />
+    <Compile Include="Components\Decorators\PlayerResearchBehavior.cs" />
+    <Compile Include="Components\Decorators\PlayerTradeBehavior.cs" />
+    <Compile Include="PlanetBehaviorContext.cs" />
+    <Compile Include="PlayerBehaviorContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitBehaviorContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EmptyKeys.UserInterface">
+      <HintPath>..\..\EmptyKeysUI\Common\AnyCPU\EmptyKeys.UserInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="EmptyKeys.UserInterface.Core">
+      <HintPath>..\..\EmptyKeysUI\Common\AnyCPU\EmptyKeys.UserInterface.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\ThirdParty\protobuff\CoreOnly\portable\protobuf-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
