@@ -29,3 +29,6 @@ This folder contains all decisions for the decision based AI.
 #### Decorators
 This folder contains custom decorators.
 
+### The Core AI Class Diagram
+
+![Core AI Class Diagram](/AIDiagram.png)
