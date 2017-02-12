@@ -8,6 +8,8 @@ To be able to compile the project, you have to fix references. All references (D
 
 ### EmptyKeys.Strategy.AI
 
+[API Docs](https://emptykeys.github.io/Children-of-the-Galaxy/)
+
 This project contains all AI classes for Players, Planets and Units. The AI is behavior tree with utility and decision based AI features. All data for the AI are stored in behavior contexts. Components are split into directories based on AI type and usage.
 
 #### ActionsPlanet
