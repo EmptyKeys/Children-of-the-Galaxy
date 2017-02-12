@@ -50,10 +50,15 @@ namespace EmptyKeys.Strategy.AI.Components.Considerations
             {
                 player = playerContext.Player;                
             }
-            else
+            else if (planetContext != null)
             {
                 player = planetContext.Planet.Owner;
-            }            
+            }
+
+            if (player == null)
+            {
+                return 0;
+            }
 
             float scoutUnits = player.Units.Count(u => u is Scout);            
             float value = scoutUnits / ((player.GameSession.Galaxy.TotalSystems - player.TotalExploredStarSystems) / Ratio);

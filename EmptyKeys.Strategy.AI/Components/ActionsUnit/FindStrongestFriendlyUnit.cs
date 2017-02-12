@@ -52,7 +52,7 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
             foreach (var elem in envi.UnitsMap.Values)
             {
                 BaseUnit target = elem as BaseUnit;
-                if (target == null || (target != null && target.Owner != unitContext.Unit.Owner))
+                if (target == null || target.Owner != unitContext.Unit.Owner)
                 {
                     continue;
                 }

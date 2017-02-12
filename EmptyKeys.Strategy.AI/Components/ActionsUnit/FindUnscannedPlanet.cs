@@ -60,10 +60,12 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                     continue;
                 }
 
+                /*
                 if (!unitContext.Unit.Owner.ColonizablePlanetTypes.Contains(planet.PlanetType))
                 {
                     continue;
                 }
+                */
 
                 int distance = HexMap.Distance(unitContext.Unit, planet.Environment);
                 if (minDistance > distance)

@@ -54,7 +54,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
             }
 
             List<BaseUnit> existingUnits = playerContext.Player.Units.Where(u => u.GetType().Name == UnitTypeName && u.Behavior == null).ToList();
-            if (existingUnits == null || existingUnits.Count == 0)
+            if (existingUnits.Count == 0)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;

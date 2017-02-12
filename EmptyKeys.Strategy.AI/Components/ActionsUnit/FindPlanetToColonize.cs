@@ -76,41 +76,28 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                 }
 
                 foreach (var planet in system.Planets)
-                {                    
+                {
                     if (planet == null || planet.Owner != null || !player.CanColonizePlanetType(planet.PlanetType))
                     {
                         continue;
                     }
-                                        
+
                     var existingColonyShip = player.Units.FirstOrDefault(u => u.Item.UnitConfig.Actions.HasFlag(UnitActions.Colonize) &&
-                                                                              u != unitContext.Unit && 
+                                                                              u != unitContext.Unit &&
                                                                               u.BehaviorContext.EnvironmentTarget == planet);
                     if (existingColonyShip != null)
                     {
                         continue;
                     }
 
-                    int planetDistance = 0;
+                    float planetUtility = GetPlanetUtility(player, planet);
+
+                    planetUtility -= systemDistance * DistanceSystemUtilityCoefficient;
+
                     if (envi == system)
                     {
-                        planetDistance = HexMap.Distance(unitContext.Unit, planet);
+                        planetUtility -= HexMap.Distance(unitContext.Unit, planet);
                     }
-
-                    bool planetScanned = player.ScannedStarSystemBodies.Contains(planet.GlobalKey);
-                    float rareResourcesValue = 0;
-                    if (planetScanned)
-                    {
-                        foreach (var rareResource in planet.RareResources)
-                        {
-                            rareResourcesValue += rareResource.Quantity;
-                        }
-
-                        rareResourcesValue = rareResourcesValue / 1000;
-                    }
-
-                    float planetPreference = player.Race.PlanetTypePreferences[(int)planet.PlanetType] / 100f;
-                    float planetUtility = (planet.AvailResources * planetPreference) / planet.Mass + planet.AvailEnergy / planet.Mass + rareResourcesValue 
-                                           - systemDistance * DistanceSystemUtilityCoefficient - planetDistance + planet.MaxSlotsCount;
 
                     var isHomePlanet = player.GameSession.Players.FirstOrDefault(p => p.HomePlanet == planet);
                     if (isHomePlanet != null)
@@ -138,6 +125,36 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
 
             returnCode = BehaviorReturnCode.Failure;
             return returnCode;
+        }
+
+        /// <summary>
+        /// Gets the planet utility.
+        /// </summary>
+        /// <param name="player">The player.</param>
+        /// <param name="planet">The planet.</param>
+        /// <returns></returns>
+        public static float GetPlanetUtility(Player player, Planet planet)
+        {
+            bool planetScanned = player.ScannedStarSystemBodies.Contains(planet.GlobalKey);
+            float rareResourcesValue = 0;
+            float planetUtility = 0;
+            float planetPreference = player.Race.PlanetTypePreferences[(int)planet.PlanetType] / 100f;
+            if (planetScanned)
+            {
+                foreach (var rareResource in planet.RareResources)
+                {
+                    rareResourcesValue += rareResource.Quantity;
+                }
+
+                rareResourcesValue = rareResourcesValue / 1000;
+                planetUtility = (planet.AvailResources * planetPreference) / planet.Mass + planet.AvailEnergy / planet.Mass + rareResourcesValue + planet.MaxSlotsCount;
+            }
+            else
+            {
+                planetUtility = planet.MaxSlotsCount;
+            }
+
+            return planetUtility;
         }
     }
 }

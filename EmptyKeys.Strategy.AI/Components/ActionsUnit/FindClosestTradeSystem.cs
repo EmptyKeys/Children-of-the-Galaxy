@@ -35,7 +35,7 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                 return returnCode;
             }
 
-            BaseUnit unit = unitContext.Unit as BaseUnit;
+            BaseUnit unit = unitContext.Unit;
             if (unit == null)
             {
                 returnCode = BehaviorReturnCode.Failure;

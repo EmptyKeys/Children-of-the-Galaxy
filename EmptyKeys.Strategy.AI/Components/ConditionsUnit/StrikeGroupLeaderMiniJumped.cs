@@ -31,7 +31,7 @@ namespace EmptyKeys.Strategy.AI.Components.Conditions
             }
 
             MoveableUnit leader = unitContext.Unit.StrikeGroup.GroupLeader as MoveableUnit;
-            if (leader != null && leader.IsMiniJumping())
+            if (leader != null && leader.HasMiniJumpTask())
             {
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;

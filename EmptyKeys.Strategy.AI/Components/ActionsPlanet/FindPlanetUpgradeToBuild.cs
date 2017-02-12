@@ -54,7 +54,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlanet
                 owner = planetContext.Planet.Owner;
                 planet = planetContext.Planet;
             }
-            else
+            else if (playerContext != null)
             {
                 owner = playerContext.Player;
                 planet = playerContext.BehaviorTarget as Planet;

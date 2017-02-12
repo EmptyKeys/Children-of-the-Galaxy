@@ -63,7 +63,7 @@ namespace EmptyKeys.Strategy.AI.Components.ConditionsPlayer
                     item = player.AvailFactoryItems.FirstOrDefault(i => i.FactoryTypeName.EndsWith(ItemTypeName));
                 }
             }
-            else
+            else if (unitContext != null)
             {
                 player = unitContext.Unit.Owner;
                 item = player.AvailFactoryItems.FirstOrDefault(i => i.FactoryTypeName.EndsWith(ItemTypeName));

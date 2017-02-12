@@ -86,13 +86,7 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                     }
 
                     searchRadius++;
-                }
-
-                if (!foundHex)
-                {
-                    returnCode = BehaviorReturnCode.Failure;
-                    return returnCode;
-                }
+                }                
                 
                 destinationQ = nq;
                 destinationR = nr;

@@ -1,4 +1,5 @@
 ﻿using System.Xml.Serialization;
+using EmptyKeys.Strategy.AI.Components.Actions;
 using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Environment;
 
@@ -62,15 +63,18 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 
                 foreach (var planet in system.Planets)
                 {                    
-                    if (planet == null || (planet != null && planet.Owner != null) ||
-                        !player.CanColonizePlanetType(planet.PlanetType))
+                    if (planet == null || planet.Owner != null || !player.CanColonizePlanetType(planet.PlanetType))
                     {
                         continue;
-                    }                    
+                    }
 
+                    /*
                     int planetScanned = player.ScannedStarSystemBodies.Contains(planet.GlobalKey) ? 1 : 0;
                     float planetPreference = player.Race.PlanetTypePreferences[(int)planet.PlanetType] / 100f;
                     float planetUtility = (planet.AvailResources * planetPreference) / planet.Mass + planet.AvailEnergy / planet.Mass + (planet.RareResources.Count * planetScanned) + planet.MaxSlotsCount;
+                    */
+
+                    float planetUtility = FindPlanetToColonize.GetPlanetUtility(player, planet);
                     if (maxPlanetUtility > planetUtility)
                     {
                         continue;

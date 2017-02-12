@@ -44,7 +44,7 @@ namespace EmptyKeys.Strategy.AI.Components.ConditionsPlayer
             }
             
             var tradePoints  = playerContext.Player.StarSystemBodies.Where(b => b is ITradePoint && ((ITradePoint)b).TradeRoutesCount > 0);
-            if (tradePoints == null || tradePoints.Count() == 0)
+            if (tradePoints.Count() == 0)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;

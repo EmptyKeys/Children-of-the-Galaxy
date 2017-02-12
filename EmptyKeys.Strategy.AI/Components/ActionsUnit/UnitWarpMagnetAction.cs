@@ -40,7 +40,7 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
 
             WarpMagnetTask task = new WarpMagnetTask(unitContext.Unit);
             task.Execute();
-            if (warpMagnet.IsWarpMagnetActive)
+            if (warpMagnet.IsWarpMagnetActive) //-V3022
             {
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;

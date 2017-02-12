@@ -48,7 +48,7 @@ namespace EmptyKeys.Strategy.AI.Components.ConditionsPlayer
             {
                 player = playerContext.Player;
             }
-            else
+            else if (planetContext != null)
             {
                 player = planetContext.Planet.Owner;
             }
