@@ -2248,9 +2248,5 @@
     <HelpKINode Title="PlanetUpgradesValue.UpgradeModifier Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue_UpgradeModifier.htm" />
   </HelpKINode>
   <HelpKINode Title="UsePlanetNextPosition property" Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget_UsePlanetNextPosition.htm" />
-  <HelpKINode Title="version">
-    <HelpKINode Title="1.0.0.0" Url="html/22f6c380-95e1-46a7-b05b-32377ec9b290.htm" />
-    <HelpKINode Title="history" Url="html/deebf4c6-92f1-48f6-849a-ab64538c91f9.htm" />
-  </HelpKINode>
   <HelpKINode Title="Welcome" Url="html/1dc4da76-af4f-4042-9ba8-392ca5ecf75d.htm" />
 </HelpKI>
