@@ -8,7 +8,7 @@ To be able to compile the project, you have to fix references. All references (D
 
 ### EmptyKeys.Strategy.AI
 
-This project contains all AI classes for Players, Planets and Units. The Children of the Galaxy AI is behavior tree with utility and decision based AI features. All data for the AI are stored in behavior contexts. Components are split into directories based on AI type and usage.
+This project contains all AI classes for Players, Planets and Units. The AI is behavior tree with utility and decision based AI features. All data for the AI are stored in behavior contexts. Components are split into directories based on AI type and usage.
 
 #### ActionsPlanet
 This folder contains all actions for the planet AI.
