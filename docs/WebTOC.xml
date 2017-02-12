@@ -1,0 +1,1472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/1dc4da76-af4f-4042-9ba8-392ca5ecf75d.htm" />
+  <HelpTOCNode Id="7215de17-55ed-4b7b-9f2b-19c50cf71d31" Title="Version History" Url="html/deebf4c6-92f1-48f6-849a-ab64538c91f9.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/22f6c380-95e1-46a7-b05b-32377ec9b290.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="68752753-d1d5-48bd-8cb1-ab2dcacdd617" Title="EmptyKeys.Strategy.AI" Url="html/N_EmptyKeys_Strategy_AI.htm">
+    <HelpTOCNode Id="fdaa6d50-b095-4562-982f-ee93136c1871" Title="PlanetBehaviorContext Class" Url="html/T_EmptyKeys_Strategy_AI_PlanetBehaviorContext.htm">
+      <HelpTOCNode Title="PlanetBehaviorContext Constructor " Url="html/M_EmptyKeys_Strategy_AI_PlanetBehaviorContext__ctor.htm" />
+      <HelpTOCNode Id="f2cf9b25-014b-47d4-88a5-a85c63f6d757" Title="PlanetBehaviorContext Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_PlanetBehaviorContext.htm">
+        <HelpTOCNode Title="ItemBehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_PlanetBehaviorContext_ItemBehaviorName.htm" />
+        <HelpTOCNode Title="ItemToBuild Property " Url="html/P_EmptyKeys_Strategy_AI_PlanetBehaviorContext_ItemToBuild.htm" />
+        <HelpTOCNode Title="Planet Property " Url="html/P_EmptyKeys_Strategy_AI_PlanetBehaviorContext_Planet.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetBehaviorContext Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_PlanetBehaviorContext.htm" />
+      <HelpTOCNode Id="1d238dd9-d548-4956-a8be-01f60e32decc" Title="PlanetBehaviorContext Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_PlanetBehaviorContext.htm">
+        <HelpTOCNode Title="IsRegistered Field" Url="html/F_EmptyKeys_Strategy_AI_PlanetBehaviorContext_IsRegistered.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="95d66ad8-d6ed-404d-8412-43731a49276f" Title="PlayerBehaviorContext Class" Url="html/T_EmptyKeys_Strategy_AI_PlayerBehaviorContext.htm">
+      <HelpTOCNode Title="PlayerBehaviorContext Constructor " Url="html/M_EmptyKeys_Strategy_AI_PlayerBehaviorContext__ctor.htm" />
+      <HelpTOCNode Id="23c1093f-7b61-4dc3-a9a8-843e1bea334f" Title="PlayerBehaviorContext Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_PlayerBehaviorContext.htm">
+        <HelpTOCNode Title="Behavior Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_Behavior.htm" />
+        <HelpTOCNode Title="BehaviorTarget Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_BehaviorTarget.htm" />
+        <HelpTOCNode Title="GoalTechnologyId Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_GoalTechnologyId.htm" />
+        <HelpTOCNode Title="Player Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_Player.htm" />
+        <HelpTOCNode Title="RelationValues Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_RelationValues.htm" />
+        <HelpTOCNode Title="Unit Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_Unit.htm" />
+        <HelpTOCNode Title="UnitUpgrade Property " Url="html/P_EmptyKeys_Strategy_AI_PlayerBehaviorContext_UnitUpgrade.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerBehaviorContext Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_PlayerBehaviorContext.htm" />
+      <HelpTOCNode Id="6c7f2421-5945-4b46-85a3-031feee9a1b0" Title="PlayerBehaviorContext Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_PlayerBehaviorContext.htm">
+        <HelpTOCNode Title="IsRegistered Field" Url="html/F_EmptyKeys_Strategy_AI_PlayerBehaviorContext_IsRegistered.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c71b21a-fe43-454e-b8e1-1e66e627951f" Title="UnitBehaviorContext Class" Url="html/T_EmptyKeys_Strategy_AI_UnitBehaviorContext.htm">
+      <HelpTOCNode Title="UnitBehaviorContext Constructor " Url="html/M_EmptyKeys_Strategy_AI_UnitBehaviorContext__ctor.htm" />
+      <HelpTOCNode Id="35ea1fc1-c806-4e9c-9c0c-be68a5490150" Title="UnitBehaviorContext Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_UnitBehaviorContext.htm">
+        <HelpTOCNode Title="Unit Property " Url="html/P_EmptyKeys_Strategy_AI_UnitBehaviorContext_Unit.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitBehaviorContext Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_UnitBehaviorContext.htm" />
+      <HelpTOCNode Id="637e26fa-2fef-4281-9c0a-af4b54daecbb" Title="UnitBehaviorContext Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_UnitBehaviorContext.htm">
+        <HelpTOCNode Title="IsRegistered Field" Url="html/F_EmptyKeys_Strategy_AI_UnitBehaviorContext_IsRegistered.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="537b2796-2ec4-4864-9cbf-059ae1de36cd" Title="EmptyKeys.Strategy.AI.Components.Actions" Url="html/N_EmptyKeys_Strategy_AI_Components_Actions.htm">
+    <HelpTOCNode Id="83380f20-b426-4688-82ce-eb6bac7006f0" Title="FindAsteroid Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid.htm">
+      <HelpTOCNode Title="FindAsteroid Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid__ctor.htm" />
+      <HelpTOCNode Id="b546c629-d134-43c1-a5f5-3ca57151e15d" Title="FindAsteroid Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid.htm">
+        <HelpTOCNode Title="EnableIsExtractedCheck Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid_EnableIsExtractedCheck.htm" />
+        <HelpTOCNode Title="EnableUnscannedCheck Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid_EnableUnscannedCheck.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c0b2ba3d-df99-45d6-a136-1429cf6bdf2e" Title="FindAsteroid Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindAsteroid Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindAsteroid.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f532b6e3-77a3-4a13-a00c-d2e16352adde" Title="FindClosestCarrier Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestCarrier.htm">
+      <HelpTOCNode Title="FindClosestCarrier Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestCarrier__ctor.htm" />
+      <HelpTOCNode Id="83eb8172-ba52-4752-8ccb-9e3c6cfda933" Title="FindClosestCarrier Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestCarrier.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestCarrier_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindClosestCarrier Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestCarrier.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="09ceff21-57c0-445c-b439-05812e337cc7" Title="FindClosestFriendlySystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestFriendlySystem.htm">
+      <HelpTOCNode Title="FindClosestFriendlySystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestFriendlySystem__ctor.htm" />
+      <HelpTOCNode Id="0ee81bc0-c21f-4b60-b3f1-827d6461e5ff" Title="FindClosestFriendlySystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestFriendlySystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestFriendlySystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindClosestFriendlySystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestFriendlySystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="003ad47c-4cba-47de-8d90-f5a57eb6c8ac" Title="FindClosestTradeSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestTradeSystem.htm">
+      <HelpTOCNode Title="FindClosestTradeSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestTradeSystem__ctor.htm" />
+      <HelpTOCNode Id="86a7f669-da7d-4625-ab81-b49738616698" Title="FindClosestTradeSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestTradeSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestTradeSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindClosestTradeSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestTradeSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="77f1a3cf-11a4-43bf-90a2-af9617f2aab4" Title="FindClosestUnexploredSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestUnexploredSystem.htm">
+      <HelpTOCNode Title="FindClosestUnexploredSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestUnexploredSystem__ctor.htm" />
+      <HelpTOCNode Id="7fdce039-59ac-4226-b922-36cdefe24035" Title="FindClosestUnexploredSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestUnexploredSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindClosestUnexploredSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindClosestUnexploredSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindClosestUnexploredSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="49ade762-0625-436c-926c-495ab5df2faf" Title="FindDefensivePosition Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindDefensivePosition.htm">
+      <HelpTOCNode Title="FindDefensivePosition Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindDefensivePosition__ctor.htm" />
+      <HelpTOCNode Id="26f7a0fb-d6d0-4a51-b3e5-20bafebd7a55" Title="FindDefensivePosition Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindDefensivePosition.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindDefensivePosition_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindDefensivePosition Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindDefensivePosition.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="90f6c64b-ac7e-439e-89fe-e604e482b4fe" Title="FindEmptySpaceEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget.htm">
+      <HelpTOCNode Title="FindEmptySpaceEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="7fbc238a-d9a8-496c-9f34-134859433e79" Title="FindEmptySpaceEnvTarget Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget.htm">
+        <HelpTOCNode Title="RadiusDenominator Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget_RadiusDenominator.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1134f425-fb50-48f0-b897-ac4cdd710d0e" Title="FindEmptySpaceEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindEmptySpaceEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindEmptySpaceEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="90715a61-7685-4854-92f7-2586055fb32b" Title="FindEnemyTargetInRange Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindEnemyTargetInRange.htm">
+      <HelpTOCNode Title="FindEnemyTargetInRange Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindEnemyTargetInRange__ctor.htm" />
+      <HelpTOCNode Id="84ee97eb-ce17-435a-94ac-71aea3df61e0" Title="FindEnemyTargetInRange Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindEnemyTargetInRange.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindEnemyTargetInRange_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindEnemyTargetInRange Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindEnemyTargetInRange.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="14e2902e-6e10-4a70-8810-d95ba2fd4379" Title="FindOwnedPlanet Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindOwnedPlanet.htm">
+      <HelpTOCNode Title="FindOwnedPlanet Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindOwnedPlanet__ctor.htm" />
+      <HelpTOCNode Id="f604c341-010d-4124-b42c-c5006f278ce7" Title="FindOwnedPlanet Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindOwnedPlanet.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindOwnedPlanet_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindOwnedPlanet Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindOwnedPlanet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e02bdaf2-addf-4011-b886-81e0e74e8c56" Title="FindPathAwayFromTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPathAwayFromTarget.htm">
+      <HelpTOCNode Title="FindPathAwayFromTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathAwayFromTarget__ctor.htm" />
+      <HelpTOCNode Id="d0c82acf-cd48-474c-8d9d-d6dd596fa485" Title="FindPathAwayFromTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathAwayFromTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathAwayFromTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPathAwayFromTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathAwayFromTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="616dfb3f-77e1-4573-9875-78a66c245140" Title="FindPathFormationPoint Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPathFormationPoint.htm">
+      <HelpTOCNode Title="FindPathFormationPoint Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathFormationPoint__ctor.htm" />
+      <HelpTOCNode Id="a29f61a6-7530-4455-b051-dedcc25a2a96" Title="FindPathFormationPoint Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathFormationPoint.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathFormationPoint_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPathFormationPoint Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathFormationPoint.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1517a652-ca60-4bc7-a3e7-14b90e473152" Title="FindPathToEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget.htm">
+      <HelpTOCNode Title="FindPathToEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="5501f954-ac51-4836-9dfe-731e77f486fa" Title="FindPathToEnvTarget Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget.htm">
+        <HelpTOCNode Title="UsePlanetNextPosition Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget_UsePlanetNextPosition.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a03b86e7-85c3-44e8-aa32-bb5e86ca9ac0" Title="FindPathToEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPathToEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f709e15c-b878-4bab-9a86-0e37e89265bb" Title="FindPathToStrikeGroupLeader Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToStrikeGroupLeader.htm">
+      <HelpTOCNode Title="FindPathToStrikeGroupLeader Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathToStrikeGroupLeader__ctor.htm" />
+      <HelpTOCNode Id="cf1f4a4d-3a23-4c1c-a4af-5bfb871de0fc" Title="FindPathToStrikeGroupLeader Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToStrikeGroupLeader.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathToStrikeGroupLeader_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPathToStrikeGroupLeader Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToStrikeGroupLeader.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b60f191-0d2b-4dde-a1a5-13d2063c1f2f" Title="FindPathToTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget.htm">
+      <HelpTOCNode Title="FindPathToTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget__ctor.htm" />
+      <HelpTOCNode Id="d01e126c-b7ee-4ca3-b480-a8f94dbd3503" Title="FindPathToTarget Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget.htm">
+        <HelpTOCNode Title="PathTargetPosition Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget_PathTargetPosition.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ed15ccde-c909-447a-b1ad-843ada2424bc" Title="FindPathToTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPathToTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPathToTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="14af38f2-b737-4710-9afe-7fd50b84ee74" Title="FindPlanetToColonize Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize.htm">
+      <HelpTOCNode Title="FindPlanetToColonize Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize__ctor.htm" />
+      <HelpTOCNode Id="a359f4a1-9d0f-44cc-9063-dba004673d02" Title="FindPlanetToColonize Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize.htm">
+        <HelpTOCNode Title="DistanceSystemUtilityCoefficient Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize_DistanceSystemUtilityCoefficient.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5e183dc3-8df1-4254-a869-278ba40378bb" Title="FindPlanetToColonize Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize_Behave.htm" />
+        <HelpTOCNode Title="GetPlanetUtility Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize_GetPlanetUtility.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetToColonize Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetToColonize.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="689eeb52-0ab5-47c1-9774-a7ed8d7cfbd5" Title="FindPlanetUnderSiege Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetUnderSiege.htm">
+      <HelpTOCNode Title="FindPlanetUnderSiege Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetUnderSiege__ctor.htm" />
+      <HelpTOCNode Id="5fecc509-2504-4ca7-a44a-41b73ea4ba90" Title="FindPlanetUnderSiege Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetUnderSiege.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetUnderSiege_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetUnderSiege Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindPlanetUnderSiege.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e6e72b1-9953-49f2-8d19-cf592b00d294" Title="FindStrongestFriendlyUnit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindStrongestFriendlyUnit.htm">
+      <HelpTOCNode Title="FindStrongestFriendlyUnit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindStrongestFriendlyUnit__ctor.htm" />
+      <HelpTOCNode Id="8a216a88-031e-45fa-a257-90a6769274cf" Title="FindStrongestFriendlyUnit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindStrongestFriendlyUnit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindStrongestFriendlyUnit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindStrongestFriendlyUnit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindStrongestFriendlyUnit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="db8b6275-217a-4d3a-9543-ff8b62d0e27d" Title="FindUnscannedPlanet Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindUnscannedPlanet.htm">
+      <HelpTOCNode Title="FindUnscannedPlanet Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindUnscannedPlanet__ctor.htm" />
+      <HelpTOCNode Id="4ec8c557-36a6-4125-8650-46de24ed337e" Title="FindUnscannedPlanet Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindUnscannedPlanet.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindUnscannedPlanet_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindUnscannedPlanet Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindUnscannedPlanet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="84f31510-2aae-4db3-9a02-6fa3bd1f9f90" Title="FindWarpMagnet Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindWarpMagnet.htm">
+      <HelpTOCNode Title="FindWarpMagnet Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindWarpMagnet__ctor.htm" />
+      <HelpTOCNode Id="52dbdb46-8e14-4c37-a482-06237eefd57f" Title="FindWarpMagnet Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindWarpMagnet.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindWarpMagnet_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindWarpMagnet Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindWarpMagnet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="56fef4c4-333a-4088-a370-42dc2d1f608c" Title="FindWeakestEnemyPlanet Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyPlanet.htm">
+      <HelpTOCNode Title="FindWeakestEnemyPlanet Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyPlanet__ctor.htm" />
+      <HelpTOCNode Id="62635081-dbff-47b4-8cfa-341f75277910" Title="FindWeakestEnemyPlanet Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyPlanet.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyPlanet_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindWeakestEnemyPlanet Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyPlanet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="401b957f-edbc-489c-9c20-8940febb72e6" Title="FindWeakestEnemyTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyTarget.htm">
+      <HelpTOCNode Title="FindWeakestEnemyTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyTarget__ctor.htm" />
+      <HelpTOCNode Id="274dd3f0-9e9c-4616-aafb-8fc994f182c3" Title="FindWeakestEnemyTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindWeakestEnemyTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_FindWeakestEnemyTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1428b592-b665-48ce-98ea-8c1dc3a2b528" Title="SetPlanetSystemAsEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetPlanetSystemAsEnvTarget.htm">
+      <HelpTOCNode Title="SetPlanetSystemAsEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetPlanetSystemAsEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="904bf852-782e-4345-867e-f33331067992" Title="SetPlanetSystemAsEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetPlanetSystemAsEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetPlanetSystemAsEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetPlanetSystemAsEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetPlanetSystemAsEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bc7d50f2-4cf2-4fa0-84c7-99806e1abfde" Title="SetStarAsEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetStarAsEnvTarget.htm">
+      <HelpTOCNode Title="SetStarAsEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStarAsEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="098b9bb1-8096-411b-98e2-b101c8d87671" Title="SetStarAsEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetStarAsEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStarAsEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetStarAsEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetStarAsEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fb65623d-afc8-4c18-b7bb-084883325653" Title="SetStrikeGroupLeaderAsEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderAsEnvTarget.htm">
+      <HelpTOCNode Title="SetStrikeGroupLeaderAsEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderAsEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="0d75cc63-dcdd-4706-97ed-4e04eaa36060" Title="SetStrikeGroupLeaderAsEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderAsEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderAsEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetStrikeGroupLeaderAsEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderAsEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7bd49e93-f3b6-4f96-a2da-60d3d6865b18" Title="SetStrikeGroupLeaderDockAsTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderDockAsTarget.htm">
+      <HelpTOCNode Title="SetStrikeGroupLeaderDockAsTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderDockAsTarget__ctor.htm" />
+      <HelpTOCNode Id="89f0705c-2c1d-470a-ae7c-6ec505b2f723" Title="SetStrikeGroupLeaderDockAsTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderDockAsTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderDockAsTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetStrikeGroupLeaderDockAsTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderDockAsTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="796e5c1f-c01e-41f4-a680-12b7ae5b0be6" Title="SetStrikeGroupLeaderSystemAsEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderSystemAsEnvTarget.htm">
+      <HelpTOCNode Title="SetStrikeGroupLeaderSystemAsEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderSystemAsEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="ca155cf3-c90a-4676-bf32-34507c9e5ba8" Title="SetStrikeGroupLeaderSystemAsEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderSystemAsEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderSystemAsEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetStrikeGroupLeaderSystemAsEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetStrikeGroupLeaderSystemAsEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9b626c2f-7fed-48f5-8786-2fa7a0616af8" Title="SetTradeUnitTargetFromSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetTradeUnitTargetFromSystem.htm">
+      <HelpTOCNode Title="SetTradeUnitTargetFromSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetTradeUnitTargetFromSystem__ctor.htm" />
+      <HelpTOCNode Id="35b0f052-b92a-4372-8e04-26f7395ea094" Title="SetTradeUnitTargetFromSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetTradeUnitTargetFromSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetTradeUnitTargetFromSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetTradeUnitTargetFromSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetTradeUnitTargetFromSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bab31ba4-67b0-4954-8be5-b0b2eea40f43" Title="SetUnitTargetInStrikeGroup Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SetUnitTargetInStrikeGroup.htm">
+      <HelpTOCNode Title="SetUnitTargetInStrikeGroup Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetUnitTargetInStrikeGroup__ctor.htm" />
+      <HelpTOCNode Id="b3612b64-77b6-43b0-9487-140fb4a9e369" Title="SetUnitTargetInStrikeGroup Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SetUnitTargetInStrikeGroup.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SetUnitTargetInStrikeGroup_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SetUnitTargetInStrikeGroup Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SetUnitTargetInStrikeGroup.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="12c44673-ca73-4384-ae74-6cda598f250e" Title="SwapTradeRouteTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_SwapTradeRouteTarget.htm">
+      <HelpTOCNode Title="SwapTradeRouteTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SwapTradeRouteTarget__ctor.htm" />
+      <HelpTOCNode Id="cea212b2-eebe-4b87-aafa-5a474b492aba" Title="SwapTradeRouteTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_SwapTradeRouteTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_SwapTradeRouteTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SwapTradeRouteTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_SwapTradeRouteTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="02cdee01-0a44-40bd-bab6-5aa6b71b8d74" Title="UnitAlertAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitAlertAction.htm">
+      <HelpTOCNode Title="UnitAlertAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitAlertAction__ctor.htm" />
+      <HelpTOCNode Id="d0e08dc5-0dd0-4861-93b1-58662b153c6a" Title="UnitAlertAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitAlertAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitAlertAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitAlertAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitAlertAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e9a64f20-d947-4fb8-b255-2a275c437fc0" Title="UnitAttackAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitAttackAction.htm">
+      <HelpTOCNode Title="UnitAttackAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitAttackAction__ctor.htm" />
+      <HelpTOCNode Id="d24a5ea6-2d81-4f62-bfb8-7a60d32632d3" Title="UnitAttackAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitAttackAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitAttackAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitAttackAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitAttackAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eec0570e-4aa8-41bc-ae4b-dff2a9e8aa02" Title="UnitBeginSiegeAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitBeginSiegeAction.htm">
+      <HelpTOCNode Title="UnitBeginSiegeAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitBeginSiegeAction__ctor.htm" />
+      <HelpTOCNode Id="1d96c24c-b78b-4426-8649-9de66f812702" Title="UnitBeginSiegeAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitBeginSiegeAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitBeginSiegeAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitBeginSiegeAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitBeginSiegeAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eede1257-cd53-4d37-98ca-30310892c707" Title="UnitBuildAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction.htm">
+      <HelpTOCNode Title="UnitBuildAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction__ctor.htm" />
+      <HelpTOCNode Id="ef8a7f6f-e54e-4908-a969-e7df9a825a5f" Title="UnitBuildAction Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction.htm">
+        <HelpTOCNode Title="UnitBehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction_UnitBehaviorName.htm" />
+        <HelpTOCNode Title="UnitTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction_UnitTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="097623d3-4723-414b-a789-d1326388d79d" Title="UnitBuildAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitBuildAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitBuildAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa564d3b-a82e-4518-ab3b-a2b6849271c4" Title="UnitColonizeAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitColonizeAction.htm">
+      <HelpTOCNode Title="UnitColonizeAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitColonizeAction__ctor.htm" />
+      <HelpTOCNode Id="a8422eba-2a4e-4c13-9b30-41ab2450e1f0" Title="UnitColonizeAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitColonizeAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitColonizeAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitColonizeAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitColonizeAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="822e0e66-4977-4d8e-ab18-d7e61ead9ebd" Title="UnitDestroyAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitDestroyAction.htm">
+      <HelpTOCNode Title="UnitDestroyAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitDestroyAction__ctor.htm" />
+      <HelpTOCNode Id="6daffc5e-7220-461a-9f6d-85255634fea0" Title="UnitDestroyAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitDestroyAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitDestroyAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitDestroyAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitDestroyAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c5a06fcf-43dd-4569-8ae6-2934bf6fe898" Title="UnitDoNothingAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitDoNothingAction.htm">
+      <HelpTOCNode Title="UnitDoNothingAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitDoNothingAction__ctor.htm" />
+      <HelpTOCNode Id="60c5b0ba-b0a6-439f-84e4-9b2ee7792747" Title="UnitDoNothingAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitDoNothingAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitDoNothingAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitDoNothingAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitDoNothingAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c757b65-5145-4d34-8e6a-2039faca2b7e" Title="UnitEnterDockAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterDockAction.htm">
+      <HelpTOCNode Title="UnitEnterDockAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterDockAction__ctor.htm" />
+      <HelpTOCNode Id="ab958a83-1892-4bb9-93c4-6e43e83c0b65" Title="UnitEnterDockAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterDockAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterDockAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitEnterDockAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterDockAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5be0c5da-b717-44c7-8e86-0c801a0b0263" Title="UnitEnterOrbitAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterOrbitAction.htm">
+      <HelpTOCNode Title="UnitEnterOrbitAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterOrbitAction__ctor.htm" />
+      <HelpTOCNode Id="ebfb44c6-08c0-49e1-b96a-ed013c251b88" Title="UnitEnterOrbitAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterOrbitAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterOrbitAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitEnterOrbitAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitEnterOrbitAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="48dd7cae-0ff9-4207-8e67-56ba76886d6e" Title="UnitExploreAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitExploreAction.htm">
+      <HelpTOCNode Title="UnitExploreAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitExploreAction__ctor.htm" />
+      <HelpTOCNode Id="69790158-d12c-4768-a0cf-4c6bf253f680" Title="UnitExploreAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitExploreAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitExploreAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitExploreAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitExploreAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eaae5ef7-9027-4089-bea7-c16eb97f72aa" Title="UnitExtractAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitExtractAction.htm">
+      <HelpTOCNode Title="UnitExtractAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitExtractAction__ctor.htm" />
+      <HelpTOCNode Id="3c368bbe-cfbb-4174-b770-da3a59b9fef1" Title="UnitExtractAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitExtractAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitExtractAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitExtractAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitExtractAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ed6c404-820f-4372-b256-082b00ef1c28" Title="UnitLeaveDockAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveDockAction.htm">
+      <HelpTOCNode Title="UnitLeaveDockAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveDockAction__ctor.htm" />
+      <HelpTOCNode Id="772d18b9-7067-43cf-8040-66ece264e865" Title="UnitLeaveDockAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveDockAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveDockAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitLeaveDockAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveDockAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="acdc759d-5739-435d-b886-aeab4168cdb3" Title="UnitLeaveOrbitAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveOrbitAction.htm">
+      <HelpTOCNode Title="UnitLeaveOrbitAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveOrbitAction__ctor.htm" />
+      <HelpTOCNode Id="d51a912e-7237-4bd0-b492-c3512d2b3c59" Title="UnitLeaveOrbitAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveOrbitAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveOrbitAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitLeaveOrbitAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitLeaveOrbitAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d0948a23-d37a-4b1d-8b57-755134698277" Title="UnitMiniWarpAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitMiniWarpAction.htm">
+      <HelpTOCNode Title="UnitMiniWarpAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitMiniWarpAction__ctor.htm" />
+      <HelpTOCNode Id="985a6c22-50ba-4d0c-b687-2d1556a82d1f" Title="UnitMiniWarpAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitMiniWarpAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitMiniWarpAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitMiniWarpAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitMiniWarpAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7b8102c-4656-4bc5-92c2-98559565f84e" Title="UnitMoveAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveAction.htm">
+      <HelpTOCNode Title="UnitMoveAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveAction__ctor.htm" />
+      <HelpTOCNode Id="1b55bae5-1e72-4088-a505-1446a45b8ebc" Title="UnitMoveAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitMoveAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0a10c84-65a4-4ba8-bde4-d760db861c00" Title="UnitMoveUnitsFromDock Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveUnitsFromDock.htm">
+      <HelpTOCNode Title="UnitMoveUnitsFromDock Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveUnitsFromDock__ctor.htm" />
+      <HelpTOCNode Id="97081eae-205b-4d07-bc27-9f8899808682" Title="UnitMoveUnitsFromDock Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveUnitsFromDock.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveUnitsFromDock_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitMoveUnitsFromDock Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitMoveUnitsFromDock.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cc7573d8-2b9f-4665-96d3-c28b5e320021" Title="UnitRepairOnOrbitAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitRepairOnOrbitAction.htm">
+      <HelpTOCNode Title="UnitRepairOnOrbitAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitRepairOnOrbitAction__ctor.htm" />
+      <HelpTOCNode Id="955ada1c-d830-4d1a-83da-c593d47313b4" Title="UnitRepairOnOrbitAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitRepairOnOrbitAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitRepairOnOrbitAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitRepairOnOrbitAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitRepairOnOrbitAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="201e73e8-2d88-44ff-97e6-4bbf5ddeda21" Title="UnitResetBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitResetBehavior.htm">
+      <HelpTOCNode Title="UnitResetBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitResetBehavior__ctor.htm" />
+      <HelpTOCNode Id="a4d1541c-c140-40f3-b9d3-db35252ce626" Title="UnitResetBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitResetBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitResetBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitResetBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitResetBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="38fb0bfd-7b49-4a3a-8f8c-13a0617e7bdf" Title="UnitResetTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitResetTarget.htm">
+      <HelpTOCNode Title="UnitResetTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitResetTarget__ctor.htm" />
+      <HelpTOCNode Id="50e652a5-8792-4539-b993-6e62e33055b7" Title="UnitResetTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitResetTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitResetTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitResetTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitResetTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="16e7c61c-e2d6-4f94-bdfc-034bc12be4e8" Title="UnitScanAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitScanAction.htm">
+      <HelpTOCNode Title="UnitScanAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitScanAction__ctor.htm" />
+      <HelpTOCNode Id="099f3521-6923-44c6-a1df-0fda34221c0f" Title="UnitScanAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitScanAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitScanAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitScanAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitScanAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f46deab9-7a26-43ad-b638-86c1d51fbf97" Title="UnitSetBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior.htm">
+      <HelpTOCNode Title="UnitSetBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior__ctor.htm" />
+      <HelpTOCNode Id="8d10c5d6-7767-4d62-80b6-4ba6f325e01d" Title="UnitSetBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior_BehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7b9c5a5-9eab-4f32-ba3a-3f51bbcbbd5a" Title="UnitSetBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitSetBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitSetBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d438a20-f5e5-4e54-9ea9-0104242e4e3f" Title="UnitSleepAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitSleepAction.htm">
+      <HelpTOCNode Title="UnitSleepAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitSleepAction__ctor.htm" />
+      <HelpTOCNode Id="9fee9535-c4a7-4240-a76e-17636ba14878" Title="UnitSleepAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitSleepAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitSleepAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitSleepAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitSleepAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bdabfed9-fccd-4cbd-a3a8-60535975944c" Title="UnitStopMoving Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitStopMoving.htm">
+      <HelpTOCNode Title="UnitStopMoving Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitStopMoving__ctor.htm" />
+      <HelpTOCNode Id="d754acd0-a617-480a-9abb-1bccccf8570f" Title="UnitStopMoving Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitStopMoving.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitStopMoving_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitStopMoving Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitStopMoving.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="77dea9e2-91b1-4a56-85c1-9a6d49740af3" Title="UnitWakeUpAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitWakeUpAction.htm">
+      <HelpTOCNode Title="UnitWakeUpAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitWakeUpAction__ctor.htm" />
+      <HelpTOCNode Id="9c24d4b7-5d6b-4ae3-ac9d-98f292940a1d" Title="UnitWakeUpAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitWakeUpAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitWakeUpAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitWakeUpAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitWakeUpAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="304d932e-6d62-4989-a338-0da6b451f888" Title="UnitWarpJumpAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpJumpAction.htm">
+      <HelpTOCNode Title="UnitWarpJumpAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpJumpAction__ctor.htm" />
+      <HelpTOCNode Id="7dc66243-ac5c-4627-a412-eaf5b352b0a2" Title="UnitWarpJumpAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpJumpAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpJumpAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitWarpJumpAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpJumpAction.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ef1f425-1357-4ba3-9820-741d203cac37" Title="UnitWarpMagnetAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpMagnetAction.htm">
+      <HelpTOCNode Title="UnitWarpMagnetAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpMagnetAction__ctor.htm" />
+      <HelpTOCNode Id="711f7cb2-13a1-4f9a-a549-f94cf6517a93" Title="UnitWarpMagnetAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpMagnetAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpMagnetAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitWarpMagnetAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Actions_UnitWarpMagnetAction.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="f4d7a3c9-08c1-4a62-8a66-cae02f6a6314" Title="EmptyKeys.Strategy.AI.Components.ActionsPlanet" Url="html/N_EmptyKeys_Strategy_AI_Components_ActionsPlanet.htm">
+    <HelpTOCNode Id="ab4ba06f-7d36-498d-848a-0937b62aec22" Title="FindPlanetUpgradeToBuild Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild.htm">
+      <HelpTOCNode Title="FindPlanetUpgradeToBuild Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild__ctor.htm" />
+      <HelpTOCNode Id="2af4ab07-0bf7-42af-8f67-fc801a62f166" Title="FindPlanetUpgradeToBuild Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild.htm">
+        <HelpTOCNode Title="UpgradeModifier Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild_UpgradeModifier.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ffcf176a-df90-4c32-b7ba-bf2994e52051" Title="FindPlanetUpgradeToBuild Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetUpgradeToBuild Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_FindPlanetUpgradeToBuild.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c49a90b2-e062-400b-937e-5ab2354d226e" Title="PlanetBuildFactoryItem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem.htm">
+      <HelpTOCNode Title="PlanetBuildFactoryItem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem__ctor.htm" />
+      <HelpTOCNode Id="f9e37bb6-f187-425d-adae-c5876633dedd" Title="PlanetBuildFactoryItem Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem_BehaviorName.htm" />
+        <HelpTOCNode Title="ItemTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem_ItemTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f41a1dd1-57e8-4710-b522-a37d74583aeb" Title="PlanetBuildFactoryItem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetBuildFactoryItem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuildFactoryItem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d9fbdef-509a-4757-9588-bc055c1c00fc" Title="PlanetBuyFactoryItem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem.htm">
+      <HelpTOCNode Title="PlanetBuyFactoryItem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem__ctor.htm" />
+      <HelpTOCNode Id="400cdb95-6ee3-41c6-bb57-6041449bfcc7" Title="PlanetBuyFactoryItem Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem_BehaviorName.htm" />
+        <HelpTOCNode Title="ItemTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem_ItemTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="339d935c-ed7f-43c5-a7c4-09969e64c3c6" Title="PlanetBuyFactoryItem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetBuyFactoryItem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetBuyFactoryItem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ed382a09-8a3e-403f-acd0-482fe8cccf0a" Title="PlanetMoveUnitFromOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit.htm">
+      <HelpTOCNode Title="PlanetMoveUnitFromOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit__ctor.htm" />
+      <HelpTOCNode Id="eca8935e-d61f-4355-b750-9a11d009645e" Title="PlanetMoveUnitFromOrbit Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit.htm">
+        <HelpTOCNode Title="DefensiveBehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit_DefensiveBehaviorName.htm" />
+        <HelpTOCNode Title="DefensiveRatio Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit_DefensiveRatio.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d1a78d3b-33c0-4c0b-9cf4-630a279b9d14" Title="PlanetMoveUnitFromOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetMoveUnitFromOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetMoveUnitFromOrbit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="89dab308-667f-445f-9fbe-dedb50e775d0" Title="PlanetRepairUnitsOnOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit.htm">
+      <HelpTOCNode Title="PlanetRepairUnitsOnOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit__ctor.htm" />
+      <HelpTOCNode Id="c48292f2-d7be-4b67-9ade-1b3ac694aca6" Title="PlanetRepairUnitsOnOrbit Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit.htm">
+        <HelpTOCNode Title="HullPercentage Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit_HullPercentage.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="318dd036-4cf8-4b91-925e-dc3e8f63aa21" Title="PlanetRepairUnitsOnOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetRepairUnitsOnOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetRepairUnitsOnOrbit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="71e9ec48-1f8c-45bb-8195-810a0b5fc34e" Title="PlanetSetBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior.htm">
+      <HelpTOCNode Title="PlanetSetBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior__ctor.htm" />
+      <HelpTOCNode Id="4a1f9643-764b-4460-85e1-fdbcdfc5b4af" Title="PlanetSetBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior_BehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ad64eb42-eb87-4fcb-b098-3fa35faab000" Title="PlanetSetBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetSetBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlanet_PlanetSetBehavior.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="411ad394-a362-424c-b584-2b82b671fc93" Title="EmptyKeys.Strategy.AI.Components.ActionsPlayer" Url="html/N_EmptyKeys_Strategy_AI_Components_ActionsPlayer.htm">
+    <HelpTOCNode Id="b2f9a42b-bc7e-41ef-903f-269fcc148ca3" Title="FindBuilderInSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindBuilderInSystem.htm">
+      <HelpTOCNode Title="FindBuilderInSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindBuilderInSystem__ctor.htm" />
+      <HelpTOCNode Id="feda678b-ec45-4d5a-a129-dba487060fc3" Title="FindBuilderInSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindBuilderInSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindBuilderInSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindBuilderInSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindBuilderInSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="279c7de6-b931-4965-8f8a-52916f9b76ff" Title="FindClosestEnemySystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem.htm">
+      <HelpTOCNode Title="FindClosestEnemySystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem__ctor.htm" />
+      <HelpTOCNode Id="ebe8ea15-5543-467e-9c42-1dc25f67b16a" Title="FindClosestEnemySystem Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem.htm">
+        <HelpTOCNode Title="DistanceSystemUtilityCoefficient Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem_DistanceSystemUtilityCoefficient.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5074378-0cf9-4217-9e2c-cbd1fe483c3b" Title="FindClosestEnemySystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindClosestEnemySystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindClosestEnemySystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3e4e53c6-2d99-47b0-9573-058913da5d30" Title="FindPlanetForBuild Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild.htm">
+      <HelpTOCNode Title="FindPlanetForBuild Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild__ctor.htm" />
+      <HelpTOCNode Id="cdcb7432-865e-40f3-82ba-960c92752540" Title="FindPlanetForBuild Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild.htm">
+        <HelpTOCNode Title="IgnoreBehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild_IgnoreBehaviorName.htm" />
+        <HelpTOCNode Title="PlanetWithTradeRoute Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild_PlanetWithTradeRoute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f09f1826-b2d2-47af-9314-f578cd3c7da8" Title="FindPlanetForBuild Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetForBuild Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuild.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="af4430c3-048f-4d56-988f-8b9a41834b91" Title="FindPlanetForBuildColonyShip Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip.htm">
+      <HelpTOCNode Title="FindPlanetForBuildColonyShip Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip__ctor.htm" />
+      <HelpTOCNode Id="b2aac6f3-c1f3-4a92-b214-706e99e9ede2" Title="FindPlanetForBuildColonyShip Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip.htm">
+        <HelpTOCNode Title="DistanceSystemUtilityCoefficient Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip_DistanceSystemUtilityCoefficient.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2559b7fc-6e53-46e5-a4c4-ee47b8c71c20" Title="FindPlanetForBuildColonyShip Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetForBuildColonyShip Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetForBuildColonyShip.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cfed93e4-fc14-4ba9-ad27-a08d14e009ca" Title="FindPlanetWithMinValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue.htm">
+      <HelpTOCNode Title="FindPlanetWithMinValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue__ctor.htm" />
+      <HelpTOCNode Id="49c46336-0768-4651-a59c-45d9af1c2a4a" Title="FindPlanetWithMinValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue.htm">
+        <HelpTOCNode Title="PlanetValueType Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue_PlanetValueType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1e4eda05-3aa3-41bb-8e17-3535a915a6bd" Title="FindPlanetWithMinValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetWithMinValue Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithMinValue.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e872b846-0dab-4f4c-94a4-49505ca1cba9" Title="FindPlanetWithoutBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithoutBehavior.htm">
+      <HelpTOCNode Title="FindPlanetWithoutBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithoutBehavior__ctor.htm" />
+      <HelpTOCNode Id="64a0ef18-27fd-4ccf-8ad4-e45d5743193f" Title="FindPlanetWithoutBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithoutBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithoutBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindPlanetWithoutBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindPlanetWithoutBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="57a11980-d71c-48f8-bb51-c74d48359ee2" Title="FindSystemWithoutDefense Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindSystemWithoutDefense.htm">
+      <HelpTOCNode Title="FindSystemWithoutDefense Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindSystemWithoutDefense__ctor.htm" />
+      <HelpTOCNode Id="b930cb38-2c98-4022-a09d-84b2fa18a57c" Title="FindSystemWithoutDefense Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindSystemWithoutDefense.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindSystemWithoutDefense_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindSystemWithoutDefense Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindSystemWithoutDefense.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="39b2bec9-00ae-478b-891b-210084453709" Title="FindTradeUnitWithoutRoute Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindTradeUnitWithoutRoute.htm">
+      <HelpTOCNode Title="FindTradeUnitWithoutRoute Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindTradeUnitWithoutRoute__ctor.htm" />
+      <HelpTOCNode Id="7c9529ac-234d-4482-a3d1-e385d875a23c" Title="FindTradeUnitWithoutRoute Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindTradeUnitWithoutRoute.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindTradeUnitWithoutRoute_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindTradeUnitWithoutRoute Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindTradeUnitWithoutRoute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2fd20936-a73e-4f47-9d70-989b8329eaa9" Title="FindUnitWithoutBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior.htm">
+      <HelpTOCNode Title="FindUnitWithoutBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior__ctor.htm" />
+      <HelpTOCNode Id="c53f9ab7-ad4e-49f4-9228-8820fb4867ed" Title="FindUnitWithoutBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior.htm">
+        <HelpTOCNode Title="AsteroidCheckEnabled Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior_AsteroidCheckEnabled.htm" />
+        <HelpTOCNode Title="UnitTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior_UnitTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cfea067f-7093-4a1a-88b8-80bb5b26afad" Title="FindUnitWithoutBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindUnitWithoutBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithoutBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="20062dd1-93bd-48a9-8f1f-8565a34856d5" Title="FindUnitWithUpgradePoint Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithUpgradePoint.htm">
+      <HelpTOCNode Title="FindUnitWithUpgradePoint Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithUpgradePoint__ctor.htm" />
+      <HelpTOCNode Id="add124c2-47e3-4109-a670-36944d9f63ff" Title="FindUnitWithUpgradePoint Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithUpgradePoint.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithUpgradePoint_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FindUnitWithUpgradePoint Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_FindUnitWithUpgradePoint.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="662a57b0-7bcd-433d-b10e-0b81cc613034" Title="PlayerDestroyUnit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerDestroyUnit.htm">
+      <HelpTOCNode Title="PlayerDestroyUnit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerDestroyUnit__ctor.htm" />
+      <HelpTOCNode Id="c2903794-71c9-43ee-ab2d-d8aeeaf46f93" Title="PlayerDestroyUnit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerDestroyUnit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerDestroyUnit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerDestroyUnit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerDestroyUnit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa92ee46-b056-44f5-b32a-69cc1217b977" Title="PlayerGetAllPlayerRelations Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerGetAllPlayerRelations.htm">
+      <HelpTOCNode Title="PlayerGetAllPlayerRelations Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerGetAllPlayerRelations__ctor.htm" />
+      <HelpTOCNode Id="b1cb825f-8d92-4263-9782-126b6a4af474" Title="PlayerGetAllPlayerRelations Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerGetAllPlayerRelations.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerGetAllPlayerRelations_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerGetAllPlayerRelations Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerGetAllPlayerRelations.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a07af4cc-593c-43e2-9d10-96efad2e6be8" Title="PlayerNextPlayerRelations Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerNextPlayerRelations.htm">
+      <HelpTOCNode Title="PlayerNextPlayerRelations Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerNextPlayerRelations__ctor.htm" />
+      <HelpTOCNode Id="18c45bb6-90fd-491f-84f6-1da9f8a7a879" Title="PlayerNextPlayerRelations Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerNextPlayerRelations.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerNextPlayerRelations_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerNextPlayerRelations Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerNextPlayerRelations.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="de550ee1-0185-423f-8bc4-1f493934ed1d" Title="PlayerRelationCloseBorders Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationCloseBorders.htm">
+      <HelpTOCNode Title="PlayerRelationCloseBorders Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationCloseBorders__ctor.htm" />
+      <HelpTOCNode Id="c2a5c6ae-e143-4cd6-9882-a3b48c0ca4b8" Title="PlayerRelationCloseBorders Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationCloseBorders.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationCloseBorders_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerRelationCloseBorders Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationCloseBorders.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="07b402ba-23b8-4fd5-a955-a843c13ab962" Title="PlayerRelationDeclareWar Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationDeclareWar.htm">
+      <HelpTOCNode Title="PlayerRelationDeclareWar Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationDeclareWar__ctor.htm" />
+      <HelpTOCNode Id="be3b0371-ebdc-4428-9526-f06661715d20" Title="PlayerRelationDeclareWar Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationDeclareWar.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationDeclareWar_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerRelationDeclareWar Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationDeclareWar.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e30f013-a55a-4221-b771-74ff32fb5f5a" Title="PlayerRelationOpenBorders Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationOpenBorders.htm">
+      <HelpTOCNode Title="PlayerRelationOpenBorders Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationOpenBorders__ctor.htm" />
+      <HelpTOCNode Id="b3fd7358-7095-4c78-a94f-901b4e9dd572" Title="PlayerRelationOpenBorders Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationOpenBorders.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationOpenBorders_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerRelationOpenBorders Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerRelationOpenBorders.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ec97a710-5531-421d-bef7-18dcf5db9c4b" Title="PlayerResearchTech Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech.htm">
+      <HelpTOCNode Title="PlayerResearchTech Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech__ctor.htm" />
+      <HelpTOCNode Id="9ec9eaad-c706-441e-bd9f-0685e8a6f42b" Title="PlayerResearchTech Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech.htm">
+        <HelpTOCNode Title="GoalTechnologyId Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech_GoalTechnologyId.htm" />
+        <HelpTOCNode Title="ProgressIncrement Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech_ProgressIncrement.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f06acc3a-2e4b-4aa2-b25f-7d7e9ea22e88" Title="PlayerResearchTech Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerResearchTech Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerResearchTech.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3a7e453-69f2-427b-b6f5-c312aa5db0b0" Title="PlayerSetPlanetBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior.htm">
+      <HelpTOCNode Title="PlayerSetPlanetBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior__ctor.htm" />
+      <HelpTOCNode Id="526769e4-87d6-4d64-86dc-8326fc02a4e6" Title="PlayerSetPlanetBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior_BehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b0295d59-4ada-4eed-b8b7-12f85d915462" Title="PlayerSetPlanetBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerSetPlanetBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetPlanetBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f9aaf7a5-9e56-41f2-b6a7-f686af10abff" Title="PlayerSetTradeRoute Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute.htm">
+      <HelpTOCNode Title="PlayerSetTradeRoute Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute__ctor.htm" />
+      <HelpTOCNode Id="e1dc82ee-0050-41dd-90cb-4435c24eea7d" Title="PlayerSetTradeRoute Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute.htm">
+        <HelpTOCNode Title="AutoRenew Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute_AutoRenew.htm" />
+        <HelpTOCNode Title="IncludeDomestic Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute_IncludeDomestic.htm" />
+        <HelpTOCNode Title="IncludeGlobal Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute_IncludeGlobal.htm" />
+        <HelpTOCNode Title="TradeBallance Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute_TradeBallance.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d45e9dd9-3ad0-4074-871e-78da83f37f73" Title="PlayerSetTradeRoute Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerSetTradeRoute Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetTradeRoute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="324afdb3-b7a5-4d97-8f3e-21e6826af90f" Title="PlayerSetUnitBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior.htm">
+      <HelpTOCNode Title="PlayerSetUnitBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior__ctor.htm" />
+      <HelpTOCNode Id="2027a3c8-38a4-450b-b0cb-c54ac980f443" Title="PlayerSetUnitBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior_BehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="70b1deec-118c-4860-8b2b-bcba3b5de156" Title="PlayerSetUnitBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerSetUnitBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="051e0478-0322-4bc8-a325-f704515206ca" Title="PlayerSetUnitsEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget.htm">
+      <HelpTOCNode Title="PlayerSetUnitsEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="752ce20d-7589-45f1-a67c-26502f6b15af" Title="PlayerSetUnitsEnvTarget Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget_BehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2c2aec01-f763-43d6-a1eb-cabd038f63bc" Title="PlayerSetUnitsEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerSetUnitsEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerSetUnitsEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e0534b64-e974-4cb6-9b49-3f03d0e9664d" Title="PlayerUpdateRelationsValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue.htm">
+      <HelpTOCNode Title="PlayerUpdateRelationsValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue__ctor.htm" />
+      <HelpTOCNode Id="c71d9c45-ccf2-463c-bf26-075d945be43b" Title="PlayerUpdateRelationsValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue.htm">
+        <HelpTOCNode Title="CloseBordersRelationChange Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue_CloseBordersRelationChange.htm" />
+        <HelpTOCNode Title="GlobalTradeRelationChange Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue_GlobalTradeRelationChange.htm" />
+        <HelpTOCNode Title="InfluenceRelationChange Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue_InfluenceRelationChange.htm" />
+        <HelpTOCNode Title="OpenBordersRelationChange Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue_OpenBordersRelationChange.htm" />
+        <HelpTOCNode Title="TechnologyRelationChange Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue_TechnologyRelationChange.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7e9499f-1a0f-4c26-aa32-9c67cae00237" Title="PlayerUpdateRelationsValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerUpdateRelationsValue Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpdateRelationsValue.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e6bd44e-15b1-4712-b037-67760037d92a" Title="PlayerUpgradeUnit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpgradeUnit.htm">
+      <HelpTOCNode Title="PlayerUpgradeUnit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpgradeUnit__ctor.htm" />
+      <HelpTOCNode Id="f01d725b-59ac-44ab-a3b1-eeebbbfca9d4" Title="PlayerUpgradeUnit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpgradeUnit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpgradeUnit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerUpgradeUnit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ActionsPlayer_PlayerUpgradeUnit.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c1d74e2a-8a73-4d83-a9d3-937f32b8ce38" Title="EmptyKeys.Strategy.AI.Components.Conditions" Url="html/N_EmptyKeys_Strategy_AI_Components_Conditions.htm">
+    <HelpTOCNode Id="01afca97-0620-439c-a215-853b99e16c20" Title="StrikeGroupIsDockUnitMember Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupIsDockUnitMember.htm">
+      <HelpTOCNode Title="StrikeGroupIsDockUnitMember Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupIsDockUnitMember__ctor.htm" />
+      <HelpTOCNode Id="4f8d68d1-21f5-43dd-846e-2169edf4423d" Title="StrikeGroupIsDockUnitMember Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupIsDockUnitMember.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupIsDockUnitMember_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupIsDockUnitMember Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupIsDockUnitMember.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3b9b9473-c8de-4137-a67b-c18929e57ea7" Title="StrikeGroupLeaderIsAttacking Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsAttacking.htm">
+      <HelpTOCNode Title="StrikeGroupLeaderIsAttacking Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsAttacking__ctor.htm" />
+      <HelpTOCNode Id="f8cdc1d1-eb84-432c-9980-a71e82a4beb9" Title="StrikeGroupLeaderIsAttacking Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsAttacking.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsAttacking_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupLeaderIsAttacking Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsAttacking.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="187ef518-2bcf-421c-961a-4c27d6d82ede" Title="StrikeGroupLeaderIsInDock Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInDock.htm">
+      <HelpTOCNode Title="StrikeGroupLeaderIsInDock Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInDock__ctor.htm" />
+      <HelpTOCNode Id="8232ab89-6616-4734-bf0c-aaec177e841c" Title="StrikeGroupLeaderIsInDock Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInDock.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInDock_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupLeaderIsInDock Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInDock.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="19b7bf5a-760b-41ad-aefc-2593a5f88678" Title="StrikeGroupLeaderIsInGalaxy Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInGalaxy.htm">
+      <HelpTOCNode Title="StrikeGroupLeaderIsInGalaxy Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInGalaxy__ctor.htm" />
+      <HelpTOCNode Id="33c10cd8-04b9-4fa5-af06-9005e55474c5" Title="StrikeGroupLeaderIsInGalaxy Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInGalaxy.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInGalaxy_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupLeaderIsInGalaxy Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInGalaxy.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="be9af319-ea3b-4fb4-b9a0-562666f721af" Title="StrikeGroupLeaderIsInSameSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInSameSystem.htm">
+      <HelpTOCNode Title="StrikeGroupLeaderIsInSameSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInSameSystem__ctor.htm" />
+      <HelpTOCNode Id="ede835cf-7a92-485f-b763-9eb9e9f15fbd" Title="StrikeGroupLeaderIsInSameSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInSameSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInSameSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupLeaderIsInSameSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsInSameSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f7cfe97b-f450-46e6-a866-f021ff91b734" Title="StrikeGroupLeaderIsOnOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsOnOrbit.htm">
+      <HelpTOCNode Title="StrikeGroupLeaderIsOnOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsOnOrbit__ctor.htm" />
+      <HelpTOCNode Id="fcdaa6cf-3802-4e2a-9ec6-fa5249d0212b" Title="StrikeGroupLeaderIsOnOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsOnOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsOnOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupLeaderIsOnOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderIsOnOrbit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="050fb09a-df68-4d7e-8a51-556726a42a25" Title="StrikeGroupLeaderMiniJumped Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderMiniJumped.htm">
+      <HelpTOCNode Title="StrikeGroupLeaderMiniJumped Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderMiniJumped__ctor.htm" />
+      <HelpTOCNode Id="b52ab9b7-332e-46fc-84c8-724a470b4f28" Title="StrikeGroupLeaderMiniJumped Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderMiniJumped.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderMiniJumped_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StrikeGroupLeaderMiniJumped Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_StrikeGroupLeaderMiniJumped.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f44cd48a-95cd-4d4b-99a0-338fe212dde3" Title="UnitCanAttack Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanAttack.htm">
+      <HelpTOCNode Title="UnitCanAttack Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanAttack__ctor.htm" />
+      <HelpTOCNode Id="055c808d-7ba9-400f-adaf-2d57dc0e49b7" Title="UnitCanAttack Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanAttack.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanAttack_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanAttack Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanAttack.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="36ec9d48-2f2c-4832-a6d8-6cbb328ec2a6" Title="UnitCanBuild Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanBuild.htm">
+      <HelpTOCNode Title="UnitCanBuild Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanBuild__ctor.htm" />
+      <HelpTOCNode Id="0a5a967a-758e-447c-b068-4c4827e149e7" Title="UnitCanBuild Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanBuild.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanBuild_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanBuild Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanBuild.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="31a1669f-f27f-4c58-99e3-32e0f5f26cce" Title="UnitCanColonize Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanColonize.htm">
+      <HelpTOCNode Title="UnitCanColonize Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanColonize__ctor.htm" />
+      <HelpTOCNode Id="d9147ee7-fd98-4a93-9aee-4616d00fc04c" Title="UnitCanColonize Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanColonize.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanColonize_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanColonize Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanColonize.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c074a63f-04d7-4627-abcb-a21737512aa5" Title="UnitCanDoNothing Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanDoNothing.htm">
+      <HelpTOCNode Title="UnitCanDoNothing Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanDoNothing__ctor.htm" />
+      <HelpTOCNode Id="f9ae35b5-22e4-4483-8b32-b065a9335aae" Title="UnitCanDoNothing Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanDoNothing.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanDoNothing_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanDoNothing Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanDoNothing.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e83639a6-36d2-4279-b7b2-8a6afdab8188" Title="UnitCanExplore Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExplore.htm">
+      <HelpTOCNode Title="UnitCanExplore Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExplore__ctor.htm" />
+      <HelpTOCNode Id="eb4a6533-700c-4892-9f1a-c3887c97aed9" Title="UnitCanExplore Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExplore.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExplore_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanExplore Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExplore.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc81d878-8d2f-4bb4-8d1e-6ab2dbddeb3f" Title="UnitCanExtract Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExtract.htm">
+      <HelpTOCNode Title="UnitCanExtract Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExtract__ctor.htm" />
+      <HelpTOCNode Id="a2cf6662-bb5c-4cdf-b3d2-08ec4e2f7164" Title="UnitCanExtract Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExtract.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExtract_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanExtract Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanExtract.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8fdcaa8c-fb0a-4732-9650-15d754057f96" Title="UnitCanMiniJump Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMiniJump.htm">
+      <HelpTOCNode Title="UnitCanMiniJump Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMiniJump__ctor.htm" />
+      <HelpTOCNode Id="30cdcb24-de07-472a-b863-79a514c8e1ac" Title="UnitCanMiniJump Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMiniJump.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMiniJump_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanMiniJump Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMiniJump.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d88f2a54-2ee3-4fb3-a47e-d3a5b544b94e" Title="UnitCanMove Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMove.htm">
+      <HelpTOCNode Title="UnitCanMove Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMove__ctor.htm" />
+      <HelpTOCNode Id="4f0e3fec-dee8-478b-a565-7f658baf353c" Title="UnitCanMove Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMove.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMove_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanMove Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanMove.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e942c8d1-f6a7-4e49-8652-fc6a3210718f" Title="UnitCanOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanOrbit.htm">
+      <HelpTOCNode Title="UnitCanOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanOrbit__ctor.htm" />
+      <HelpTOCNode Id="c532d168-8775-455f-9b52-5a677a585857" Title="UnitCanOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanOrbit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9afc0bd7-f58e-43cd-a722-85319611f6a7" Title="UnitCanScan Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanScan.htm">
+      <HelpTOCNode Title="UnitCanScan Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanScan__ctor.htm" />
+      <HelpTOCNode Id="2b17e816-bb71-4152-9065-a2f0f19a4877" Title="UnitCanScan Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanScan.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanScan_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanScan Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanScan.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6815dff0-903b-4ca5-a0a9-35b25e4c3ffb" Title="UnitCanSleep Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanSleep.htm">
+      <HelpTOCNode Title="UnitCanSleep Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanSleep__ctor.htm" />
+      <HelpTOCNode Id="ad123944-0304-4dd0-8875-e5d7e8b77777" Title="UnitCanSleep Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanSleep.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanSleep_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanSleep Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanSleep.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="207b13c1-ccad-4f0f-a51c-1aa6118b67c2" Title="UnitCanStayAlert Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanStayAlert.htm">
+      <HelpTOCNode Title="UnitCanStayAlert Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanStayAlert__ctor.htm" />
+      <HelpTOCNode Id="73a1ecdb-543a-4793-8a47-cd86c0947d7c" Title="UnitCanStayAlert Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanStayAlert.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanStayAlert_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanStayAlert Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanStayAlert.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0216db24-f0e8-46bc-bc63-88c3fa9387f8" Title="UnitCanWakeUp Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWakeUp.htm">
+      <HelpTOCNode Title="UnitCanWakeUp Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWakeUp__ctor.htm" />
+      <HelpTOCNode Id="4aad1ccb-b2f5-41b9-a287-8373fabbc83e" Title="UnitCanWakeUp Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWakeUp.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWakeUp_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanWakeUp Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWakeUp.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="22efad4d-7ed3-45ee-8f2e-ffde468e304c" Title="UnitCanWarp Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWarp.htm">
+      <HelpTOCNode Title="UnitCanWarp Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWarp__ctor.htm" />
+      <HelpTOCNode Id="ffc30ed3-05f8-403a-b252-6d2a416629f3" Title="UnitCanWarp Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWarp.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWarp_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitCanWarp Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitCanWarp.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="28f33d48-41b1-47ce-b85b-50ac6cbc68cc" Title="UnitHasEnvTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasEnvTarget.htm">
+      <HelpTOCNode Title="UnitHasEnvTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasEnvTarget__ctor.htm" />
+      <HelpTOCNode Id="6609ced1-ce21-4899-ae24-69c6d53aeb7f" Title="UnitHasEnvTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasEnvTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasEnvTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitHasEnvTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasEnvTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60e48be8-b0b3-4d5f-9097-140671816352" Title="UnitHasTarget Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTarget.htm">
+      <HelpTOCNode Title="UnitHasTarget Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTarget__ctor.htm" />
+      <HelpTOCNode Id="cefaf5d0-6e54-4297-a037-5afbc63adb62" Title="UnitHasTarget Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTarget.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTarget_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitHasTarget Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTarget.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5c6bd3f8-751c-43e6-91e1-464e9cd716b6" Title="UnitHasTask Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTask.htm">
+      <HelpTOCNode Title="UnitHasTask Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTask__ctor.htm" />
+      <HelpTOCNode Id="4680a39d-a5fe-4a9b-b2bb-590803d46fb9" Title="UnitHasTask Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTask.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTask_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitHasTask Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTask.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bb600f18-c06d-4c63-829a-c9b88fc65a84" Title="UnitHasTradeRoute Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTradeRoute.htm">
+      <HelpTOCNode Title="UnitHasTradeRoute Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTradeRoute__ctor.htm" />
+      <HelpTOCNode Id="011e12cb-c536-4302-83f5-6bca937e3214" Title="UnitHasTradeRoute Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTradeRoute.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTradeRoute_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitHasTradeRoute Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitHasTradeRoute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d1f7307a-f3c9-4fcc-82ae-121e9cc6f55b" Title="UnitIsAtEmptySpace Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsAtEmptySpace.htm">
+      <HelpTOCNode Title="UnitIsAtEmptySpace Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsAtEmptySpace__ctor.htm" />
+      <HelpTOCNode Id="3ff02beb-d1cc-450b-905d-64034e4c073d" Title="UnitIsAtEmptySpace Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsAtEmptySpace.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsAtEmptySpace_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsAtEmptySpace Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsAtEmptySpace.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ed0ecac4-6e5b-4654-ace6-c38f6e61ffc6" Title="UnitIsColonizing Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsColonizing.htm">
+      <HelpTOCNode Title="UnitIsColonizing Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsColonizing__ctor.htm" />
+      <HelpTOCNode Id="ff519e29-bc01-40df-acca-43e99857cfbc" Title="UnitIsColonizing Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsColonizing.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsColonizing_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsColonizing Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsColonizing.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="923a4b57-c0df-4335-bbbc-dd13fe5144c2" Title="UnitIsEnemyInfluenceHigher Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnemyInfluenceHigher.htm">
+      <HelpTOCNode Title="UnitIsEnemyInfluenceHigher Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnemyInfluenceHigher__ctor.htm" />
+      <HelpTOCNode Id="39e42b30-a2e6-4373-8b7a-04d17649b61a" Title="UnitIsEnemyInfluenceHigher Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnemyInfluenceHigher.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnemyInfluenceHigher_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsEnemyInfluenceHigher Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnemyInfluenceHigher.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="82680343-10b4-45fc-932b-aa15319c761d" Title="UnitIsEnvTargetSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnvTargetSystem.htm">
+      <HelpTOCNode Title="UnitIsEnvTargetSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnvTargetSystem__ctor.htm" />
+      <HelpTOCNode Id="7449ff05-dd32-4589-bfba-8d582965cfab" Title="UnitIsEnvTargetSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnvTargetSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnvTargetSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsEnvTargetSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsEnvTargetSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b81b285-f254-425f-a2fc-1b693776bb6c" Title="UnitIsHullAbove Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove.htm">
+      <HelpTOCNode Title="UnitIsHullAbove Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove__ctor.htm" />
+      <HelpTOCNode Id="d80992a5-8cac-41be-9ad1-7793293e1371" Title="UnitIsHullAbove Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove.htm">
+        <HelpTOCNode Title="HullPercentage Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove_HullPercentage.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ecc8b0ea-f16a-456f-a20c-8cdcbcc552fe" Title="UnitIsHullAbove Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsHullAbove Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullAbove.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="069f598e-fbf3-4cd2-9192-92e7ae9c6505" Title="UnitIsHullBelow Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow.htm">
+      <HelpTOCNode Title="UnitIsHullBelow Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow__ctor.htm" />
+      <HelpTOCNode Id="bb7f31a2-0022-4cc6-b75c-0bee0274c58c" Title="UnitIsHullBelow Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow.htm">
+        <HelpTOCNode Title="HullPercentage Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow_HullPercentage.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7af861f-41d3-4c6a-ac8a-720223ae1b2c" Title="UnitIsHullBelow Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsHullBelow Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsHullBelow.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bd79efc-f598-4361-b2ad-644b76c4e1c8" Title="UnitIsInDock Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInDock.htm">
+      <HelpTOCNode Title="UnitIsInDock Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInDock__ctor.htm" />
+      <HelpTOCNode Id="46843427-87b7-4c10-ba9a-49e7af7610f7" Title="UnitIsInDock Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInDock.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInDock_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsInDock Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInDock.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="54cf2304-748b-4e6e-b91d-25c592180914" Title="UnitIsInEnvTargetPosition Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetPosition.htm">
+      <HelpTOCNode Title="UnitIsInEnvTargetPosition Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetPosition__ctor.htm" />
+      <HelpTOCNode Id="2b8567f1-7bc7-4f6a-ac37-e02bdc835545" Title="UnitIsInEnvTargetPosition Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetPosition.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetPosition_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsInEnvTargetPosition Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetPosition.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9a2846dc-3f70-499d-a9bb-ebf98f9426e5" Title="UnitIsInEnvTargetRange Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetRange.htm">
+      <HelpTOCNode Title="UnitIsInEnvTargetRange Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetRange__ctor.htm" />
+      <HelpTOCNode Id="8d243d4f-1f05-4b51-a3cd-7814b87b25c6" Title="UnitIsInEnvTargetRange Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetRange.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetRange_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsInEnvTargetRange Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetRange.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3f407e1-904f-4184-8cce-674d6f8aae8b" Title="UnitIsInEnvTargetSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetSystem.htm">
+      <HelpTOCNode Title="UnitIsInEnvTargetSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetSystem__ctor.htm" />
+      <HelpTOCNode Id="cc432fc5-5011-4ac5-a6aa-633888dcb035" Title="UnitIsInEnvTargetSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsInEnvTargetSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInEnvTargetSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="13b30342-34c3-4ba4-8783-5ebad025fc45" Title="UnitIsInGalaxyEnvironment Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInGalaxyEnvironment.htm">
+      <HelpTOCNode Title="UnitIsInGalaxyEnvironment Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInGalaxyEnvironment__ctor.htm" />
+      <HelpTOCNode Id="0c998080-fe81-4f07-93bf-f31d6b6b2d82" Title="UnitIsInGalaxyEnvironment Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInGalaxyEnvironment.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInGalaxyEnvironment_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsInGalaxyEnvironment Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInGalaxyEnvironment.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="72073255-7bf4-4998-b593-6f7a3d9dd243" Title="UnitIsInPlanetSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInPlanetSystem.htm">
+      <HelpTOCNode Title="UnitIsInPlanetSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInPlanetSystem__ctor.htm" />
+      <HelpTOCNode Id="3fc04c2f-c1a7-402d-9342-81a75fc9b8a9" Title="UnitIsInPlanetSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInPlanetSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInPlanetSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsInPlanetSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsInPlanetSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3fc3cfaf-9750-4b6e-a059-1eee4843fb1e" Title="UnitIsMoving Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsMoving.htm">
+      <HelpTOCNode Title="UnitIsMoving Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsMoving__ctor.htm" />
+      <HelpTOCNode Id="59072129-d9a8-4d3a-a192-40c2185af2d0" Title="UnitIsMoving Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsMoving.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsMoving_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsMoving Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsMoving.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f48a8f21-5217-4ddd-9a86-4ac3ecaf578a" Title="UnitIsOnOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsOnOrbit.htm">
+      <HelpTOCNode Title="UnitIsOnOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsOnOrbit__ctor.htm" />
+      <HelpTOCNode Id="a54ece29-d9f3-4c7a-9405-75d54e558011" Title="UnitIsOnOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsOnOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsOnOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsOnOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsOnOrbit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="590a6272-31c8-4f6e-84e0-98b8cf862104" Title="UnitIsPlanetOwned Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsPlanetOwned.htm">
+      <HelpTOCNode Title="UnitIsPlanetOwned Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsPlanetOwned__ctor.htm" />
+      <HelpTOCNode Id="062595d3-3e0c-4474-9230-9f77978a8262" Title="UnitIsPlanetOwned Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsPlanetOwned.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsPlanetOwned_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsPlanetOwned Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsPlanetOwned.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c1b374d-3ccd-40d0-9b38-9f023de61697" Title="UnitIsSiegingPlanet Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSiegingPlanet.htm">
+      <HelpTOCNode Title="UnitIsSiegingPlanet Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSiegingPlanet__ctor.htm" />
+      <HelpTOCNode Id="de7fc9ba-c97e-4997-9a66-d66c6586efc8" Title="UnitIsSiegingPlanet Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSiegingPlanet.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSiegingPlanet_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsSiegingPlanet Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSiegingPlanet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ae5dda5-1094-492f-8dee-bff0d2a0011a" Title="UnitIsSystemBodyScanned Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSystemBodyScanned.htm">
+      <HelpTOCNode Title="UnitIsSystemBodyScanned Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSystemBodyScanned__ctor.htm" />
+      <HelpTOCNode Id="8561bd8b-e16e-42a0-ac51-b5f68408dd52" Title="UnitIsSystemBodyScanned Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSystemBodyScanned.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSystemBodyScanned_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsSystemBodyScanned Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsSystemBodyScanned.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="768a9ef1-3d5d-49e9-ade1-15a318efaea9" Title="UnitIsTargetDead Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetDead.htm">
+      <HelpTOCNode Title="UnitIsTargetDead Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetDead__ctor.htm" />
+      <HelpTOCNode Id="731d93f9-6bff-44e4-a297-47d6c44de1ce" Title="UnitIsTargetDead Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetDead.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetDead_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsTargetDead Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetDead.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="189f3831-5909-4405-829a-5eaf760e35e8" Title="UnitIsTargetInRange Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInRange.htm">
+      <HelpTOCNode Title="UnitIsTargetInRange Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInRange__ctor.htm" />
+      <HelpTOCNode Id="e57bc60b-ef7a-45be-8142-76508b01625d" Title="UnitIsTargetInRange Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInRange.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInRange_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsTargetInRange Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInRange.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e46f364-22b8-41ad-9c29-0c0086b558a0" Title="UnitIsTargetInSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInSystem.htm">
+      <HelpTOCNode Title="UnitIsTargetInSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInSystem__ctor.htm" />
+      <HelpTOCNode Id="204fe381-e797-4f12-b7bc-b6bd89e5b6af" Title="UnitIsTargetInSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsTargetInSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetInSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="be81a6b0-1812-4e43-9c61-f0d6138b4f3f" Title="UnitIsTargetMe Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMe.htm">
+      <HelpTOCNode Title="UnitIsTargetMe Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMe__ctor.htm" />
+      <HelpTOCNode Id="4b7a93a0-53df-4784-b712-ad717f00f709" Title="UnitIsTargetMe Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMe.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMe_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsTargetMe Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMe.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ec537668-c961-4da3-803b-629902066924" Title="UnitIsTargetMoving Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMoving.htm">
+      <HelpTOCNode Title="UnitIsTargetMoving Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMoving__ctor.htm" />
+      <HelpTOCNode Id="bbeec6ff-46ac-4a2a-9455-319ab8d4dd15" Title="UnitIsTargetMoving Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMoving.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMoving_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsTargetMoving Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsTargetMoving.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="33e5c3b7-4789-4c65-a748-17df4a5b242d" Title="UnitIsUnknownPlayerInSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsUnknownPlayerInSystem.htm">
+      <HelpTOCNode Title="UnitIsUnknownPlayerInSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsUnknownPlayerInSystem__ctor.htm" />
+      <HelpTOCNode Id="e1f058b8-a949-4edd-8f28-b88335366207" Title="UnitIsUnknownPlayerInSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsUnknownPlayerInSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsUnknownPlayerInSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitIsUnknownPlayerInSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitIsUnknownPlayerInSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="234b7119-c83e-4776-90b1-91e0dcaa0a43" Title="UnitOwnerCanDoUnitAction Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction.htm">
+      <HelpTOCNode Title="UnitOwnerCanDoUnitAction Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction__ctor.htm" />
+      <HelpTOCNode Id="b5ae118f-bc7e-40b2-b11b-19b47f15482c" Title="UnitOwnerCanDoUnitAction Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction.htm">
+        <HelpTOCNode Title="Action Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction_Action.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a4cbe888-c343-4ff6-9415-2b59b25aee0f" Title="UnitOwnerCanDoUnitAction Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UnitOwnerCanDoUnitAction Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Conditions_UnitOwnerCanDoUnitAction.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="69b929c8-804d-4f45-b660-3844aab613a1" Title="EmptyKeys.Strategy.AI.Components.ConditionsPlanet" Url="html/N_EmptyKeys_Strategy_AI_Components_ConditionsPlanet.htm">
+    <HelpTOCNode Id="99fca339-9785-4327-b647-3a065323d64f" Title="PlanetAnyBuilderUnitInSystem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetAnyBuilderUnitInSystem.htm">
+      <HelpTOCNode Title="PlanetAnyBuilderUnitInSystem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetAnyBuilderUnitInSystem__ctor.htm" />
+      <HelpTOCNode Id="549fea63-3030-48dd-a096-8698e98016a7" Title="PlanetAnyBuilderUnitInSystem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetAnyBuilderUnitInSystem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetAnyBuilderUnitInSystem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetAnyBuilderUnitInSystem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetAnyBuilderUnitInSystem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c0df782a-5e5d-4ad0-b7bb-b02a7a4cf8f1" Title="PlanetCanBuildColonyShip Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetCanBuildColonyShip.htm">
+      <HelpTOCNode Title="PlanetCanBuildColonyShip Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetCanBuildColonyShip__ctor.htm" />
+      <HelpTOCNode Id="d3d2feaa-69f7-4047-8055-85df5f3b0886" Title="PlanetCanBuildColonyShip Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetCanBuildColonyShip.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetCanBuildColonyShip_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetCanBuildColonyShip Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetCanBuildColonyShip.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a28dee2f-2161-43aa-9395-2857e7a5b6a8" Title="PlanetHasConstructionSlot Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasConstructionSlot.htm">
+      <HelpTOCNode Title="PlanetHasConstructionSlot Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasConstructionSlot__ctor.htm" />
+      <HelpTOCNode Id="9ed379f4-3fe5-49d3-b966-d0834cabaf12" Title="PlanetHasConstructionSlot Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasConstructionSlot.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasConstructionSlot_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetHasConstructionSlot Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasConstructionSlot.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bb43a8bf-4c26-4827-b823-8b84667b6312" Title="PlanetHasEnoughDefense Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense.htm">
+      <HelpTOCNode Title="PlanetHasEnoughDefense Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense__ctor.htm" />
+      <HelpTOCNode Id="950d9551-f6ef-4bdd-8702-d8c8237327e4" Title="PlanetHasEnoughDefense Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense.htm">
+        <HelpTOCNode Title="DefensiveBehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense_DefensiveBehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="32c33276-eedb-4851-b440-6b3a0f4b58f8" Title="PlanetHasEnoughDefense Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetHasEnoughDefense Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasEnoughDefense.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="deb52a4d-0150-45da-8dd1-d34fecca2dba" Title="PlanetHasSpaceOnOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasSpaceOnOrbit.htm">
+      <HelpTOCNode Title="PlanetHasSpaceOnOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasSpaceOnOrbit__ctor.htm" />
+      <HelpTOCNode Id="96dc53b6-6c8b-4438-b85b-f99c433bbe30" Title="PlanetHasSpaceOnOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasSpaceOnOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasSpaceOnOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetHasSpaceOnOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetHasSpaceOnOrbit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="09016a88-3895-408b-bada-5ddf86be69a1" Title="PlanetIsBuilding Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsBuilding.htm">
+      <HelpTOCNode Title="PlanetIsBuilding Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsBuilding__ctor.htm" />
+      <HelpTOCNode Id="ad3c0807-6ab4-478d-8417-34460bb48fc4" Title="PlanetIsBuilding Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsBuilding.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsBuilding_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetIsBuilding Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsBuilding.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e2f7048d-3ece-426c-8e24-dd3aeab404fa" Title="PlanetIsUnderSiege Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnderSiege.htm">
+      <HelpTOCNode Title="PlanetIsUnderSiege Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnderSiege__ctor.htm" />
+      <HelpTOCNode Id="86f9dfa5-ae5b-4831-b282-686bd513c481" Title="PlanetIsUnderSiege Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnderSiege.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnderSiege_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetIsUnderSiege Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnderSiege.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0230e229-5284-42cb-a40f-16844af91f25" Title="PlanetIsUnitOnOrbit Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnitOnOrbit.htm">
+      <HelpTOCNode Title="PlanetIsUnitOnOrbit Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnitOnOrbit__ctor.htm" />
+      <HelpTOCNode Id="1c69ce3d-528b-4992-b1b5-b80e96606459" Title="PlanetIsUnitOnOrbit Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnitOnOrbit.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnitOnOrbit_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlanetIsUnitOnOrbit Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlanet_PlanetIsUnitOnOrbit.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="53b06d18-51c3-48b9-ab51-070879db8625" Title="EmptyKeys.Strategy.AI.Components.ConditionsPlayer" Url="html/N_EmptyKeys_Strategy_AI_Components_ConditionsPlayer.htm">
+    <HelpTOCNode Id="5ab7aef8-b545-4e6c-af59-95835f176d3a" Title="PlayerHasAnyRelation Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyRelation.htm">
+      <HelpTOCNode Title="PlayerHasAnyRelation Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyRelation__ctor.htm" />
+      <HelpTOCNode Id="8f5d93a0-dfde-4dff-af5f-c0a63739ac7e" Title="PlayerHasAnyRelation Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyRelation.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyRelation_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasAnyRelation Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyRelation.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8472ba48-d251-40b2-ab4b-ed500c759e70" Title="PlayerHasAnyUpgrade Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyUpgrade.htm">
+      <HelpTOCNode Title="PlayerHasAnyUpgrade Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyUpgrade__ctor.htm" />
+      <HelpTOCNode Id="676e6802-cb6c-4017-a0c8-00580f35ce91" Title="PlayerHasAnyUpgrade Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyUpgrade.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyUpgrade_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasAnyUpgrade Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasAnyUpgrade.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8dedcc15-593d-4c93-84e5-b202a932aef9" Title="PlayerHasDeclaredWarRelation Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasDeclaredWarRelation.htm">
+      <HelpTOCNode Title="PlayerHasDeclaredWarRelation Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasDeclaredWarRelation__ctor.htm" />
+      <HelpTOCNode Id="4f18e29f-f685-4d6d-8f7c-c140f81c297e" Title="PlayerHasDeclaredWarRelation Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasDeclaredWarRelation.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasDeclaredWarRelation_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasDeclaredWarRelation Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasDeclaredWarRelation.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="28df8b91-79bb-4ca6-93d0-cff9782435eb" Title="PlayerHasEnemy Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnemy.htm">
+      <HelpTOCNode Title="PlayerHasEnemy Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnemy__ctor.htm" />
+      <HelpTOCNode Id="ee7235d6-4895-4d96-b89a-9830197e1ab2" Title="PlayerHasEnemy Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnemy.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnemy_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasEnemy Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnemy.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b2f46c1-c569-41bc-b011-37d0def92b9d" Title="PlayerHasEnergy Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergy.htm">
+      <HelpTOCNode Title="PlayerHasEnergy Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergy__ctor.htm" />
+      <HelpTOCNode Id="92bd32fd-1ed1-482c-a0ef-279f7c67dfd6" Title="PlayerHasEnergy Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergy.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergy_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasEnergy Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergy.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b4d1f02-3a6c-4f7b-aaa8-3ef29600a1ec" Title="PlayerHasEnergyForUnitMaintenance Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance.htm">
+      <HelpTOCNode Title="PlayerHasEnergyForUnitMaintenance Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance__ctor.htm" />
+      <HelpTOCNode Id="f28dff33-3502-44ea-a89d-affda44fc039" Title="PlayerHasEnergyForUnitMaintenance Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance.htm">
+        <HelpTOCNode Title="ItemTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance_ItemTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="04fbc32c-3adf-4a44-93b4-d84f7c9d6cb2" Title="PlayerHasEnergyForUnitMaintenance Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasEnergyForUnitMaintenance Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyForUnitMaintenance.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60aa016b-7d9a-43f7-b149-baf9fda44498" Title="PlayerHasEnergyIncome Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyIncome.htm">
+      <HelpTOCNode Title="PlayerHasEnergyIncome Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyIncome__ctor.htm" />
+      <HelpTOCNode Id="ebe9bd95-b3c1-42d3-ad39-2ee64741b094" Title="PlayerHasEnergyIncome Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyIncome.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyIncome_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasEnergyIncome Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnergyIncome.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0630bcaa-b0d6-45e5-82c4-1d13b42c7c26" Title="PlayerHasEnoughResources Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnoughResources.htm">
+      <HelpTOCNode Title="PlayerHasEnoughResources Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnoughResources__ctor.htm" />
+      <HelpTOCNode Id="bd325e9d-89fe-42d6-aa05-ca98a4a7bf35" Title="PlayerHasEnoughResources Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnoughResources.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnoughResources_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasEnoughResources Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasEnoughResources.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0be59f19-2b13-480b-87d7-71b63448bd33" Title="PlayerHasFactoryItem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem.htm">
+      <HelpTOCNode Title="PlayerHasFactoryItem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem__ctor.htm" />
+      <HelpTOCNode Id="14675e37-2f69-4a87-a272-b4f450f7f1e4" Title="PlayerHasFactoryItem Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem.htm">
+        <HelpTOCNode Title="FactoryItemId Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem_FactoryItemId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c228a823-f865-4d9e-89ad-a17955eb934c" Title="PlayerHasFactoryItem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasFactoryItem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasFactoryItem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7e252ef7-e131-4f5f-b72d-d8990141e032" Title="PlayerHasRelationBelowValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue.htm">
+      <HelpTOCNode Title="PlayerHasRelationBelowValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue__ctor.htm" />
+      <HelpTOCNode Id="2dc014f5-875d-4cb4-b80f-aacb5f3415a0" Title="PlayerHasRelationBelowValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue.htm">
+        <HelpTOCNode Title="RelationValue Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue_RelationValue.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="add425f9-7e29-4057-bc2b-60debd8036a4" Title="PlayerHasRelationBelowValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasRelationBelowValue Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasRelationBelowValue.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="08538af2-9a81-41a8-965f-961a195b64ad" Title="PlayerHasUnitType Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType.htm">
+      <HelpTOCNode Title="PlayerHasUnitType Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType__ctor.htm" />
+      <HelpTOCNode Id="d0d7a7af-e25c-45bd-bdc4-24bd5f5fac2c" Title="PlayerHasUnitType Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType.htm">
+        <HelpTOCNode Title="UnitTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType_UnitTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b74137ad-fd09-44e4-9aa9-cd1f60e1e895" Title="PlayerHasUnitType Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerHasUnitType Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerHasUnitType.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="21e0f8bb-d667-4350-9807-f4f2d6b3f511" Title="PlayerIsAnyUnitWithoutOrder Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAnyUnitWithoutOrder.htm">
+      <HelpTOCNode Title="PlayerIsAnyUnitWithoutOrder Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAnyUnitWithoutOrder__ctor.htm" />
+      <HelpTOCNode Id="23541556-4c06-4a81-9daa-c4f167b349ed" Title="PlayerIsAnyUnitWithoutOrder Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAnyUnitWithoutOrder.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAnyUnitWithoutOrder_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsAnyUnitWithoutOrder Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAnyUnitWithoutOrder.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="05ab6469-9845-4c98-aba4-207732ffaf51" Title="PlayerIsAtWar Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWar.htm">
+      <HelpTOCNode Title="PlayerIsAtWar Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWar__ctor.htm" />
+      <HelpTOCNode Id="7bc3626d-96e0-425f-8089-066b1de1652c" Title="PlayerIsAtWar Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWar.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWar_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsAtWar Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWar.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a32de85f-1331-4b58-b05e-b5648b79535e" Title="PlayerIsAtWarRelation Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWarRelation.htm">
+      <HelpTOCNode Title="PlayerIsAtWarRelation Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWarRelation__ctor.htm" />
+      <HelpTOCNode Id="0d914552-f4d1-468b-af3c-2a097a1f79f4" Title="PlayerIsAtWarRelation Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWarRelation.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWarRelation_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsAtWarRelation Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsAtWarRelation.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7db36ab-151e-4ba3-955a-d340d132837c" Title="PlayerIsBuildingFactoryItem Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem.htm">
+      <HelpTOCNode Title="PlayerIsBuildingFactoryItem Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem__ctor.htm" />
+      <HelpTOCNode Id="e9e727bf-e33f-479a-ad33-0bb2a6470769" Title="PlayerIsBuildingFactoryItem Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem.htm">
+        <HelpTOCNode Title="FactoryItemId Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem_FactoryItemId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="64743d97-5cdd-468d-8967-15b3e203dc37" Title="PlayerIsBuildingFactoryItem Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsBuildingFactoryItem Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsBuildingFactoryItem.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="743ea562-7d1e-40c3-a4f8-d83f0c03e8cc" Title="PlayerIsFriendlyRelation Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsFriendlyRelation.htm">
+      <HelpTOCNode Title="PlayerIsFriendlyRelation Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsFriendlyRelation__ctor.htm" />
+      <HelpTOCNode Id="946648d1-fe2c-410a-9dac-74105c53a97f" Title="PlayerIsFriendlyRelation Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsFriendlyRelation.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsFriendlyRelation_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsFriendlyRelation Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsFriendlyRelation.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4308e750-98ae-459b-888b-399056ad7356" Title="PlayerIsHostileRelation Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsHostileRelation.htm">
+      <HelpTOCNode Title="PlayerIsHostileRelation Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsHostileRelation__ctor.htm" />
+      <HelpTOCNode Id="0d0f04ac-b0df-468a-b08a-afbb4652271a" Title="PlayerIsHostileRelation Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsHostileRelation.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsHostileRelation_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsHostileRelation Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsHostileRelation.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7184dd09-9cfe-4f18-b0a4-48f9630c5b6b" Title="PlayerIsResearching Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsResearching.htm">
+      <HelpTOCNode Title="PlayerIsResearching Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsResearching__ctor.htm" />
+      <HelpTOCNode Id="c7643d53-19b1-440f-a56f-cf8edcfea843" Title="PlayerIsResearching Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsResearching.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsResearching_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsResearching Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsResearching.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="acadc876-3d9a-49b1-a11d-fc3e8ad61f8e" Title="PlayerIsUnitType Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType.htm">
+      <HelpTOCNode Title="PlayerIsUnitType Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType__ctor.htm" />
+      <HelpTOCNode Id="c3b49c14-f85c-4615-a18b-125bfe5f61da" Title="PlayerIsUnitType Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType.htm">
+        <HelpTOCNode Title="UnitTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType_UnitTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae4737e1-ed8e-4a1a-933e-f400ca97db1e" Title="PlayerIsUnitType Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerIsUnitType Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerIsUnitType.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3f03c0c-389f-44df-adbc-7c436dca643c" Title="PlayerNeedsTradeShip Class" Url="html/T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip.htm">
+      <HelpTOCNode Title="PlayerNeedsTradeShip Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip__ctor.htm" />
+      <HelpTOCNode Id="5c7783a6-ca85-498a-8853-2d78ec674d76" Title="PlayerNeedsTradeShip Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip.htm">
+        <HelpTOCNode Title="RouteShipRatio Property " Url="html/P_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip_RouteShipRatio.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f52928d-d036-4c28-a9f4-a57a70bdfe13" Title="PlayerNeedsTradeShip Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerNeedsTradeShip Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_ConditionsPlayer_PlayerNeedsTradeShip.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a5564be0-dd81-4b95-86f4-296aadb35125" Title="EmptyKeys.Strategy.AI.Components.Considerations" Url="html/N_EmptyKeys_Strategy_AI_Components_Considerations.htm">
+    <HelpTOCNode Id="6b9b2fa7-536c-446a-8371-9d13c60a4ab5" Title="BoolConsideration Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_BoolConsideration.htm">
+      <HelpTOCNode Title="BoolConsideration Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_BoolConsideration__ctor.htm" />
+      <HelpTOCNode Id="ac8e99bf-25ba-4a58-b949-315c40671ea3" Title="BoolConsideration Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_BoolConsideration.htm">
+        <HelpTOCNode Title="TrueBoundary Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_BoolConsideration_TrueBoundary.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f978ab5-23df-466c-8bc2-10851f51f85f" Title="BoolConsideration Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_BoolConsideration.htm">
+        <HelpTOCNode Title="Consider Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_BoolConsideration_Consider.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c1af5f0-39c9-43be-a51e-e04f3a4aff05" Title="ColonizationRatioValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_ColonizationRatioValue.htm">
+      <HelpTOCNode Title="ColonizationRatioValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_ColonizationRatioValue__ctor.htm" />
+      <HelpTOCNode Id="428623bd-f43e-4fa3-9258-9feab119c70d" Title="ColonizationRatioValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_ColonizationRatioValue.htm">
+        <HelpTOCNode Title="Ratio Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_ColonizationRatioValue_Ratio.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5cb62d18-c07b-470b-b4b6-dba79c86b8d3" Title="ColonizationRatioValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_ColonizationRatioValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_ColonizationRatioValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0de7a8f7-87e8-4323-9a65-1140bc238785" Title="Constant Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_Constant.htm">
+      <HelpTOCNode Title="Constant Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_Constant__ctor.htm" />
+      <HelpTOCNode Title="Constant Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_Constant.htm" />
+      <HelpTOCNode Id="e1faaccc-d27d-407f-b450-f39fd42c0001" Title="Constant Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_Constant.htm">
+        <HelpTOCNode Title="Consider Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_Constant_Consider.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="14e6448a-a8a6-4aac-9826-b505e4c73e83" Title="DecayCurve Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve.htm">
+      <HelpTOCNode Title="DecayCurve Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve__ctor.htm" />
+      <HelpTOCNode Id="e9a1abdc-dc6d-4af8-ac9a-145e41c37f22" Title="DecayCurve Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve.htm">
+        <HelpTOCNode Title="K Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve_K.htm" />
+        <HelpTOCNode Title="Max Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve_Max.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bd16c0f1-f140-469a-9b20-23f9ed131ad1" Title="DecayCurve Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve.htm">
+        <HelpTOCNode Title="Consider Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_DecayCurve_Consider.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8aadea00-65c9-47c6-acbc-557904ac1a18" Title="ExplorationRatioValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_ExplorationRatioValue.htm">
+      <HelpTOCNode Title="ExplorationRatioValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_ExplorationRatioValue__ctor.htm" />
+      <HelpTOCNode Id="94b5b4c7-cf2a-4cd8-881e-8e3701961db8" Title="ExplorationRatioValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_ExplorationRatioValue.htm">
+        <HelpTOCNode Title="Ratio Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_ExplorationRatioValue_Ratio.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="deaf56d9-08a7-4475-93b3-0fdcfde4492f" Title="ExplorationRatioValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_ExplorationRatioValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_ExplorationRatioValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="59c91ca8-1c53-4d85-bea4-a383b6baa303" Title="LogCurve Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve.htm">
+      <HelpTOCNode Title="LogCurve Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve__ctor.htm" />
+      <HelpTOCNode Id="7722e359-1658-4173-8ad1-90715889aad8" Title="LogCurve Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve.htm">
+        <HelpTOCNode Title="Denominator Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve_Denominator.htm" />
+        <HelpTOCNode Title="Middle Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve_Middle.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="23f6cebe-a9f3-4434-8743-1a667827e61c" Title="LogCurve Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve.htm">
+        <HelpTOCNode Title="Consider Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_LogCurve_Consider.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dcd3cf46-1458-4ec2-9438-fd7a2a26aa13" Title="PlanetUpgradesValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue.htm">
+      <HelpTOCNode Title="PlanetUpgradesValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue__ctor.htm" />
+      <HelpTOCNode Id="77dc0f37-06b7-49e8-9197-56a7fc8ef5ec" Title="PlanetUpgradesValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue.htm">
+        <HelpTOCNode Title="UpgradeModifier Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue_UpgradeModifier.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="20d5976a-d54f-48ff-8433-05dffe43b371" Title="PlanetUpgradesValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_PlanetUpgradesValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="75f4d381-c302-4294-b8b4-1352d14e02ed" Title="PlanetValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_PlanetValue.htm">
+      <HelpTOCNode Title="PlanetValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_PlanetValue__ctor.htm" />
+      <HelpTOCNode Title="PlanetValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_PlanetValue.htm" />
+      <HelpTOCNode Id="ad23cc98-0f6f-45c5-8a90-d7f57f87e986" Title="PlanetValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_PlanetValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_PlanetValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e190b3ae-45ce-47c1-ab7f-2bf634cd124e" Title="PlayerValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_PlayerValue.htm">
+      <HelpTOCNode Title="PlayerValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_PlayerValue__ctor.htm" />
+      <HelpTOCNode Title="PlayerValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_PlayerValue.htm" />
+      <HelpTOCNode Id="0c92f88f-3678-4e42-bb1d-24dc85b75a6a" Title="PlayerValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_PlayerValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_PlayerValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c34907e-eeab-4378-9b01-7d8726f0dab5" Title="ProductionAverageValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_ProductionAverageValue.htm">
+      <HelpTOCNode Title="ProductionAverageValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_ProductionAverageValue__ctor.htm" />
+      <HelpTOCNode Title="ProductionAverageValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_ProductionAverageValue.htm" />
+      <HelpTOCNode Id="07488728-ba09-4d12-b60d-31efb7a31c90" Title="ProductionAverageValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_ProductionAverageValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_ProductionAverageValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e3dac67e-b944-4fde-9b92-7bd94abcdbb3" Title="UnitValue Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Considerations_UnitValue.htm">
+      <HelpTOCNode Title="UnitValue Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_UnitValue__ctor.htm" />
+      <HelpTOCNode Title="UnitValue Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Considerations_UnitValue.htm" />
+      <HelpTOCNode Id="18f11385-4e20-4eb7-a0bd-ff81b9f22fad" Title="UnitValue Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Considerations_UnitValue.htm">
+        <HelpTOCNode Title="GetValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Considerations_UnitValue_GetValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a8f2e2e2-995c-4c23-a9d8-a0b96f9b1a06" Title="EmptyKeys.Strategy.AI.Components.Decisions" Url="html/N_EmptyKeys_Strategy_AI_Components_Decisions.htm">
+    <HelpTOCNode Id="27b6bc9b-bf8e-4c8f-bbe5-ce526c694bb5" Title="PlanetDecisionLeaf Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf.htm">
+      <HelpTOCNode Title="PlanetDecisionLeaf Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf__ctor.htm" />
+      <HelpTOCNode Id="c0e44fc5-3457-4ba3-88bd-ba7e4e1d08d5" Title="PlanetDecisionLeaf Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf.htm">
+        <HelpTOCNode Title="UpgradeModifier Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf_UpgradeModifier.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="703fc660-4960-4148-bfd5-919065085e86" Title="PlanetDecisionLeaf Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf.htm">
+        <HelpTOCNode Title="CalculateValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf_CalculateValue.htm" />
+        <HelpTOCNode Title="MakeDecision Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_PlanetDecisionLeaf_MakeDecision.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d57903af-0cdc-4b52-97da-5b019107aa26" Title="ResearchGoalLeaf Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf.htm">
+      <HelpTOCNode Title="ResearchGoalLeaf Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf__ctor.htm" />
+      <HelpTOCNode Id="5db8af3c-a81a-46de-8aea-562245ae6f27" Title="ResearchGoalLeaf Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf.htm">
+        <HelpTOCNode Title="GoalTechnologyId Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf_GoalTechnologyId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8c59cae2-82a4-4307-8918-6dd2a9a0b868" Title="ResearchGoalLeaf Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf.htm">
+        <HelpTOCNode Title="CalculateValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf_CalculateValue.htm" />
+        <HelpTOCNode Title="MakeDecision Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_ResearchGoalLeaf_MakeDecision.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f31e8935-c67a-47d2-a040-970841aa0020" Title="UnitBehaviorLeaf Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf.htm">
+      <HelpTOCNode Title="UnitBehaviorLeaf Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf__ctor.htm" />
+      <HelpTOCNode Id="ce0b0625-3da7-493f-92be-c5b56a967d5c" Title="UnitBehaviorLeaf Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf_BehaviorName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59ff7b3f-6615-4504-815a-28810ebd2366" Title="UnitBehaviorLeaf Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf.htm">
+        <HelpTOCNode Title="CalculateValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf_CalculateValue.htm" />
+        <HelpTOCNode Title="MakeDecision Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitBehaviorLeaf_MakeDecision.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cef78e6a-13a7-4f44-b8f8-e935f2323d36" Title="UnitDecisionLeaf Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf.htm">
+      <HelpTOCNode Title="UnitDecisionLeaf Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf__ctor.htm" />
+      <HelpTOCNode Id="78be7a42-e001-40e3-b794-296a7345da74" Title="UnitDecisionLeaf Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf.htm">
+        <HelpTOCNode Title="BehaviorName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf_BehaviorName.htm" />
+        <HelpTOCNode Title="UnitTypeName Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf_UnitTypeName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="610e70f2-202b-46e1-8f13-a28a767a5b3a" Title="UnitDecisionLeaf Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf.htm">
+        <HelpTOCNode Title="CalculateValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf_CalculateValue.htm" />
+        <HelpTOCNode Title="MakeDecision Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitDecisionLeaf_MakeDecision.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2dcfbba3-1e2f-4f63-9a80-10a4367d5f6c" Title="UnitUpgradeLeaf Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf.htm">
+      <HelpTOCNode Title="UnitUpgradeLeaf Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf__ctor.htm" />
+      <HelpTOCNode Id="e924b441-7f06-401a-9854-68de741cb2a4" Title="UnitUpgradeLeaf Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf.htm">
+        <HelpTOCNode Title="UpgradeId Property " Url="html/P_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf_UpgradeId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6121873d-9549-4c05-aa34-34365ad95d4f" Title="UnitUpgradeLeaf Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf.htm">
+        <HelpTOCNode Title="CalculateValue Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf_CalculateValue.htm" />
+        <HelpTOCNode Title="MakeDecision Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decisions_UnitUpgradeLeaf_MakeDecision.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7e3bd238-e89f-4d0b-bed3-6a6867e81a60" Title="EmptyKeys.Strategy.AI.Components.Decorators" Url="html/N_EmptyKeys_Strategy_AI_Components_Decorators.htm">
+    <HelpTOCNode Id="ca2f00a2-b18b-4c1a-8d08-6a11bcf36b85" Title="PlayerResearchBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerResearchBehavior.htm">
+      <HelpTOCNode Title="PlayerResearchBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decorators_PlayerResearchBehavior__ctor.htm" />
+      <HelpTOCNode Title="PlayerResearchBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerResearchBehavior.htm" />
+      <HelpTOCNode Id="55e8f954-dbc4-4af9-b185-23670a545995" Title="PlayerResearchBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerResearchBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decorators_PlayerResearchBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerResearchBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerResearchBehavior.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe8a8b10-3407-474e-bcd4-f298fc59378c" Title="PlayerTradeBehavior Class" Url="html/T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerTradeBehavior.htm">
+      <HelpTOCNode Title="PlayerTradeBehavior Constructor " Url="html/M_EmptyKeys_Strategy_AI_Components_Decorators_PlayerTradeBehavior__ctor.htm" />
+      <HelpTOCNode Title="PlayerTradeBehavior Properties" Url="html/Properties_T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerTradeBehavior.htm" />
+      <HelpTOCNode Id="9350a4ea-4ddf-416c-ac0a-dc7a59cdfc03" Title="PlayerTradeBehavior Methods" Url="html/Methods_T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerTradeBehavior.htm">
+        <HelpTOCNode Title="Behave Method " Url="html/M_EmptyKeys_Strategy_AI_Components_Decorators_PlayerTradeBehavior_Behave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerTradeBehavior Fields" Url="html/Fields_T_EmptyKeys_Strategy_AI_Components_Decorators_PlayerTradeBehavior.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
