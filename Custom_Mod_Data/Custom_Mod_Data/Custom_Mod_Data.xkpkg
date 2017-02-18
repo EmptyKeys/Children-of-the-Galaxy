@@ -53,5 +53,6 @@ RootAssets:
     - 5f50f855-94ea-46c4-add0-afaaba40a75c:UI/Images/Races/Race_100_GalaxyMapLogo
     - 7b258852-c1af-44de-8a52-9b540b7761ff:UI/Images/Races/Race_100_SmallImage
     - b7a6986b-af4a-4331-8664-819e6ec25cab:ModScene
+    - cf667db4-7420-414b-988c-5e1bc43bd075:UI/Images/UnitUpgradeIcons/UnitUpgrade_200_SmallImage
     - eeb3a040-1195-4bd6-af7d-be1d46262f37:UI/Images/Units/FactoryItem_100_1000_LargeImage
     - f5baab4f-7047-458e-ada3-b58e5123626a:UI/Images/Units/FactoryItem_100_1000_Icon

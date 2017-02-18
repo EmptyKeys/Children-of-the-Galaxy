@@ -1,0 +1,7 @@
+!Texture
+Id: cf667db4-7420-414b-988c-5e1bc43bd075
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../Resources/UnitUpgrade_200_SmallImage.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Format: AsIs
