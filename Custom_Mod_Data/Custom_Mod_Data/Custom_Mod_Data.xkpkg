@@ -51,3 +51,5 @@ Bundles:
 TemplateFolders: []
 RootAssets:
     - b7a6986b-af4a-4331-8664-819e6ec25cab:ModScene
+    - eeb3a040-1195-4bd6-af7d-be1d46262f37:UI/Images/Units/FactoryItem_100_1000_LargeImage
+    - f5baab4f-7047-458e-ada3-b58e5123626a:UI/Images/Units/FactoryItem_100_1000_Icon

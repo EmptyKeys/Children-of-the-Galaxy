@@ -1,0 +1,6 @@
+!Texture
+Id: eeb3a040-1195-4bd6-af7d-be1d46262f37
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../Resources/placeholder.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

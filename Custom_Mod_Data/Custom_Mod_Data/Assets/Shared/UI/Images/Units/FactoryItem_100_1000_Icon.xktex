@@ -1,0 +1,6 @@
+!Texture
+Id: f5baab4f-7047-458e-ada3-b58e5123626a
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../Resources/iconPlaceHolder.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
