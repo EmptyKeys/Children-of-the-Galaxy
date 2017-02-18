@@ -1,0 +1,7 @@
+!Texture
+Id: 7b258852-c1af-44de-8a52-9b540b7761ff
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../Resources/Race_100_SmallImage.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Format: AsIs

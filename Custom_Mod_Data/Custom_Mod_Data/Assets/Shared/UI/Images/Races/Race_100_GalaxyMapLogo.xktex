@@ -1,0 +1,6 @@
+!Texture
+Id: 5f50f855-94ea-46c4-add0-afaaba40a75c
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../Resources/Race_100_GalaxyMapLogo.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
