@@ -1,0 +1,13 @@
+!MaterialAsset
+Id: 52d4b9a6-b492-48c7-8bc8-db4074d61d53
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Attributes:
+    Transparency: !MaterialTransparencyBlendFeature
+        Alpha: !ComputeFloat
+            Value: 0.32
+        Tint: !ComputeColor
+            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

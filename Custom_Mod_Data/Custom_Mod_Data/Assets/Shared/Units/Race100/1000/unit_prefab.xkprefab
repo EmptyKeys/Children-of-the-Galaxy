@@ -1,0 +1,41 @@
+!PrefabAsset
+Id: 1c6a5a98-9ee0-4c13-b5b3-fbe6e44ca8d1
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - 10e9a32a-fb86-4520-b7b8-b4598f17ab24
+    Parts:
+        -   Entity:
+                Id: 10e9a32a-fb86-4520-b7b8-b4598f17ab24
+                Name: Cube
+                Components:
+                    d1a538280ab95dc2560192da8839cf31: !TransformComponent
+                        Id: 1c5258be-ae33-418c-ad0b-92bd03a0400a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            d5980610f4210b948fe76530913fae2d: 76b118c6-8a5f-4511-8883-5b639064b8b0/ca1ad2e8-7755-49a6-b943-696e4edb8314
+                    37421ffe0a813d625e9c69794621d555: !ModelComponent
+                        Id: ec09fe5e-e303-42f6-92cc-72e68f0c6e2a
+                        Model: 5b9f983b-b0b6-4aca-a1c3-9a7b3f2a5dde:Units/Race100/1000/Cube
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+        -   Entity:
+                Id: 76b118c6-8a5f-4511-8883-5b639064b8b0
+                Name: Shields
+                Components:
+                    b3f56ae1f89f56e5f9ef490a4bda95ec: !TransformComponent
+                        Id: ca1ad2e8-7755-49a6-b943-696e4edb8314
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    1d96ffbaa9c9503f85c5e434c599f847: !ModelComponent
+                        Id: 1357d715-45a8-4a38-9376-c0825bbed81b
+                        Model: 4772979f-207a-4308-9102-2198eab465b0:Units/Race100/Shields
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false

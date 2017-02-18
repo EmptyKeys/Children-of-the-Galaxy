@@ -1,0 +1,53 @@
+!Package
+Id: c63efa2d-c952-4f2c-9b83-6ea24616917b
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: Custom_Mod_Data
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: Custom_Mod_Data
+    Dependencies:
+        -   Name: Xenko
+            Version: 1.9.3-beta
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: Custom_Mod_Data.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 743c1d82-21d9-4052-a51f-ee3165c470e2
+                Location: Custom_Mod_Data.Game/Custom_Mod_Data.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 5f50583b-2dca-474c-aac5-ab8e3cca3d0d
+                Location: Custom_Mod_Data.Windows/Custom_Mod_Data.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles:
+    -   Name: mod
+        Selectors:
+            - !PathSelector
+                Paths:
+                    - ModScene
+                    - UI/
+                    - Environment/
+                    - Units/
+                    - Units/
+                    - Units/
+                    - Units/
+        Dependencies: []
+TemplateFolders: []
+RootAssets:
+    - b7a6986b-af4a-4331-8664-819e6ec25cab:ModScene

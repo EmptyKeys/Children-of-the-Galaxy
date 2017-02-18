@@ -1,0 +1,118 @@
+!SceneAsset
+Id: b7a6986b-af4a-4331-8664-819e6ec25cab
+SerializedVersion: {Xenko: 1.9.0-beta06}
+Tags: []
+SceneSettings:
+    Id: 48540fb9-ce87-4c8a-adb9-218691e19dde
+    GraphicsCompositor: !SceneGraphicsCompositorLayers
+        Cameras:
+            eb5b6988b6478f43ec8214360aefb197:
+                Name: null
+                Camera: 1822c17b-b242-4c20-aef0-72edd8be575b/add9c778-72a4-4d69-82b0-9bfe47310f08
+        Layers: {}
+        Master:
+            Name: SceneGraphicsLayer
+            Output: !MasterRenderFrameProvider {}
+            Renderers:
+                3979d2e62e38b15b9c40ff525a7cd92f: !ClearRenderFrameRenderer
+                    Color: {R: 0.392156869, G: 0.58431375, B: 0.929411769, A: 1.0}
+                    Output: !CurrentRenderFrameProvider {}
+                1a18237c0145d016d88ad6240a566cd5: !SceneCameraRenderer
+                    Mode: !CameraRendererModeForward {}
+                    Camera:
+                        Index: 0
+                    Output: !CurrentRenderFrameProvider {}
+                    Viewport: {X: 0.0, Y: 0.0, Width: 100.0, Height: 100.0}
+                    ForceAspectRatio: false
+    EditorSettings:
+        GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
+        SceneUnit: 1.0
+        Mode: !SceneEditorGraphicsModeLDRSettings
+            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
+Hierarchy:
+    RootPartIds:
+        - 1822c17b-b242-4c20-aef0-72edd8be575b
+        - 876bda99-fe97-4152-bd90-e77eb9631c72
+        - d2062dee-a382-42c3-8e98-ef963348da15
+    Parts:
+        -   Entity:
+                Id: 1822c17b-b242-4c20-aef0-72edd8be575b
+                Name: Camera
+                Components:
+                    88351ab8e13298b437624f68474c4322: !TransformComponent
+                        Id: 912add81-cb11-4529-9b84-fdc6fb25e81f
+                        Position: {X: -1.0, Y: 1.2, Z: 2.7}
+                        Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    81223aab29ef6b381724e94c188970b3: !CameraComponent
+                        Id: add9c778-72a4-4d69-82b0-9bfe47310f08
+                        Projection: Perspective
+        -   Entity:
+                Id: 6f225089-de5a-4a32-a9c3-088f0648b15a
+                Name: Shields
+                Components:
+                    b3f56ae1f89f56e5f9ef490a4bda95ec: !TransformComponent
+                        Id: ca1ad2e8-7755-49a6-b943-696e4edb8314
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    1d96ffbaa9c9503f85c5e434c599f847: !ModelComponent
+                        Id: 1357d715-45a8-4a38-9376-c0825bbed81b
+                        Model: 4772979f-207a-4308-9102-2198eab465b0:Units/Race100/Shields
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: 1c6a5a98-9ee0-4c13-b5b3-fbe6e44ca8d1:Units/Race100/1000/unit_prefab
+                BasePartId: 76b118c6-8a5f-4511-8883-5b639064b8b0
+                InstanceId: 45d612c5-3194-4990-b8db-4f2a6adde895
+        -   Entity:
+                Id: 876bda99-fe97-4152-bd90-e77eb9631c72
+                Name: Ambient light
+                Components:
+                    d92b77f275086be05e9a66f7cde1668e: !TransformComponent
+                        Id: 50a61089-777b-4dce-8242-94fd1322dee4
+                        Position: {X: -2.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b348bb1bbb5281ec323ec3a2c7c7baa2: !LightComponent
+                        Id: 42bde513-20cb-4fde-a738-06d08d239868
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.768627465, G: 0.843137264, B: 1.0}
+                        Intensity: 0.8
+        -   Entity:
+                Id: c2f59225-2f00-4ec1-a6ab-176773fa0dcc
+                Name: Cube
+                Components:
+                    d1a538280ab95dc2560192da8839cf31: !TransformComponent
+                        Id: 1c5258be-ae33-418c-ad0b-92bd03a0400a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            d5980610f4210b948fe76530913fae2d: 6f225089-de5a-4a32-a9c3-088f0648b15a/ca1ad2e8-7755-49a6-b943-696e4edb8314
+                    37421ffe0a813d625e9c69794621d555: !ModelComponent
+                        Id: ec09fe5e-e303-42f6-92cc-72e68f0c6e2a
+                        Model: 5b9f983b-b0b6-4aca-a1c3-9a7b3f2a5dde:Units/Race100/1000/Cube
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: 1c6a5a98-9ee0-4c13-b5b3-fbe6e44ca8d1:Units/Race100/1000/unit_prefab
+                BasePartId: 10e9a32a-fb86-4520-b7b8-b4598f17ab24
+                InstanceId: 45d612c5-3194-4990-b8db-4f2a6adde895
+        -   Entity:
+                Id: d2062dee-a382-42c3-8e98-ef963348da15
+                Name: unit_prefab
+                Components:
+                    8ba61f726a56b8f0ab44e34a7aa62bd0: !TransformComponent
+                        Id: 1aeb79dc-ec03-45d2-9d07-c44c71a4106a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            77216e47f1ce0122835a9ddf38ca1cb6: c2f59225-2f00-4ec1-a6ab-176773fa0dcc/1c5258be-ae33-418c-ad0b-92bd03a0400a

@@ -1,0 +1,73 @@
+!SceneAsset
+Id: af138eb2-13e0-423a-81bd-2f7988b6c2ac
+SerializedVersion: {Xenko: 1.9.0-beta06}
+Tags: []
+SceneSettings:
+    Id: 7bb756a3-4a24-467d-9c36-3697781f2a72
+    GraphicsCompositor: !SceneGraphicsCompositorLayers
+        Cameras:
+            05d97c6672c21d33548c3b9bfe0b5d75:
+                Name: null
+                Camera: f883f444-798a-43ce-97df-e89ed85cac14/4087bd67-b09d-4453-986f-9e0106c74db4
+        Layers: {}
+        Master:
+            Name: SceneGraphicsLayer
+            Output: !MasterRenderFrameProvider {}
+            Renderers:
+                b95dd70aa68a02376b7c71ad52b7a13b: !ClearRenderFrameRenderer
+                    Color: {R: 0.392156869, G: 0.58431375, B: 0.929411769, A: 1.0}
+                    Output: !CurrentRenderFrameProvider {}
+                db90fdb4b4a9224700528498a6897a18: !SceneCameraRenderer
+                    Mode: !CameraRendererModeForward {}
+                    Camera:
+                        Index: 0
+                    Output: !CurrentRenderFrameProvider {}
+                    Viewport: {X: 0.0, Y: 0.0, Width: 100.0, Height: 100.0}
+                    ForceAspectRatio: false
+    EditorSettings:
+        GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
+        SceneUnit: 1.0
+        Mode: !SceneEditorGraphicsModeLDRSettings
+            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
+Hierarchy:
+    RootPartIds:
+        - f883f444-798a-43ce-97df-e89ed85cac14
+        - f169a8dd-31c3-4f73-94f0-d9600e3c5063
+    Parts:
+        -   Entity:
+                Id: f169a8dd-31c3-4f73-94f0-d9600e3c5063
+                Name: Ambient light
+                Components:
+                    f27aafc59881306b6b6c69a9979793e2: !TransformComponent
+                        Id: 18247eb0-33dc-4038-8ff4-2c5b081d2873
+                        Position: {X: -2.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    856ae06a7adbe05d3bbc9d146e21eb49: !LightComponent
+                        Id: b5c4829f-735c-401f-b355-f129bdb5f589
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.768627465, G: 0.843137264, B: 1.0}
+                        Intensity: 0.05
+        -   Entity:
+                Id: f883f444-798a-43ce-97df-e89ed85cac14
+                Name: Camera
+                Components:
+                    2e3477712ffd2988dd89fb6a901510a6: !TransformComponent
+                        Id: 9d0a7028-4953-4581-80a3-91f4eb6f949a
+                        Position: {X: -1.0, Y: 1.2, Z: 2.7}
+                        Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    99e5d307f509979cbaf6ce928b2f516f: !CameraComponent
+                        Id: 4087bd67-b09d-4453-986f-9e0106c74db4
+                        Projection: Perspective
+                    495a4af3e6577aa28426898ed8f2e9bd: !Custom_Mod_Data.BasicCameraController,Custom_Mod_Data.Game
+                        Id: 22dc468e-038b-4277-a47a-cb8021bb3c9f
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 40.0, Y: 40.0, Z: 20.0}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 90.0, Y: 60.0}
+                        TouchRotationSpeed: {X: 60.0, Y: 40.0}

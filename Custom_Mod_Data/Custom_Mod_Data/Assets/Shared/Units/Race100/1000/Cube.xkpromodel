@@ -1,0 +1,13 @@
+!ProceduralModelAsset
+Id: 5b9f983b-b0b6-4aca-a1c3-9a7b3f2a5dde
+SerializedVersion: {Xenko: 1.9.0-beta01}
+Tags: []
+Type: !CubeProceduralModel
+    Size: {X: 1.0, Y: 1.0, Z: 1.0}
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: c85bcfc8-6ff3-44c4-90cd-faf751fb8291:Units/Race100/1000/Material
+        IsShadowCaster: false
+        IsShadowReceiver: false
