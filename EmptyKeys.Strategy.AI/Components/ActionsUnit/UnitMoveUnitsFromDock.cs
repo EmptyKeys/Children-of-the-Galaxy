@@ -3,7 +3,7 @@ using System.Linq;
 using EmptyKeys.Strategy.Units;
 using EmptyKeys.Strategy.Units.Tasks;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements action to move all units from the Dock for behavior.

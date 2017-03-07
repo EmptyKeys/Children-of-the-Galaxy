@@ -3,7 +3,7 @@ using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Units;
 using EmptyKeys.UserInterface;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action finds path for unit in opposite direction from the enemy.

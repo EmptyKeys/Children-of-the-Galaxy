@@ -87,9 +87,12 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                 tradeUnit.CancelTrade();
             }
 
+            // TODO: select best trade route here
             BaseTradeRoute route = availRoutes[0];
             route.AutoRenew = AutoRenew;
             route.Balance = TradeBallance;
+            route.UpdateBalance();
+
             TradeTask task = new TradeTask(tradeUnit, route);
             task.Execute();
 

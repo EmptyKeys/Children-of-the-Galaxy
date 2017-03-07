@@ -1,7 +1,8 @@
 ﻿using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Environment;
+using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action finds the closest unexplored system.
@@ -31,10 +32,17 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
             }
-            
+                        
+            MoveableUnit unit = unitContext.Unit as MoveableUnit;
+            if (unit == null)
+            {
+                returnCode = BehaviorReturnCode.Failure;
+                return returnCode;
+            }
+
             BaseEnvironment closestEnvi = null;
             int minDistance = int.MaxValue;
-            foreach (var elem in unitContext.Unit.Owner.GameSession.Galaxy.EnvironmentMap.Values)
+            foreach (var elem in unit.Owner.GameSession.Galaxy.EnvironmentMap.Values)
             {
                 BaseEnvironment envi = elem as BaseEnvironment;
                 if (envi == null || !(envi is StarSystem))
@@ -42,12 +50,17 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                     continue;
                 }
 
-                if (unitContext.Unit.Owner.ExploredEnvironments.Contains(envi.HexMapKey))
+                if (unit.Owner.ExploredEnvironments.Contains(envi.HexMapKey))
                 {
                     continue;
                 }
 
-                int distance = HexMap.Distance(unitContext.Unit, envi);
+                if (!envi.IsPathAccessible(unit.Owner, envi.HexMapKey))
+                {
+                    continue;
+                }                
+
+                int distance = HexMap.Distance(unit, envi);
                 if (minDistance > distance)
                 {
                     minDistance = distance;

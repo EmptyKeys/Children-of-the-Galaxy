@@ -1,6 +1,6 @@
 ﻿using EmptyKeys.Strategy.Trade;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action swaps system of trade route with planet.

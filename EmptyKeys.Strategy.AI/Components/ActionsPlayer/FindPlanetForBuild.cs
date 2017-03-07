@@ -30,6 +30,15 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
         public bool PlanetWithTradeRoute { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether [do planet building check].
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if [do planet building check]; otherwise, <c>false</c>.
+        /// </value>
+        [XmlAttribute]
+        public bool DoPlanetBuildingCheck { get; set; }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="FindPlanetForBuild"/> class.
         /// </summary>
         public FindPlanetForBuild()
@@ -59,6 +68,15 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                 if (planet == null)
                 {
                     continue;
+                }
+
+                if (DoPlanetBuildingCheck)
+                {
+                    PlanetBehaviorContext planetContext = planet.BehaviorContext as PlanetBehaviorContext;
+                    if (planetContext != null && planetContext.ItemToBuild != null)
+                    {
+                        continue;
+                    }
                 }
 
                 if (maxProduction > planet.AvailProduction || 

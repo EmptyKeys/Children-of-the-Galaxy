@@ -49,6 +49,13 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 
             if (relation.IsEntryAllowed)
             {
+                float cost = player.GameSession.EnvironmentConfig.DiplomacyConfig.GetActionCost(DiplomaticActions.BordersControl);
+                if (cost > player.Intelligence)
+                {
+                    returnCode = BehaviorReturnCode.Failure;
+                    return returnCode;
+                }
+
                 DispatcherHelper.InvokeOnMainThread(relation.Player, new Action(() =>
                 {
                     player.CloseBorders(relation);                    

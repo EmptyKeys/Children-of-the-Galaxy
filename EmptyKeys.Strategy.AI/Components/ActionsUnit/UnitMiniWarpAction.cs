@@ -3,7 +3,7 @@ using EmptyKeys.Strategy.Environment;
 using EmptyKeys.Strategy.Units;
 using EmptyKeys.Strategy.Units.Tasks;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit mini warp action for behavior.
@@ -86,10 +86,15 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                     }
 
                     searchRadius++;
-                }                
-                
+                }
+
                 destinationQ = nq;
                 destinationR = nr;
+            }
+            else if (unitContext.EnvironmentTarget is Anomaly)
+            {
+                destinationQ = unitContext.EnvironmentTarget.Q;
+                destinationR = unitContext.EnvironmentTarget.R;
             }
             else
             {

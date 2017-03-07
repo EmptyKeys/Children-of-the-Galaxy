@@ -1,6 +1,6 @@
 ﻿using EmptyKeys.Strategy.Units.Tasks;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit do nothing action for behavior.

@@ -2,7 +2,7 @@
 using EmptyKeys.Strategy.Units;
 using EmptyKeys.Strategy.Units.Tasks;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit leave orbit action for behavior.

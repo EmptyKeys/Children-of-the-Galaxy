@@ -2,7 +2,7 @@
 using EmptyKeys.Strategy.Units;
 using EmptyKeys.Strategy.Units.Tasks;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit enter dock action for behavior.
@@ -33,7 +33,7 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
             }
 
             MoveableUnit unit = unitContext.Unit as MoveableUnit;
-            if (unit == null || !unit.CanMove || unit.Environment is Galaxy)
+            if (unit == null || !unit.CanDock || unit.Environment is Galaxy)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;

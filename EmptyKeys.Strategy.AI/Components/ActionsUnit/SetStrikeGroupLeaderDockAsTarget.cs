@@ -1,6 +1,6 @@
 ﻿using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action sets Unit's Target to Dock unit of the strike group leader.

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action finds path to formation point of the unit in the strike group.

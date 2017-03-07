@@ -5,7 +5,7 @@ using EmptyKeys.Strategy.Diplomacy;
 using EmptyKeys.Strategy.Environment;
 using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Conditions
+namespace EmptyKeys.Strategy.AI.Components.ConditionsUnit
 {
     /// <summary>
     /// Implements unit condition for behavior.

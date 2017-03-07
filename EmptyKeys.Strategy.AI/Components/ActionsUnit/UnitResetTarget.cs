@@ -1,6 +1,6 @@
 ﻿using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements action, which resets Target of the unit.

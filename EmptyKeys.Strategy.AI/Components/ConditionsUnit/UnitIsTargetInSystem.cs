@@ -1,6 +1,6 @@
 ﻿using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Conditions
+namespace EmptyKeys.Strategy.AI.Components.ConditionsUnit
 {
     /// <summary>
     /// Implements unit condition for behavior.
@@ -37,7 +37,7 @@ namespace EmptyKeys.Strategy.AI.Components.Conditions
                 return returnCode;
             }
 
-            MoveableUnit target = unit.Target as MoveableUnit;
+            StaticUnit target = unit.Target as StaticUnit;
             if (target == null)
             {
                 returnCode = BehaviorReturnCode.Failure;

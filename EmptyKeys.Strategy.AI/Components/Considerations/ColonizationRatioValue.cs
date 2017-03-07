@@ -50,10 +50,31 @@ namespace EmptyKeys.Strategy.AI.Components.Considerations
             }
 
             Player player = playerContext.Player;
-            float colonyShips = player.Units.Count(u => u is ColonyShip);
+            float colonyShipCount = player.Units.Count(u => u is ColonyShip);
+
+            foreach (var body in player.StarSystemBodies)
+            {
+                Planet planet = body as Planet;
+                if (planet == null || planet.FactoryQueue.Count == 0)
+                {
+                    continue;
+                }
+
+                var colonyShip = planet.FactoryQueue.FirstOrDefault(f => f.Item.UnitConfig.Actions.HasFlag(UnitActions.Colonize));
+                if (colonyShip != null)
+                {
+                    colonyShipCount++;
+                }
+            }
+
             float planetTypesRatio = player.ColonizablePlanetTypes.Count / planetTypesCount;
-            float scannedPlanets = player.TotalScannedPlanets;// * planetTypesRatio;
-            float value = (scannedPlanets - player.TotalPlanets - (colonyShips * Ratio)) / (player.GameSession.Galaxy.TotalPlanets * planetTypesRatio);
+            int scannedColonizablePlanets = player.ScannedPlanets.Count;
+            if (planetTypesRatio != 1)
+            {
+                scannedColonizablePlanets = player.ScannedPlanets.Count(p => player.CanColonizePlanetType(p.PlanetType));
+            }
+
+            float value = (scannedColonizablePlanets - player.TotalPlanets - (colonyShipCount * Ratio)) / (player.GameSession.Galaxy.TotalPlanets * planetTypesRatio);
 
             return value;
         }

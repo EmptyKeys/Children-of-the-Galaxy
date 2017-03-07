@@ -1,7 +1,7 @@
 ﻿using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Environment;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action finds not scanned, colonizable and the nearest Planet.

@@ -100,6 +100,10 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
             float myInfluence = player.GameSession.Galaxy.PlayersInfluence[player];
             if (otherPlayerInfluence > myInfluence)
             {
+                relation.UpdateLevel(relation.RelationValue - InfluenceRelationChange, diplomacyConfig);
+            }
+            else
+            {
                 relation.UpdateLevel(relation.RelationValue + InfluenceRelationChange, diplomacyConfig);
             }
 

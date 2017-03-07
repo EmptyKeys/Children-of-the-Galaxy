@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System.Linq;
+using System.Xml.Serialization;
 using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Environment;
 
@@ -45,7 +46,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 
             Player player = playerContext.Player;
             BaseEnvironment enemySystem = null;
-            float maxUtility = float.MinValue;
+            float minUtility = float.MaxValue;
             foreach (var elem in player.GameSession.Galaxy.EnvironmentMap.Values)
             {
                 BaseEnvironment envi = elem as BaseEnvironment;
@@ -54,6 +55,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                     continue;
                 }
 
+                // TODO: distance to closest player system?
                 int distance = HexMap.Distance(player.HomeStarSystem, envi);
                 foreach (var item in envi.PlayersInfluence)
                 {
@@ -66,14 +68,25 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                     {
                         continue;
                     }
-                    
-                    float utility = item.Value - distance * DistanceSystemUtilityCoefficient;
-                    if (maxUtility > utility)
+                                        
+                    float utility = item.Value + distance * DistanceSystemUtilityCoefficient;
+
+                    if (player.GameSession.DysonSphereBuilders.Count > 0)
+                    {
+                        // if enemy is building dyson sphere, attack that system
+                        var builder = player.GameSession.DysonSphereBuilders.FirstOrDefault(b => b.Environment == envi && b.IsBuilding);
+                        if (builder != null)
+                        {
+                            utility = int.MinValue;
+                        }
+                    }
+
+                    if (utility > minUtility)
                     {
                         continue;
                     }
 
-                    maxUtility = utility;
+                    minUtility = utility;
                     enemySystem = envi;
                 }
             }

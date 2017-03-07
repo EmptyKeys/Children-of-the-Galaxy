@@ -1,4 +1,4 @@
-﻿namespace EmptyKeys.Strategy.AI.Components.Actions
+﻿namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action sets EnvironmentTarget of UnitBehaviorContext to GroupLeader of strike group.

@@ -47,6 +47,7 @@ namespace EmptyKeys.Strategy.AI.Components.Decisions
             List<FactoryItem> possibleUpgrades = planetContext.Planet.Owner.GetPossiblePlanetUpgrades(planetContext.Planet, UpgradeModifier);
             if (possibleUpgrades.Count == 0)
             {
+                Value = 0;
                 IsNodeValid = false;
                 return;
             }

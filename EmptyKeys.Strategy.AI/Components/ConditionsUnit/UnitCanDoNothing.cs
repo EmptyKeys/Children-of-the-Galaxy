@@ -1,4 +1,4 @@
-﻿namespace EmptyKeys.Strategy.AI.Components.Conditions
+﻿namespace EmptyKeys.Strategy.AI.Components.ConditionsUnit
 {
     /// <summary>
     /// Implements unit condition for behavior.

@@ -3,7 +3,7 @@
 namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 {
     /// <summary>
-    /// Implements player action for behavior. This action sets Unit its EnvironmentTarget in UnitBehaviorContext.
+    /// Implements player action for behavior. This action sets EnvironmentTarget of the unit in UnitBehaviorContext.
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.Components.BehaviorComponentBase" />
     public class PlayerSetUnitsEnvTarget : BehaviorComponentBase

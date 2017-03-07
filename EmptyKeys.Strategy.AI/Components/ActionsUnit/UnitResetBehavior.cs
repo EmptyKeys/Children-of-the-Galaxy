@@ -1,4 +1,4 @@
-﻿namespace EmptyKeys.Strategy.AI.Components.Actions
+﻿namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements action, which resets behavior of the unit.

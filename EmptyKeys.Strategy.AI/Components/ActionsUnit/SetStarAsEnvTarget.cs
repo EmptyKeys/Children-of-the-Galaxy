@@ -1,6 +1,6 @@
 ﻿using EmptyKeys.Strategy.Environment;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action gets StarSystem from EnvironmentTarget and sets EnvironmentTarget to BaseStar of that system.

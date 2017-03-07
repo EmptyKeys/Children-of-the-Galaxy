@@ -4,7 +4,7 @@ using EmptyKeys.Strategy.Environment;
 using EmptyKeys.Strategy.Trade;
 using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action finds the closest trade system with available trade route.

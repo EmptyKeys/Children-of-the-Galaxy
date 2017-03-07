@@ -1,7 +1,7 @@
 ﻿using EmptyKeys.Strategy.Environment;
 using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit begin siege action for behavior

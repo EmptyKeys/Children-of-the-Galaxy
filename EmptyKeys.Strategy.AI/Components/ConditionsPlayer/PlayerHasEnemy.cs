@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Diplomacy;
 
 namespace EmptyKeys.Strategy.AI.Components.ConditionsPlayer
@@ -34,8 +35,18 @@ namespace EmptyKeys.Strategy.AI.Components.ConditionsPlayer
             PlayerRelationValue existingRelation = playerContext.Player.RelationsValues.FirstOrDefault(r => r.Level == PlayerRelationsLevel.Hostile);
             if (existingRelation != null)
             {
-                returnCode = BehaviorReturnCode.Success;
-                return returnCode;
+                Player relationPlayer = existingRelation.Player;
+                if (relationPlayer == null)
+                {
+                    relationPlayer = playerContext.Player.GameSession.Players.FirstOrDefault(p => p.Index == existingRelation.PlayerIndex);
+                    existingRelation.Player = relationPlayer;
+                }
+
+                if (relationPlayer != null && !relationPlayer.IsEliminated)
+                {
+                    returnCode = BehaviorReturnCode.Success;
+                    return returnCode;
+                }
             }
 
             returnCode = BehaviorReturnCode.Failure;

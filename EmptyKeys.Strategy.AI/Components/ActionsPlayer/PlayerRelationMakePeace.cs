@@ -5,15 +5,15 @@ using EmptyKeys.Strategy.Diplomacy;
 namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 {
     /// <summary>
-    /// Implements player action for behavior. This action opens borders to other Player.
+    /// Implements player action for behavior. This action makes peace with other Player.
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.Components.BehaviorComponentBase" />
-    public class PlayerRelationOpenBorders : BehaviorComponentBase
+    public class PlayerRelationMakePeace : BehaviorComponentBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="PlayerRelationOpenBorders"/> class.
+        /// Initializes a new instance of the <see cref="PlayerRelationDeclareWar"/> class.
         /// </summary>
-        public PlayerRelationOpenBorders()
+        public PlayerRelationMakePeace()
             : base()
         {
         }
@@ -35,7 +35,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
             Player player = playerContext.Player;            
             PlayerRelationValue relation = playerContext.RelationValues.Current;
             Player otherPlayer = relation.Player;
-            if (otherPlayer == null)
+            if (otherPlayer == null || relation.DeclarationCooldown != 0)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
@@ -46,10 +46,10 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;
             }
-
-            if (!relation.IsEntryAllowed)
+            
+            if (relation.IsAtWar)
             {
-                float cost = player.GameSession.EnvironmentConfig.DiplomacyConfig.GetActionCost(DiplomaticActions.BordersControl);
+                float cost = player.GameSession.EnvironmentConfig.DiplomacyConfig.GetActionCost(DiplomaticActions.MakePeace);
                 if (cost > player.Intelligence)
                 {
                     returnCode = BehaviorReturnCode.Failure;
@@ -58,11 +58,14 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 
                 DispatcherHelper.InvokeOnMainThread(relation.Player, new Action(() =>
                 {
-                    player.OpenBorders(relation);                    
+                    player.MakePeace(relation);
                 }));
+
+                returnCode = BehaviorReturnCode.Success;
+                return returnCode;
             }
 
-            returnCode = BehaviorReturnCode.Success;
+            returnCode = BehaviorReturnCode.Failure;
             return returnCode;
         }
     }

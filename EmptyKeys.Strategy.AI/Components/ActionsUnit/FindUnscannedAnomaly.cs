@@ -1,18 +1,19 @@
-﻿using EmptyKeys.Strategy.Environment;
+﻿using EmptyKeys.Strategy.Core;
+using EmptyKeys.Strategy.Environment;
 
 namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
-    /// Implements unit action for behavior. This action finds owned Planet in the star system.
+    /// Implements unit action for behavior. This action looks for not scanned anomaly.
     /// The result is stored in EnvironmentTarget of UnitBehaviorContext.
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.Components.BehaviorComponentBase" />
-    public class FindOwnedPlanet : BehaviorComponentBase
+    public class FindUnscannedAnomaly : BehaviorComponentBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="FindOwnedPlanet"/> class.
+        /// Initializes a new instance of the <see cref="FindUnscannedPlanet"/> class.
         /// </summary>
-        public FindOwnedPlanet()
+        public FindUnscannedAnomaly()
             : base()
         {
         }
@@ -23,7 +24,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
         /// <param name="context">The context.</param>
         /// <returns></returns>
         public override BehaviorReturnCode Behave(IBehaviorContext context)
-        {            
+        {
             UnitBehaviorContext unitContext = context as UnitBehaviorContext;
             if (unitContext == null)
             {
@@ -31,8 +32,8 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
                 return returnCode;
             }
 
-            BaseEnvironment envi = unitContext.Unit.Environment;
-            if (envi == null)
+            EmptySpace space = unitContext.Unit.Environment as EmptySpace;
+            if (space == null)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
@@ -40,33 +41,23 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 
             returnCode = BehaviorReturnCode.Failure;
             unitContext.EnvironmentTarget = null;
-            foreach (var body in envi.EnvironmentMap.Values)
+
+            foreach (var body in space.EnvironmentMap.Values)
             {
-                Planet planet = body as Planet;
-                if (planet == null)
-                {
-                    continue;
-                }                
-
-                if (envi.UnitsMap.ContainsKey(planet.HexMapKey))
+                Anomaly anomaly = body as Anomaly;
+                if (anomaly == null)
                 {
                     continue;
                 }
 
-                if (planet.Owner != unitContext.Unit.Owner)
-                {
-                    continue;
-                }
-
-                if (!planet.CanEnterMoreUnits(unitContext.Unit.Owner))
-                {
-                    continue;
-                }
-
-                unitContext.EnvironmentTarget = planet;
-                context.AddLogMessage("Planet found - " + planet.Name);
-                returnCode = BehaviorReturnCode.Success;
+                unitContext.EnvironmentTarget = body;
                 break;
+            }
+
+            if (unitContext.EnvironmentTarget != null)
+            {
+                context.AddLogMessage("Anomaly found.");
+                returnCode = BehaviorReturnCode.Success;                
             }
 
             return returnCode;

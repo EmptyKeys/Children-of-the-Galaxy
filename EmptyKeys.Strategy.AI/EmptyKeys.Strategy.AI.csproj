@@ -69,6 +69,7 @@
     <Compile Include="Components\ActionsPlayer\PlayerGetAllPlayerRelations.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerNextPlayerRelations.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerRelationCloseBorders.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationMakePeace.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerRelationDeclareWar.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerRelationOpenBorders.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerResearchTech.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Components\ActionsUnit\FindPlanetToColonize.cs" />
     <Compile Include="Components\ActionsUnit\FindPlanetUnderSiege.cs" />
     <Compile Include="Components\ActionsUnit\FindStrongestFriendlyUnit.cs" />
+    <Compile Include="Components\ActionsUnit\FindUnscannedAnomaly.cs" />
     <Compile Include="Components\ActionsUnit\FindUnscannedPlanet.cs" />
     <Compile Include="Components\ActionsUnit\FindWarpMagnet.cs" />
     <Compile Include="Components\ActionsUnit\FindWeakestEnemyPlanet.cs" />
@@ -150,6 +152,8 @@
     <Compile Include="Components\ConditionsPlayer\PlayerHasEnergyIncome.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasEnoughResources.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasFactoryItem.cs" />
+    <Compile Include="Components\ConditionsPlayer\OpponentHasRelationBelowValue.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasWarScoreBelowValue.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasRelationBelowValue.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasUnitType.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerIsAnyUnitWithoutOrder.cs" />
@@ -160,6 +164,7 @@
     <Compile Include="Components\ConditionsPlayer\PlayerIsHostileRelation.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerIsResearching.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerIsUnitType.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerNeedsTradeRoute.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerNeedsTradeShip.cs" />
     <Compile Include="Components\ConditionsUnit\StrikeGroupLeaderIsAttacking.cs" />
     <Compile Include="Components\ConditionsUnit\StrikeGroupIsDockUnitMember.cs" />
@@ -224,9 +229,12 @@
     <Compile Include="Components\Decisions\PlanetDecisionLeaf.cs" />
     <Compile Include="Components\Decisions\ResearchGoalLeaf.cs" />
     <Compile Include="Components\Decisions\UnitBehaviorLeaf.cs" />
+    <Compile Include="Components\Decisions\PlayerUnitDecisionLeaf.cs" />
     <Compile Include="Components\Decisions\UnitDecisionLeaf.cs" />
     <Compile Include="Components\Decisions\UnitUpgradeLeaf.cs" />
+    <Compile Include="Components\Decorators\PlayerDiplomacyBehavior.cs" />
     <Compile Include="Components\Decorators\PlayerResearchBehavior.cs" />
+    <Compile Include="Components\Decorators\PlayerCoreBehavior.cs" />
     <Compile Include="Components\Decorators\PlayerTradeBehavior.cs" />
     <Compile Include="PlanetBehaviorContext.cs" />
     <Compile Include="PlayerBehaviorContext.cs" />

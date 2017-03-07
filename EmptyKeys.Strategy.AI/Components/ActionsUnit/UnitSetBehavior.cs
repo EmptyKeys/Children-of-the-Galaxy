@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements action, which sets Behavior of the unit.

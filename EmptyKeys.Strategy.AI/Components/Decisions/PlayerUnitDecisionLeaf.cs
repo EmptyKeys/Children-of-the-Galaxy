@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Xml.Serialization;
+using EmptyKeys.Strategy.Environment;
 
 namespace EmptyKeys.Strategy.AI.Components.Decisions
 {
@@ -8,7 +9,7 @@ namespace EmptyKeys.Strategy.AI.Components.Decisions
     /// If this decision is selected, planet is set to build it (ItemToBuild).
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.BaseDecisionTreeNode" />
-    public class UnitDecisionLeaf : BaseDecisionTreeNode
+    public class PlayerUnitDecisionLeaf : BaseDecisionTreeNode
     {
         /// <summary>
         /// Gets or sets the name of the unit type.
@@ -29,9 +30,9 @@ namespace EmptyKeys.Strategy.AI.Components.Decisions
         public string BehaviorName { get; set; }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="UnitDecisionLeaf"/> class.
+        /// Initializes a new instance of the <see cref="PlayerUnitDecisionLeaf"/> class.
         /// </summary>
-        public UnitDecisionLeaf()
+        public PlayerUnitDecisionLeaf()
             : base()
         {
         }
@@ -42,15 +43,15 @@ namespace EmptyKeys.Strategy.AI.Components.Decisions
         /// <param name="context">The context.</param>
         public override void CalculateValue(IBehaviorContext context)
         {
-            PlanetBehaviorContext planetContext = context as PlanetBehaviorContext;
-            if (planetContext == null)
+            PlayerBehaviorContext playerContext = context as PlayerBehaviorContext;
+            if (playerContext == null)
             {
                 Value = 0;
                 IsNodeValid = false;
                 return;
-            }
+            }            
 
-            var itemToBuild = planetContext.Planet.Owner.AvailFactoryItems.FirstOrDefault(i => i.FactoryTypeName.EndsWith(UnitTypeName));
+            var itemToBuild = playerContext.Player.AvailFactoryItems.FirstOrDefault(i => i.FactoryTypeName.EndsWith(UnitTypeName));
             if (itemToBuild == null)
             {
                 Value = 0;
@@ -59,7 +60,7 @@ namespace EmptyKeys.Strategy.AI.Components.Decisions
             }
 
             IsNodeValid = true;
-            Value = planetContext.Planet.Owner.Units.Count(u => u.GetType().Name == UnitTypeName && u.Behavior != null && u.Behavior.Name == BehaviorName);
+            Value = playerContext.Player.Units.Count(u => u.GetType().Name == UnitTypeName && u.Behavior != null && u.Behavior.Name == BehaviorName);
         }
 
         /// <summary>
@@ -69,20 +70,32 @@ namespace EmptyKeys.Strategy.AI.Components.Decisions
         /// <returns></returns>
         public override bool MakeDecision(IBehaviorContext context)
         {
-            PlanetBehaviorContext planetContext = context as PlanetBehaviorContext;
-            if (planetContext == null)
+            PlayerBehaviorContext playerContext = context as PlayerBehaviorContext;
+            if (playerContext == null)
             {
                 return false;
             }
 
-            planetContext.ItemToBuild = planetContext.Planet.Owner.AvailFactoryItems.FirstOrDefault(i => i.FactoryTypeName.EndsWith(UnitTypeName));
+            Planet planet = playerContext.BehaviorTarget as Planet;
+            if (planet == null)
+            {                
+                return false;
+            }
+
+            PlanetBehaviorContext planetContext = planet.BehaviorContext as PlanetBehaviorContext;
+            if (planetContext == null)
+            {                
+                return false;
+            }            
+
+            planetContext.ItemToBuild = playerContext.Player.AvailFactoryItems.FirstOrDefault(i => i.FactoryTypeName.EndsWith(UnitTypeName));
             if (planetContext.ItemToBuild == null)
             {
                 return false;
             }
 
             planetContext.ItemBehaviorName = BehaviorName;
-            context.AddLogMessage($"Unit Decision - {UnitTypeName}");
+            context.AddLogMessage($"Player Unit Decision - {UnitTypeName}");
 
             return true;
         }

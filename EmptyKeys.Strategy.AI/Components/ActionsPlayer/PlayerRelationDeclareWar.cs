@@ -46,9 +46,16 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;
             }
-
+            
             if (!relation.IsAtWar)
             {
+                float cost = player.GameSession.EnvironmentConfig.DiplomacyConfig.GetActionCost(DiplomaticActions.DeclareWar);
+                if (cost > player.Intelligence)
+                {
+                    returnCode = BehaviorReturnCode.Failure;
+                    return returnCode;
+                }
+
                 DispatcherHelper.InvokeOnMainThread(relation.Player, new Action(() =>
                 {
                     player.DeclareWar(relation);

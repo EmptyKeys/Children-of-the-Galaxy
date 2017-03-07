@@ -3,7 +3,7 @@ using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Environment;
 using EmptyKeys.Strategy.Units;
 
-namespace EmptyKeys.Strategy.AI.Components.Actions
+namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
     /// Implements unit action for behavior. This action finds the nearest enemy unit with the lowest influence.
@@ -59,6 +59,12 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                     continue;
                 }
 
+                MoveableUnit moveableUnit = elem as MoveableUnit;
+                if (moveableUnit != null && (moveableUnit.IsInDock || moveableUnit.IsOnOrbit))
+                {
+                    continue;
+                }
+
                 if (!(player.IsHostile(target.Owner) || target.Owner.IsHostile(player)))
                 {
                     continue;
@@ -94,6 +100,16 @@ namespace EmptyKeys.Strategy.AI.Components.Actions
                 }
 
                 utility += HexMap.Distance(unitContext.Unit, target);
+
+                if (player.GameSession.DysonSphereBuilders.Count > 0)
+                {
+                    // target builder if building dyson sphere
+                    Builder builder = target as Builder;
+                    if (builder != null && player.GameSession.DysonSphereBuilders.Contains(builder) && builder.IsBuilding)
+                    {
+                        utility = int.MinValue;
+                    }
+                }
 
                 if (minUtility > utility)
                 {

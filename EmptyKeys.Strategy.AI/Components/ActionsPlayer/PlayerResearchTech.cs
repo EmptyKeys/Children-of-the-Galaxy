@@ -21,16 +21,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
         /// The goal technology identifier.
         /// </value>
         [XmlAttribute]
-        public int GoalTechnologyId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the progress increment.
-        /// </summary>
-        /// <value>
-        /// The progress increment.
-        /// </value>
-        [XmlAttribute]
-        public float ProgressIncrement { get; set; }
+        public int GoalTechnologyId { get; set; }        
 
         /// <summary>
         /// Initializes a new instance of the <see cref="PlayerResearchTech"/> class.
@@ -72,7 +63,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 
             if (goalTech.IsAvailable)
             {
-                goalTech.ProgressIncrement = ProgressIncrement;
+                goalTech.ProgressIncrement = player.ResearchProgressPool;
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;
             }
@@ -88,7 +79,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                     return returnCode;
                 }
 
-                techToResearch.ProgressIncrement = ProgressIncrement;
+                techToResearch.ProgressIncrement = player.ResearchProgressPool;
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;
             }
