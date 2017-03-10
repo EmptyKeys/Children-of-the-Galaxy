@@ -129,20 +129,20 @@ Hierarchy:
                         Children:
                             482c504acfb3c84a883f335b855d6b8c: 7b35c47f-7157-4ef8-ba8e-70dd6746dfdc/4a502c48-b3cf-4ac8-883f-335b855d6b8c
                             09b07541e04af64fa401f4a4946734ad: f6ada167-72c5-4409-ba9a-b0450ef0ec28/4175b009-4ae0-4ff6-a401-f4a4946734ad
-                            37e94924961ad0fcfdc543c675525def: d8fd0c2b-79b8-4801-af02-909b65216c00/4a502c48-b3cf-4ac8-883f-335b855d6b8c
-                            1d586120a1160b4d7b1885c5ae6ec718: dec5e8b0-27b0-4368-b95a-3fe71e095b94/4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                            37e94924961ad0fcfdc543c675525def: d8fd0c2b-79b8-4801-af02-909b65216c00/eb6e94b5-bb03-4b05-977b-ee9283341ca7
+                            1d586120a1160b4d7b1885c5ae6ec718: dec5e8b0-27b0-4368-b95a-3fe71e095b94/fbefd78a-d30d-4317-992c-efeb501c9aa6
         -   Entity:
                 Id: d8fd0c2b-79b8-4801-af02-909b65216c00
                 Name: laser2 (2)
                 Components:
                     482c504acfb3c84a883f335b855d6b8c: !TransformComponent
-                        Id: 4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                        Id: eb6e94b5-bb03-4b05-977b-ee9283341ca7
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     52d36d0718178447b25156b9e279524d: !ParticleSystemComponent
-                        Id: 076dd352-1718-4784-b251-56b9e279524d
+                        Id: 8439228d-4659-4a6c-a406-a0322dd12f9a
                         Control:
                             ResetSeconds: 5.0
                             Control: Play
@@ -232,13 +232,13 @@ Hierarchy:
                 Name: laser2 (3)
                 Components:
                     482c504acfb3c84a883f335b855d6b8c: !TransformComponent
-                        Id: 4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                        Id: fbefd78a-d30d-4317-992c-efeb501c9aa6
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     52d36d0718178447b25156b9e279524d: !ParticleSystemComponent
-                        Id: 076dd352-1718-4784-b251-56b9e279524d
+                        Id: 003aead1-120b-417a-8ce0-1da8d244a9c1
                         Control:
                             ResetSeconds: 5.0
                             Control: Play

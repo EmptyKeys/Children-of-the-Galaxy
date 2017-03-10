@@ -253,13 +253,13 @@ Hierarchy:
                 Name: laser2 (2)
                 Components:
                     482c504acfb3c84a883f335b855d6b8c: !TransformComponent
-                        Id: 4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                        Id: 88b8cacc-9a0c-4541-9d73-018426f6cd7f
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     52d36d0718178447b25156b9e279524d: !ParticleSystemComponent
-                        Id: 076dd352-1718-4784-b251-56b9e279524d
+                        Id: a7cb6520-de0a-4c98-94b0-e59ed29b8c3c
                         Control:
                             ResetSeconds: 5.0
                             Control: Play
@@ -358,7 +358,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
-                            be2f61ca6172c4179519f3a7645d3d24: fb540f8d-99e5-4811-8ca5-8bf9a40f9553/402a4804-1423-46a1-8cc7-8982d4a284d7
+                            be2f61ca6172c4179519f3a7645d3d24: fb540f8d-99e5-4811-8ca5-8bf9a40f9553/1e41dc4e-00ba-4600-aa91-97543772f593
         -   Entity:
                 Id: 6f225089-de5a-4a32-a9c3-088f0648b15a
                 Name: Shields
@@ -384,13 +384,13 @@ Hierarchy:
                 Name: laser2 (3)
                 Components:
                     482c504acfb3c84a883f335b855d6b8c: !TransformComponent
-                        Id: 4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                        Id: 35050f54-f4d4-4bdd-8052-d1757df337e7
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     52d36d0718178447b25156b9e279524d: !ParticleSystemComponent
-                        Id: 076dd352-1718-4784-b251-56b9e279524d
+                        Id: 9d3b0bcf-cce3-4a9f-96dc-a0f3146b88ba
                         Control:
                             ResetSeconds: 5.0
                             Control: Play
@@ -532,13 +532,13 @@ Hierarchy:
                 Name: laser2
                 Components:
                     482c504acfb3c84a883f335b855d6b8c: !TransformComponent
-                        Id: 4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                        Id: 8186f025-5b4d-4205-a08c-0f230ce4df73
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     52d36d0718178447b25156b9e279524d: !ParticleSystemComponent
-                        Id: 076dd352-1718-4784-b251-56b9e279524d
+                        Id: 04c7c918-b9ef-4172-91c1-692eabaca3cf
                         Control:
                             ResetSeconds: 5.0
                             Control: Play
@@ -658,15 +658,15 @@ Hierarchy:
                 Name: Entity
                 Components:
                     04482a402314a1468cc78982d4a284d7: !TransformComponent
-                        Id: 402a4804-1423-46a1-8cc7-8982d4a284d7
+                        Id: 1e41dc4e-00ba-4600-aa91-97543772f593
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.5, Y: 1.5, Z: 1.5}
                         Children:
-                            482c504acfb3c84a883f335b855d6b8c: ce63d988-cd53-42d3-88d0-e1ff7304b36f/4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                            482c504acfb3c84a883f335b855d6b8c: ce63d988-cd53-42d3-88d0-e1ff7304b36f/8186f025-5b4d-4205-a08c-0f230ce4df73
                             09b07541e04af64fa401f4a4946734ad: 55c8b265-a305-4380-a2b0-e5bc1dfedb89/4175b009-4ae0-4ff6-a401-f4a4946734ad
-                            37e94924961ad0fcfdc543c675525def: 62d0b8dc-e76c-4765-8015-47c1820eb19b/4a502c48-b3cf-4ac8-883f-335b855d6b8c
-                            1d586120a1160b4d7b1885c5ae6ec718: 78aa63d1-660a-4d0f-a76d-2d1f24dec860/4a502c48-b3cf-4ac8-883f-335b855d6b8c
+                            37e94924961ad0fcfdc543c675525def: 62d0b8dc-e76c-4765-8015-47c1820eb19b/88b8cacc-9a0c-4541-9d73-018426f6cd7f
+                            1d586120a1160b4d7b1885c5ae6ec718: 78aa63d1-660a-4d0f-a76d-2d1f24dec860/35050f54-f4d4-4bdd-8052-d1757df337e7
             Base:
                 BasePartAsset: 90d2c842-e8e5-403b-9015-a3ba86582aea:Units/Race100/SmallLaser
                 BasePartId: c1d0b972-d4af-4b21-a8f8-e141f147c0d9
