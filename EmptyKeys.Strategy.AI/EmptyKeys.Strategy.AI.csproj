@@ -54,6 +54,7 @@
     <Compile Include="Components\ActionsPlanet\PlanetBuyFactoryItem.cs" />
     <Compile Include="Components\ActionsPlanet\PlanetMoveUnitFromOrbit.cs" />
     <Compile Include="Components\ActionsPlanet\PlanetRepairUnitsOnOrbit.cs" />
+    <Compile Include="Components\ActionsPlanet\PlanetResetBehavior.cs" />
     <Compile Include="Components\ActionsPlanet\PlanetSetBehavior.cs" />
     <Compile Include="Components\ActionsPlayer\FindBuilderInSystem.cs" />
     <Compile Include="Components\ActionsPlayer\FindClosestEnemySystem.cs" />
@@ -101,6 +102,8 @@
     <Compile Include="Components\ActionsUnit\FindWarpMagnet.cs" />
     <Compile Include="Components\ActionsUnit\FindWeakestEnemyPlanet.cs" />
     <Compile Include="Components\ActionsUnit\FindWeakestEnemyTarget.cs" />
+    <Compile Include="Components\ActionsUnit\SetTargetPlanet.cs" />
+    <Compile Include="Components\ActionsUnit\SetPlanetAsEnvTarget.cs" />
     <Compile Include="Components\ActionsUnit\SetPlanetSystemAsEnvTarget.cs" />
     <Compile Include="Components\ActionsUnit\SetStarAsEnvTarget.cs" />
     <Compile Include="Components\ActionsUnit\SetStrikeGroupLeaderAsEnvTarget.cs" />

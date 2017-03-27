@@ -1,18 +1,18 @@
-﻿using EmptyKeys.Strategy.Units;
-using EmptyKeys.Strategy.Units.Tasks;
+﻿using System.Diagnostics;
+using EmptyKeys.Strategy.Environment;
 
 namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
 {
     /// <summary>
-    /// Implements unit move action for behavior.
+    /// Implements unit action for behavior. This action sets TargetPlanet to EnvironmentTarget of orbiting planet.
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.Components.BehaviorComponentBase" />
-    public class UnitMoveAction : BehaviorComponentBase
+    public class SetTargetPlanet : BehaviorComponentBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="UnitMoveAction"/> class.
+        /// Initializes a new instance of the <see cref="SetTargetPlanet"/> class.
         /// </summary>
-        public UnitMoveAction()
+        public SetTargetPlanet()
             : base()
         {
         }
@@ -31,30 +31,20 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsUnit
                 return returnCode;
             }
 
-            MoveableUnit unit = unitContext.Unit as MoveableUnit;
-            if (unit == null || !unit.CanMove || unit.SelectedPath == null)
+            Planet orbitingPlanet = unitContext.Unit.GetOrbitingPlanet();
+            if (orbitingPlanet == null)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
             }
-            
-            MoveTask task = new MoveTask(unit);
-            while (!task.IsTurnProcessFinished && !task.IsTaskFinished)
+
+            if (unitContext.TargetPlanet == null)
             {
-                task.Execute();
+                unitContext.TargetPlanet = orbitingPlanet.BehaviorContext.EnvironmentTarget as Planet;
+                orbitingPlanet.BehaviorContext.EnvironmentTarget = null;
             }
 
-            unit.SelectedPath = null;
-            if (task.IsTurnProcessFinished)
-            {                
-                returnCode = BehaviorReturnCode.Running;
-            }
-
-            if (task.IsTaskFinished)
-            {                
-                returnCode = BehaviorReturnCode.Success;
-            }
-
+            returnCode = BehaviorReturnCode.Success;
             return returnCode;
         }
     }

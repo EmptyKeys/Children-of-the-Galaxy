@@ -1,4 +1,5 @@
 ﻿using System.Runtime.Serialization;
+using EmptyKeys.Strategy.Environment;
 using EmptyKeys.Strategy.Units;
 using ProtoBuf;
 
@@ -32,6 +33,15 @@ namespace EmptyKeys.Strategy.AI
         [DataMember]
         public BaseUnit Unit { get; set; }
 
+        /// <summary>
+        /// Gets or sets the target planet.
+        /// </summary>
+        /// <value>
+        /// The target planet.
+        /// </value>
+        [ProtoMember(2, AsReference = true, IsRequired = false)]
+        [DataMember(IsRequired = false)]
+        public Planet TargetPlanet { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="UnitBehaviorContext"/> class.
