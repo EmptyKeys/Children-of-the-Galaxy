@@ -933,8 +933,8 @@
           <target state="new">!!!</target>
         </trans-unit>
         <trans-unit id="Technology_112_Name" translate="yes" xml:space="preserve">
-          <source>Gas Preference</source>
-          <target state="new">Gas Preference</target>
+          <source>Think Tank</source>
+          <target state="new">Think Tank</target>
         </trans-unit>
         <trans-unit id="HUD_PlayerEnergy" translate="yes" xml:space="preserve">
           <source>Energy</source>
@@ -1587,8 +1587,8 @@
           <target state="new">HDC</target>
         </trans-unit>
         <trans-unit id="Technology_69_Name" translate="yes" xml:space="preserve">
-          <source>Tech</source>
-          <target state="new">Tech</target>
+          <source>Propaganda</source>
+          <target state="new">Propaganda</target>
         </trans-unit>
         <trans-unit id="FactoryItem_13_Desc" translate="yes" xml:space="preserve">
           <source>+{0} Production</source>
@@ -2987,8 +2987,8 @@
           <target state="new">Expiration</target>
         </trans-unit>
         <trans-unit id="Technology_22_Name" translate="yes" xml:space="preserve">
-          <source>Extreme Survival</source>
-          <target state="new">Extreme Survival</target>
+          <source>Institute</source>
+          <target state="new">Institute</target>
         </trans-unit>
         <trans-unit id="FactoryPanel_NotCloseToStar" translate="yes" xml:space="preserve">
           <source>You are not close enough to the star.</source>
@@ -3119,8 +3119,8 @@
           <target state="new">Total Energy</target>
         </trans-unit>
         <trans-unit id="EndTurnReport_Info_DiplomacyBordersOpened" translate="yes" xml:space="preserve">
-          <source>Player opened the borders</source>
-          <target state="new">Player opened the borders</target>
+          <source>Player opened borders</source>
+          <target state="new">Player opened borders</target>
         </trans-unit>
         <trans-unit id="EndTurnReportWindow_DiplomacyBordersClosed" translate="yes" xml:space="preserve">
           <source>The borders were closed.</source>
@@ -3519,8 +3519,8 @@
           <target state="new">Current Quantity</target>
         </trans-unit>
         <trans-unit id="Technology_69_Desc" translate="yes" xml:space="preserve">
-          <source>!!!</source>
-          <target state="new">!!!</target>
+          <source>Propaganda does not deceive people. It merely helps them to deceive themselves.</source>
+          <target state="new">Propaganda does not deceive people. It merely helps them to deceive themselves.</target>
         </trans-unit>
         <trans-unit id="GovPanel_Race" translate="yes" xml:space="preserve">
           <source>Race</source>
@@ -3535,8 +3535,8 @@
           <target state="new">Missions (F7)</target>
         </trans-unit>
         <trans-unit id="EndTurnReport_Info_DiplomacyBordersClosed" translate="yes" xml:space="preserve">
-          <source>Player closed the borders</source>
-          <target state="new">Player closed the borders</target>
+          <source>Player closed borders</source>
+          <target state="new">Player closed borders</target>
         </trans-unit>
         <trans-unit id="Technology_122_Desc" translate="yes" xml:space="preserve">
           <source>Dyson Sphere is mega structure around the star. All 4 parts are needed for construction.</source>
@@ -4693,6 +4693,438 @@
         <trans-unit id="LogoLayerImageCategory_3" translate="yes" xml:space="preserve">
           <source>Others</source>
           <target state="new">Others</target>
+        </trans-unit>
+        <trans-unit id="Options_FXAA" translate="yes" xml:space="preserve">
+          <source>FXAA</source>
+          <target state="new">FXAA</target>
+        </trans-unit>
+        <trans-unit id="Options_FXAA_Quality" translate="yes" xml:space="preserve">
+          <source>FXAA Quality</source>
+          <target state="new">FXAA Quality</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_Fleet" translate="yes" xml:space="preserve">
+          <source>Fleet</source>
+          <target state="new">Fleet</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_General" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="new">General</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_ShipDetail" translate="yes" xml:space="preserve">
+          <source>Detail</source>
+          <target state="new">Detail</target>
+        </trans-unit>
+        <trans-unit id="Full_Name_ShieldDirection_Aft" translate="yes" xml:space="preserve">
+          <source>Aft</source>
+          <target state="new">Aft</target>
+        </trans-unit>
+        <trans-unit id="Full_Name_ShieldDirection_AftLeft" translate="yes" xml:space="preserve">
+          <source>Aft Left</source>
+          <target state="new">Aft Left</target>
+        </trans-unit>
+        <trans-unit id="Full_Name_ShieldDirection_AftRight" translate="yes" xml:space="preserve">
+          <source>Aft Right</source>
+          <target state="new">Aft Right</target>
+        </trans-unit>
+        <trans-unit id="Full_Name_ShieldDirection_Front" translate="yes" xml:space="preserve">
+          <source>Front</source>
+          <target state="new">Front</target>
+        </trans-unit>
+        <trans-unit id="Full_Name_ShieldDirection_FrontLeft" translate="yes" xml:space="preserve">
+          <source>Front Left</source>
+          <target state="new">Front Left</target>
+        </trans-unit>
+        <trans-unit id="Full_Name_ShieldDirection_FrontRight" translate="yes" xml:space="preserve">
+          <source>Front Right</source>
+          <target state="new">Front Right</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_32_Desc" translate="yes" xml:space="preserve">
+          <source>+{0} Intelligence</source>
+          <target state="new">+{0} Intelligence</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_32_Name" translate="yes" xml:space="preserve">
+          <source>School of Law</source>
+          <target state="new">School of Law</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_33_Desc" translate="yes" xml:space="preserve">
+          <source>+{0}% Intelligence</source>
+          <target state="new">+{0}% Intelligence</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_33_Name" translate="yes" xml:space="preserve">
+          <source>Institute</source>
+          <target state="new">Institute</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_34_Desc" translate="yes" xml:space="preserve">
+          <source>+{0} Intelligence per Population</source>
+          <target state="new">+{0} Intelligence per Population</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_34_Name" translate="yes" xml:space="preserve">
+          <source>Propaganda</source>
+          <target state="new">Propaganda</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_35_Desc" translate="yes" xml:space="preserve">
+          <source>+{0}, +{1}% Intelligence</source>
+          <target state="new">+{0}, +{1}% Intelligence</target>
+        </trans-unit>
+        <trans-unit id="FactoryItem_35_Name" translate="yes" xml:space="preserve">
+          <source>Think Tank</source>
+          <target state="new">Think Tank</target>
+        </trans-unit>
+        <trans-unit id="PlanetPanel_DiplomacyAI" translate="yes" xml:space="preserve">
+          <source>Diplomacy</source>
+          <target state="new">Diplomacy</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Component_GiveDiplomaticAction" translate="yes" xml:space="preserve">
+          <source>{0}</source>
+          <target state="new">{0}</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_0_Desc" translate="yes" xml:space="preserve">
+          <source>Our language is the foundation of any communication. If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.</source>
+          <target state="new">Our language is the foundation of any communication. If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_0_Name" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="new">Language</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_1_Desc" translate="yes" xml:space="preserve">
+          <source>A diplomatic mission is a mission of friendship. You can start good relations by building an Embassy.</source>
+          <target state="new">A diplomatic mission is a mission of friendship. You can start good relations by building an Embassy.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_1_Name" translate="yes" xml:space="preserve">
+          <source>Diplomatic Mission</source>
+          <target state="new">Diplomatic Mission</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_2_Desc" translate="yes" xml:space="preserve">
+          <source>A trade pact is an agreement between states. It is a form of economic integration.</source>
+          <target state="new">A trade pact is an agreement between states. It is a form of economic integration.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_2_Name" translate="yes" xml:space="preserve">
+          <source>Trade Pact</source>
+          <target state="new">Trade Pact</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_3_Desc" translate="yes" xml:space="preserve">
+          <source>Space exploration is a force of nature unto itself that no other force in society can rival.</source>
+          <target state="new">Space exploration is a force of nature unto itself that no other force in society can rival.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_3_Name" translate="yes" xml:space="preserve">
+          <source>Exploration</source>
+          <target state="new">Exploration</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_4_Desc" translate="yes" xml:space="preserve">
+          <source>A research agreement is a form of science integration. Both states get a boost in Research.</source>
+          <target state="new">A research agreement is a form of science integration. Both states get a boost in Research.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_4_Name" translate="yes" xml:space="preserve">
+          <source>Research Agreement</source>
+          <target state="new">Research Agreement</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_5_Desc" translate="yes" xml:space="preserve">
+          <source>A military vision is a form of military cooperation. Both states can see each other military units.</source>
+          <target state="new">A military vision is a form of military cooperation. Both states can see each other military units.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_5_Name" translate="yes" xml:space="preserve">
+          <source>Military Vision</source>
+          <target state="new">Military Vision</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_6_Desc" translate="yes" xml:space="preserve">
+          <source>A defensive pact is a type of military alliance where the signatories promise to defend each other.</source>
+          <target state="new">A defensive pact is a type of military alliance where the signatories promise to defend each other.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_6_Name" translate="yes" xml:space="preserve">
+          <source>Defensive Pact</source>
+          <target state="new">Defensive Pact</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_7_Desc" translate="yes" xml:space="preserve">
+          <source>An alliance is a final form of a relationship between states.</source>
+          <target state="new">An alliance is a final form of a relationship between states.</target>
+        </trans-unit>
+        <trans-unit id="Diplomacy_Item_7_Name" translate="yes" xml:space="preserve">
+          <source>Alliance</source>
+          <target state="new">Alliance</target>
+        </trans-unit>
+        <trans-unit id="DiplomacyPanel_Tree" translate="yes" xml:space="preserve">
+          <source>Diplomacy Tree</source>
+          <target state="new">Diplomacy Tree</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_BordersControl_Disable" translate="yes" xml:space="preserve">
+          <source>Open Borders</source>
+          <target state="new">Open Borders</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_BordersControl_Enable" translate="yes" xml:space="preserve">
+          <source>Close Borders</source>
+          <target state="new">Close Borders</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_CreateAlliance_Disable" translate="yes" xml:space="preserve">
+          <source>Leave Alliance</source>
+          <target state="new">Leave Alliance</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_CreateAlliance_Enable" translate="yes" xml:space="preserve">
+          <source>Propose Alliance</source>
+          <target state="new">Propose Alliance</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_DeclareWar_Disable" translate="yes" xml:space="preserve">
+          <source>Make Peace</source>
+          <target state="new">Make Peace</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_DeclareWar_Enable" translate="yes" xml:space="preserve">
+          <source>Declare War</source>
+          <target state="new">Declare War</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_DefensivePact_Disable" translate="yes" xml:space="preserve">
+          <source>Leave Defensive Pact</source>
+          <target state="new">Leave Defensive Pact</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_DefensivePact_Enable" translate="yes" xml:space="preserve">
+          <source>Propose Defensive Pact</source>
+          <target state="new">Propose Defensive Pact</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_Friendship_Disable" translate="yes" xml:space="preserve">
+          <source>Close Embassy</source>
+          <target state="new">Close Embassy</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_Friendship_Enable" translate="yes" xml:space="preserve">
+          <source>Open Embassy</source>
+          <target state="new">Open Embassy</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_MapExchange_Disable" translate="yes" xml:space="preserve">
+          <source>Stop Map Exchange</source>
+          <target state="new">Stop Map Exchange</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_MapExchange_Enable" translate="yes" xml:space="preserve">
+          <source>Propose Map Exchange</source>
+          <target state="new">Propose Map Exchange</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_MilitaryVision_Disable" translate="yes" xml:space="preserve">
+          <source>Deactivate Military Vision</source>
+          <target state="new">Deactivate Military Vision</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_MilitaryVision_Enable" translate="yes" xml:space="preserve">
+          <source>Propose Military Vision</source>
+          <target state="new">Propose Military Vision</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_Research_Disable" translate="yes" xml:space="preserve">
+          <source>Cancel Research Agreement</source>
+          <target state="new">Cancel Research Agreement</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_Research_Enable" translate="yes" xml:space="preserve">
+          <source>Propose Research Agreement</source>
+          <target state="new">Propose Research Agreement</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_TradeEmbargo_Disable" translate="yes" xml:space="preserve">
+          <source>Stop Trade Embargo</source>
+          <target state="new">Stop Trade Embargo</target>
+        </trans-unit>
+        <trans-unit id="DiplomaticAction_TradeEmbargo_Enable" translate="yes" xml:space="preserve">
+          <source>Start Trade Embargo</source>
+          <target state="new">Start Trade Embargo</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_CreateAlliance" translate="yes" xml:space="preserve">
+          <source>Alliance</source>
+          <target state="new">Alliance</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_DefensivePact" translate="yes" xml:space="preserve">
+          <source>Defensive Pact</source>
+          <target state="new">Defensive Pact</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Friendship" translate="yes" xml:space="preserve">
+          <source>Embassy</source>
+          <target state="new">Embassy</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_MapExchange" translate="yes" xml:space="preserve">
+          <source>Map Exchange</source>
+          <target state="new">Map Exchange</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_MilitaryVision" translate="yes" xml:space="preserve">
+          <source>Military Vision</source>
+          <target state="new">Military Vision</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Research" translate="yes" xml:space="preserve">
+          <source>Research Agreement</source>
+          <target state="new">Research Agreement</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_TradeEmbargo" translate="yes" xml:space="preserve">
+          <source>Trade Embargo</source>
+          <target state="new">Trade Embargo</target>
+        </trans-unit>
+        <trans-unit id="DiplomacyPanel_DoubleClickAcquire" translate="yes" xml:space="preserve">
+          <source>Left Double-click to acquire</source>
+          <target state="new">Left Double-click to acquire</target>
+        </trans-unit>
+        <trans-unit id="DiplomacyPanel_ItemCost" translate="yes" xml:space="preserve">
+          <source>Cost</source>
+          <target state="new">Cost</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyAllianceCreated" translate="yes" xml:space="preserve">
+          <source>Alliance was created</source>
+          <target state="new">Alliance was created</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyAllianceDeclined" translate="yes" xml:space="preserve">
+          <source>Alliance was declined</source>
+          <target state="new">Alliance was declined</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyAllianceLeft" translate="yes" xml:space="preserve">
+          <source>Alliance was dissolved</source>
+          <target state="new">Alliance was dissolved</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyAllianceProposed" translate="yes" xml:space="preserve">
+          <source>Alliance was proposed</source>
+          <target state="new">Alliance was proposed</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyDefensivePactActivated" translate="yes" xml:space="preserve">
+          <source>Defensive Pact was activated</source>
+          <target state="new">Defensive Pact was activated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyDefensivePactDeactivated" translate="yes" xml:space="preserve">
+          <source>Defensive Pact was deactivated</source>
+          <target state="new">Defensive Pact was deactivated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyDefensivePactDeclined" translate="yes" xml:space="preserve">
+          <source>Defensive Pact was declined</source>
+          <target state="new">Defensive Pact was declined</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyDefensivePactProposed" translate="yes" xml:space="preserve">
+          <source>Defensive Pact was proposed</source>
+          <target state="new">Defensive Pact was proposed</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyEmbassyClosed" translate="yes" xml:space="preserve">
+          <source>Player closed the embassy</source>
+          <target state="new">Player closed the embassy</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyEmbassyOpened" translate="yes" xml:space="preserve">
+          <source>Player opened the embassy</source>
+          <target state="new">Player opened the embassy</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMapExchangeActivated" translate="yes" xml:space="preserve">
+          <source>Map Exchange was activated</source>
+          <target state="new">Map Exchange was activated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMapExchangeDeactivated" translate="yes" xml:space="preserve">
+          <source>Map Exchange was deactivated</source>
+          <target state="new">Map Exchange was deactivated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMapExchangeDeclined" translate="yes" xml:space="preserve">
+          <source>Map Exchange was declined</source>
+          <target state="new">Map Exchange was declined</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMapExchangeProposed" translate="yes" xml:space="preserve">
+          <source>Map Exchange was proposed</source>
+          <target state="new">Map Exchange was proposed</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMilitaryVisionActivated" translate="yes" xml:space="preserve">
+          <source>Military Vision was activated</source>
+          <target state="new">Military Vision was activated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMilitaryVisionDeactivated" translate="yes" xml:space="preserve">
+          <source>Military Vision was deactivated</source>
+          <target state="new">Military Vision was deactivated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMilitaryVisionDeclined" translate="yes" xml:space="preserve">
+          <source>Military Vision was declined</source>
+          <target state="new">Military Vision was declined</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyMilitaryVisionProposed" translate="yes" xml:space="preserve">
+          <source>Military Vision was proposed</source>
+          <target state="new">Military Vision was proposed</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyResearchActivated" translate="yes" xml:space="preserve">
+          <source>Research Agreement was activated</source>
+          <target state="new">Research Agreement was activated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyResearchDeactivated" translate="yes" xml:space="preserve">
+          <source>Research Agreement was deactivated</source>
+          <target state="new">Research Agreement was deactivated</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyResearchDeclined" translate="yes" xml:space="preserve">
+          <source>Research Agreement was declined</source>
+          <target state="new">Research Agreement was declined</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyResearchProposed" translate="yes" xml:space="preserve">
+          <source>Research Agreement was proposed</source>
+          <target state="new">Research Agreement was proposed</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyTradeEmbargoActivated" translate="yes" xml:space="preserve">
+          <source>Enemy closed trade routes</source>
+          <target state="new">Enemy closed trade routes</target>
+        </trans-unit>
+        <trans-unit id="EndTurnReport_Info_DiplomacyTradeEmbargoLifted" translate="yes" xml:space="preserve">
+          <source>Enemy opened trade routes</source>
+          <target state="new">Enemy opened trade routes</target>
+        </trans-unit>
+        <trans-unit id="DiplomacyPanel_AcceptProposition" translate="yes" xml:space="preserve">
+          <source>Accept</source>
+          <target state="new">Accept</target>
+        </trans-unit>
+        <trans-unit id="DiplomacyPanel_DeclineProposition" translate="yes" xml:space="preserve">
+          <source>Decline</source>
+          <target state="new">Decline</target>
+        </trans-unit>
+        <trans-unit id="DiplomacyPanel_ProposedText" translate="yes" xml:space="preserve">
+          <source>Opponent proposed</source>
+          <target state="new">Opponent proposed</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_BordersControl" translate="yes" xml:space="preserve">
+          <source>Border Controls are measures taken by an empire to regulate its borders. If borders are closed, enemy units can not enter.</source>
+          <target state="new">Border Controls are measures taken by an empire to regulate its borders. If borders are closed, enemy units can not enter.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_CreateAlliance" translate="yes" xml:space="preserve">
+          <source>While you are a member of alliance, you share all information about you with another empire.</source>
+          <target state="new">While you are a member of alliance, you share all information about you with another empire.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_DeclareWar" translate="yes" xml:space="preserve">
+          <source>A declaration of war is a formal act by which one state goes to war against another.</source>
+          <target state="new">A declaration of war is a formal act by which one state goes to war against another.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_DefensivePact" translate="yes" xml:space="preserve">
+          <source>While Defensive Pact is active, you and the other empire always share any declaration of war.</source>
+          <target state="new">While Defensive Pact is active, you and the other empire always share any declaration of war.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_Friendship" translate="yes" xml:space="preserve">
+          <source>Embassy is the main office of your diplomatic mission.</source>
+          <target state="new">Embassy is the main office of your diplomatic mission.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_MapExchange" translate="yes" xml:space="preserve">
+          <source>While Map Exchange is active, you share all exploration information about star systems.</source>
+          <target state="new">While Map Exchange is active, you share all exploration information about star systems.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_MilitaryVision" translate="yes" xml:space="preserve">
+          <source>Military Vision gives you right to see all units of another empire.</source>
+          <target state="new">Military Vision gives you right to see all units of another empire.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_Research" translate="yes" xml:space="preserve">
+          <source>While Research Agreement is active, you get bonus to any research. If you are researching the same technology like the other empire, bonus is even higher.</source>
+          <target state="new">While Research Agreement is active, you get bonus to any research. If you are researching the same technology like the other empire, bonus is even higher.</target>
+        </trans-unit>
+        <trans-unit id="EmptyKeys.Strategy.Diplomacy.DiplomaticActions_Desc_TradeEmbargo" translate="yes" xml:space="preserve">
+          <source>Trade Embargo is complete ban of trade with another empire.</source>
+          <target state="new">Trade Embargo is complete ban of trade with another empire.</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_DiplomacyAI" translate="yes" xml:space="preserve">
+          <source>Diplomacy</source>
+          <target state="new">Diplomacy</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_DiplomacyAI_Friendly" translate="yes" xml:space="preserve">
+          <source>Friendly</source>
+          <target state="new">Friendly</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_DiplomacyAI_Hostile" translate="yes" xml:space="preserve">
+          <source>Hostile</source>
+          <target state="new">Hostile</target>
+        </trans-unit>
+        <trans-unit id="RaceDesigner_DiplomacyAI_Neutral" translate="yes" xml:space="preserve">
+          <source>Neutral</source>
+          <target state="new">Neutral</target>
+        </trans-unit>
+        <trans-unit id="SetupNewGame_EditRace" translate="yes" xml:space="preserve">
+          <source>Edit Custom Empire</source>
+          <target state="new">Edit Custom Empire</target>
+        </trans-unit>
+        <trans-unit id="GalaxyPanel_UnitIsMoving" translate="yes" xml:space="preserve">
+          <source>Unit is moving</source>
+          <target state="new">Unit is moving</target>
+        </trans-unit>
+        <trans-unit id="GalaxyPanel_UnitIsSleeping" translate="yes" xml:space="preserve">
+          <source>Unit is sleeping</source>
+          <target state="new">Unit is sleeping</target>
         </trans-unit>
       </group>
     </body>
