@@ -69,10 +69,13 @@
     <Compile Include="Components\ActionsPlayer\PlayerDestroyUnit.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerGetAllPlayerRelations.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerNextPlayerRelations.cs" />
-    <Compile Include="Components\ActionsPlayer\PlayerRelationCloseBorders.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationProposeAction.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationDeclineProposition.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationAcceptProposition.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerRelationMakePeace.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerRelationDeclareWar.cs" />
-    <Compile Include="Components\ActionsPlayer\PlayerRelationOpenBorders.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerRelationSetDiplomaticAction.cs" />
+    <Compile Include="Components\ActionsPlayer\PlayerAcquireDiplomacyItem.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerResearchTech.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerSetPlanetBehavior.cs" />
     <Compile Include="Components\ActionsPlayer\PlayerSetTradeRoute.cs" />
@@ -148,6 +151,7 @@
     <Compile Include="Components\ConditionsPlanet\PlanetIsUnitOnOrbit.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasAnyRelation.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasAnyUpgrade.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasDiplomaticProposition.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasDeclaredWarRelation.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasEnemy.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasEnergy.cs" />
@@ -156,6 +160,8 @@
     <Compile Include="Components\ConditionsPlayer\PlayerHasEnoughResources.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasFactoryItem.cs" />
     <Compile Include="Components\ConditionsPlayer\OpponentHasRelationBelowValue.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerHasRelationAboveValue.cs" />
+    <Compile Include="Components\ConditionsPlayer\PlayerIsDiplomaticActionAvailable.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasWarScoreBelowValue.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasRelationBelowValue.cs" />
     <Compile Include="Components\ConditionsPlayer\PlayerHasUnitType.cs" />

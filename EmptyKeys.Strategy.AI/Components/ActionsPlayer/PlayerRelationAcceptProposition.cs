@@ -1,19 +1,21 @@
-﻿using System;
-using EmptyKeys.Strategy.Core;
+﻿using EmptyKeys.Strategy.Core;
 using EmptyKeys.Strategy.Diplomacy;
+using System;
+using System.Linq;
 
 namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 {
+
     /// <summary>
-    /// Implements player action for behavior. This action makes peace with other Player.
+    /// Implements player action for behavior. This action accepts diplomatic proposition by other Player.
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.Components.BehaviorComponentBase" />
-    public class PlayerRelationMakePeace : BehaviorComponentBase
+    public class PlayerRelationAcceptProposition : BehaviorComponentBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="PlayerRelationDeclareWar"/> class.
+        /// Initializes a new instance of the <see cref="PlayerRelationAcceptProposition"/> class.
         /// </summary>
-        public PlayerRelationMakePeace()
+        public PlayerRelationAcceptProposition()
             : base()
         {
         }
@@ -35,7 +37,7 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
             Player player = playerContext.Player;            
             PlayerRelationValue relation = playerContext.RelationValues.Current;
             Player otherPlayer = relation.Player;
-            if (otherPlayer == null || relation.DeclarationCooldown != 0)
+            if (otherPlayer == null) // || relation.DeclarationCooldown != 0)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
@@ -46,19 +48,13 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;
             }
-            
-            if (relation.IsAtWar)
-            {
-                float cost = player.GameSession.EnvironmentConfig.DiplomacyConfig.GetActionCost(DiplomaticActions.DeclareWar);
-                if (cost > player.Intelligence)
-                {
-                    returnCode = BehaviorReturnCode.Failure;
-                    return returnCode;
-                }
 
-                DispatcherHelper.InvokeOnMainThread(relation.Player, new Action(() =>
+            var otherPlayerRelation = otherPlayer.RelationsValues.FirstOrDefault(r => playerContext.Player.Index == r.PlayerIndex);
+            if (otherPlayerRelation.PropositionState != DiplomaticActions.None)
+            {                
+                DispatcherHelper.InvokeOnMainThread(otherPlayer, new Action(() =>
                 {
-                    player.MakePeace(relation);
+                    otherPlayer.ActivateProposedDiplomaticAction(otherPlayerRelation);
                 }));
 
                 returnCode = BehaviorReturnCode.Success;

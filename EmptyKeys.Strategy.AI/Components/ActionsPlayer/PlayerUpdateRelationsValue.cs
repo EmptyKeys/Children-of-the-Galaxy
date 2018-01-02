@@ -59,6 +59,15 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
         public int CloseBordersRelationChange { get; set; }
 
         /// <summary>
+        /// Gets or sets the open embassy relation change.
+        /// </summary>
+        /// <value>
+        /// The open embassy relation change.
+        /// </value>
+        [XmlAttribute]
+        public int OpenEmbassyRelationChange { get; set; }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="PlayerUpdateRelationsValue"/> class.
         /// </summary>
         public PlayerUpdateRelationsValue()
@@ -126,6 +135,11 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
             else
             {
                 relation.UpdateLevel(relation.RelationValue + CloseBordersRelationChange, diplomacyConfig);
+            }
+
+            if (relation.Player.HasOpenEmbassy(player))
+            {
+                relation.UpdateLevel(relation.RelationValue + OpenEmbassyRelationChange, diplomacyConfig);                
             }
 
             if (relation.Player.IsAtWar(player))

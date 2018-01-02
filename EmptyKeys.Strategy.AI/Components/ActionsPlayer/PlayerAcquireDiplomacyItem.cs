@@ -1,19 +1,32 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Xml.Serialization;
 using EmptyKeys.Strategy.Core;
+using EmptyKeys.Strategy.Research;
 using EmptyKeys.Strategy.Diplomacy;
 
 namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
 {
     /// <summary>
-    /// Implements player action for behavior. This action makes peace with other Player.
+    /// Implements player action for behavior. This action acquires diplomacy item for current Relation.
     /// </summary>
     /// <seealso cref="EmptyKeys.Strategy.AI.Components.BehaviorComponentBase" />
-    public class PlayerRelationMakePeace : BehaviorComponentBase
+    public class PlayerAcquireDiplomacyItem : BehaviorComponentBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="PlayerRelationDeclareWar"/> class.
+        /// Gets or sets the goal technology identifier.
         /// </summary>
-        public PlayerRelationMakePeace()
+        /// <value>
+        /// The goal technology identifier.
+        /// </value>
+        [XmlAttribute]
+        public int DiplomacyItemId { get; set; }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PlayerAcquireDiplomacyItem"/> class.
+        /// </summary>
+        public PlayerAcquireDiplomacyItem()
             : base()
         {
         }
@@ -26,47 +39,37 @@ namespace EmptyKeys.Strategy.AI.Components.ActionsPlayer
         public override BehaviorReturnCode Behave(IBehaviorContext context)
         {
             PlayerBehaviorContext playerContext = context as PlayerBehaviorContext;
-            if (playerContext == null)
+            if (playerContext?.Player == null || playerContext.RelationValues == null)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
             }
 
-            Player player = playerContext.Player;            
+            Player player = playerContext.Player;
             PlayerRelationValue relation = playerContext.RelationValues.Current;
-            Player otherPlayer = relation.Player;
-            if (otherPlayer == null || relation.DeclarationCooldown != 0)
+            if (relation == null)
             {
                 returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
             }
 
-            if (otherPlayer.IsEliminated)
+            DiplomacyItem item = relation.DiplomaticItems.FirstOrDefault(i => i.Data.Id == DiplomacyItemId && i.IsEnabled && !i.IsAcquired);
+            if (item == null)
             {
-                returnCode = BehaviorReturnCode.Success;
+                returnCode = BehaviorReturnCode.Failure;
                 return returnCode;
             }
             
-            if (relation.IsAtWar)
+            item.Acquire(relation);
+
+            if (item.IsAcquired)
             {
-                float cost = player.GameSession.EnvironmentConfig.DiplomacyConfig.GetActionCost(DiplomaticActions.DeclareWar);
-                if (cost > player.Intelligence)
-                {
-                    returnCode = BehaviorReturnCode.Failure;
-                    return returnCode;
-                }
-
-                DispatcherHelper.InvokeOnMainThread(relation.Player, new Action(() =>
-                {
-                    player.MakePeace(relation);
-                }));
-
                 returnCode = BehaviorReturnCode.Success;
                 return returnCode;
             }
 
             returnCode = BehaviorReturnCode.Failure;
             return returnCode;
-        }
+        }        
     }
 }

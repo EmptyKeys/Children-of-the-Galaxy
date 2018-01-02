@@ -55,12 +55,12 @@ namespace EmptyKeys.Strategy.AI.Components.Considerations
             foreach (var body in player.StarSystemBodies)
             {
                 Planet planet = body as Planet;
-                if (planet == null || planet.FactoryQueue.Count == 0)
+                if (planet == null || planet.FactoryQueue == null || planet.FactoryQueue.Count == 0)
                 {
                     continue;
                 }
 
-                var colonyShip = planet.FactoryQueue.FirstOrDefault(f => f.Item.UnitConfig.Actions.HasFlag(UnitActions.Colonize));
+                var colonyShip = planet.FactoryQueue.FirstOrDefault(f => f.Item?.UnitConfig != null && f.Item.UnitConfig.Actions.HasFlag(UnitActions.Colonize));
                 if (colonyShip != null)
                 {
                     colonyShipCount++;
